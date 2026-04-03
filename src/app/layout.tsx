@@ -41,12 +41,13 @@ export const metadata: Metadata = {
     siteName: 'Betonea',
     title: 'Betonska Galanterija - Betonea Lapovo',
     description: 'Betonska galanterija Betonea Lapovo – skulpture od betona, betonski elementi i betonska dekoracija po vašoj želji.',
-    images: [{ url: '/og-logo.png', width: 512, height: 512 }],
+    images: [{ url: '/images/og-default.svg', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Betonska Galanterija - Betonea Lapovo',
     description: 'Betonska galanterija Betonea Lapovo – skulpture od betona, betonski elementi i betonska dekoracija po vašoj želji.',
+    images: ['/images/og-default.svg'],
   },
   robots: {
     index: true,

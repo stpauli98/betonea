@@ -14,6 +14,12 @@ export const metadata: Metadata = {
   title: 'O nama — Betonea',
   description:
     'Betonea – dom gde beton poprima oblik umetnosti. Vaš pouzdan partner za dekorativne betonske elemente.',
+  openGraph: {
+    title: 'O nama — Betonea',
+    description:
+      'Betonea – dom gde beton poprima oblik umetnosti. Vaš pouzdan partner za dekorativne betonske elemente.',
+    images: [{ url: '/images/og-default.svg', width: 1200, height: 630 }],
+  },
 };
 
 export default function ONamaPage() {

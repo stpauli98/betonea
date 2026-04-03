@@ -34,9 +34,18 @@ export async function generateMetadata({
     ? `${product.name} - ${product.dimensions}. ${product.description ?? ''}`
     : `${product.name}. ${product.description ?? ''}`;
 
+  const ogTitle = product.price
+    ? `${product.name} — ${product.price}`
+    : product.name;
+
   return {
     title: `${product.name} | Betonea`,
     description: description.trim(),
+    openGraph: {
+      title: ogTitle,
+      description: description.trim(),
+      images: product.images.length > 0 ? [product.images[0]] : [],
+    },
   };
 }
 
@@ -70,8 +79,33 @@ export default async function ProductDetailPage({
   if (product.weight) details.push({ label: 'Težina', value: product.weight });
   if (product.material) details.push({ label: 'Materijal', value: product.material });
 
+  // Build JSON-LD structured data
+  const priceMatch = product.price?.match(/€\s*([\d.,]+)/);
+  const jsonLd: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    description: product.description ?? '',
+    image: images[0],
+    brand: { '@type': 'Brand', name: 'Betonea' },
+    offers: {
+      '@type': 'Offer',
+      ...(priceMatch
+        ? { price: priceMatch[1].replace(',', '.'), priceCurrency: 'EUR' }
+        : {}),
+      availability: 'https://schema.org/InStock',
+      url: `https://betonea.com/proizvodi/${slug}/${productSlug}`,
+    },
+    ...(product.material ? { material: product.material } : {}),
+  };
+
   return (
-    <main className="bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <main className="bg-white">
       {/* Breadcrumb */}
       <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 lg:px-8">
         <Breadcrumb
@@ -174,5 +208,6 @@ export default async function ProductDetailPage({
         </section>
       )}
     </main>
+    </>
   );
 }

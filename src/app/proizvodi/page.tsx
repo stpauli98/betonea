@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   title: 'Proizvodi — Betonea',
   description:
     'Katalog dekorativnih betonskih proizvoda. Žardinjere, fontane, skulpture, ograde, stubovi, klupe i mnogo više. Kvalitetan vibro-presovani beton.',
+  openGraph: {
+    title: 'Naši proizvodi — Betonea',
+    description:
+      'Katalog dekorativnih betonskih proizvoda. Žardinjere, fontane, skulpture, ograde, stubovi, klupe i mnogo više. Kvalitetan vibro-presovani beton.',
+    images: [{ url: '/images/og-default.svg', width: 1200, height: 630 }],
+  },
 };
 
 export default function ProizvodiPage() {

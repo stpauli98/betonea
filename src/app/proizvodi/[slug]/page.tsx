@@ -30,6 +30,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${category.name} — Betonea`,
     description: category.description,
+    openGraph: {
+      title: category.name,
+      description: category.description,
+      images: [category.image],
+    },
   };
 }
 

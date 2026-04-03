@@ -14,6 +14,12 @@ export const metadata: Metadata = {
   title: 'Kontakt — Betonea',
   description:
     'Kontaktirajte Betonea tim. Adresa, telefoni, email i kontakt forma. Besplatne konsultacije za vaše projekte dekorativnog betona.',
+  openGraph: {
+    title: 'Kontakt — Betonea',
+    description:
+      'Kontaktirajte Betonea tim. Adresa, telefoni, email i kontakt forma. Besplatne konsultacije za vaše projekte dekorativnog betona.',
+    images: [{ url: '/images/og-default.svg', width: 1200, height: 630 }],
+  },
 };
 
 const infoCards = [
