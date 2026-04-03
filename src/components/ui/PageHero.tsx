@@ -18,7 +18,7 @@ export default function PageHero({
   return (
     <section
       className={cn(
-        'relative flex items-center justify-center overflow-hidden',
+        'relative flex items-center justify-center overflow-hidden -mt-16 lg:-mt-20',
         height === 'full' ? 'h-screen' : 'min-h-[40vh]',
       )}
     >
