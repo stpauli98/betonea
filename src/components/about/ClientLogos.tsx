@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const logos = [
-  { src: '/images/clients/klient-1.svg', alt: 'Klijent 1' },
-  { src: '/images/clients/klient-2.svg', alt: 'Klijent 2' },
-  { src: '/images/clients/klient-3.svg', alt: 'Klijent 3' },
-  { src: '/images/clients/klient-4.svg', alt: 'Klijent 4' },
-  { src: '/images/clients/klient-5.svg', alt: 'Klijent 5' },
-  { src: '/images/clients/klient-6.svg', alt: 'Klijent 6' },
+  { src: '/images/clients/klient-1.png', alt: 'Klijent' },
+  { src: '/images/clients/klient-2.png', alt: 'Klijent' },
+  { src: '/images/clients/klient-3.png', alt: 'Klijent' },
+  { src: '/images/clients/klient-4.png', alt: 'Klijent' },
+  { src: '/images/clients/klient-5.png', alt: 'Klijent' },
+  { src: '/images/clients/klient-6.png', alt: 'Klijent' },
 ];
 
 export default function ClientLogos() {

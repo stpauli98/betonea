@@ -144,8 +144,8 @@ export default function ONamaPage() {
           <ScrollReveal delay={200}>
             <div className="aspect-video w-full overflow-hidden rounded-2xl shadow-lg">
               <iframe
-                src="https://www.youtube.com/embed/videoseries?list=UU_letnjikovci123"
-                title="Betonea YouTube kanal"
+                src="https://www.youtube.com/embed/RYME-H2H4qo"
+                title="Betonska galanterija - Betonea"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 loading="lazy"
