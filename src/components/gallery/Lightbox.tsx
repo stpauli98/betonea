@@ -1,8 +1,7 @@
 'use client';
 
-import { useEffect, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useEffect, useCallback, useState } from 'react';
+import { X, ChevronLeft, ChevronRight, Loader2 } from 'lucide-react';
 import type { GalleryImage } from '@/types';
 
 type LightboxProps = {
@@ -21,6 +20,12 @@ export default function Lightbox({
   onPrev,
 }: LightboxProps) {
   const image = images[currentIndex];
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  // Reset loaded state when image changes
+  useEffect(() => {
+    setImageLoaded(false);
+  }, [currentIndex]);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -54,74 +59,73 @@ export default function Lightbox({
   }, [currentIndex, images]);
 
   return (
-    <AnimatePresence>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.2 }}
-        className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90"
+    <div
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95"
+      onClick={onClose}
+    >
+      {/* Close button */}
+      <button
         onClick={onClose}
+        className="absolute top-4 right-4 z-10 rounded-full bg-white/10 p-3 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
+        aria-label="Zatvori"
       >
-        {/* Close button */}
-        <button
-          onClick={onClose}
-          className="absolute top-4 right-4 z-10 rounded-full bg-white/10 p-2 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
-          aria-label="Zatvori"
-        >
-          <X className="h-6 w-6" />
-        </button>
+        <X className="h-6 w-6" />
+      </button>
 
-        {/* Previous arrow */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onPrev();
-          }}
-          className="absolute left-4 z-10 rounded-full bg-white/10 p-2 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
-          aria-label="Prethodna slika"
-        >
-          <ChevronLeft className="h-6 w-6" />
-        </button>
+      {/* Previous arrow */}
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          onPrev();
+        }}
+        className="absolute left-4 z-10 rounded-full bg-white/10 p-3 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
+        aria-label="Prethodna slika"
+      >
+        <ChevronLeft className="h-8 w-8" />
+      </button>
 
-        {/* Next arrow */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onNext();
-          }}
-          className="absolute right-4 z-10 rounded-full bg-white/10 p-2 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
-          aria-label="Sledeća slika"
-        >
-          <ChevronRight className="h-6 w-6" />
-        </button>
+      {/* Next arrow */}
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          onNext();
+        }}
+        className="absolute right-4 z-10 rounded-full bg-white/10 p-3 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
+        aria-label="Sledeća slika"
+      >
+        <ChevronRight className="h-8 w-8" />
+      </button>
 
-        {/* Image container */}
-        <div
-          className="flex flex-col items-center gap-4 px-16"
-          onClick={(e) => e.stopPropagation()}
-        >
-          <motion.img
-            key={image.src}
-            src={image.src}
-            alt={image.caption || ''}
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.2 }}
-            className="max-h-[85vh] max-w-5xl rounded-lg object-contain"
-          />
+      {/* Image container */}
+      <div
+        className="flex flex-col items-center gap-4 px-16"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Loading spinner */}
+        {!imageLoaded && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Loader2 className="h-10 w-10 animate-spin text-white/50" />
+          </div>
+        )}
 
-          {/* Caption */}
+        <img
+          key={image.src}
+          src={image.src}
+          alt={image.caption || ''}
+          className={`max-h-[85vh] max-w-full rounded-lg object-contain transition-opacity duration-300 lg:max-w-5xl ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+          onLoad={() => setImageLoaded(true)}
+        />
+
+        {/* Caption + Counter */}
+        <div className={`text-center transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
           {image.caption && (
-            <p className="text-center text-sm text-white/80">{image.caption}</p>
+            <p className="text-sm text-white/80">{image.caption}</p>
           )}
-
-          {/* Counter */}
-          <p className="text-xs text-white/50">
+          <p className="mt-1 text-xs text-white/50">
             {currentIndex + 1} / {images.length}
           </p>
         </div>
-      </motion.div>
-    </AnimatePresence>
+      </div>
+    </div>
   );
 }
