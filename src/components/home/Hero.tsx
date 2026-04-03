@@ -1,58 +1,94 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, ArrowRight } from 'lucide-react';
 import Button from '@/components/ui/Button';
 
 export default function Hero() {
   return (
-    <section className="relative h-screen -mt-16 lg:-mt-20">
+    <section className="relative min-h-screen -mt-16 lg:-mt-20 overflow-hidden">
+      {/* Mobile: fullscreen background image */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center lg:hidden"
         style={{ backgroundImage: "url('/images/hero.jpg')" }}
       />
-      <div className="absolute inset-0 bg-charcoal/70" />
+      <div className="absolute inset-0 bg-stone-900/80 lg:hidden" />
 
-      <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mb-4 text-xs tracking-[0.25em] text-gold-300 uppercase md:text-sm"
-        >
-          Dekorativna betonska galanterija
-        </motion.p>
+      {/* Desktop: dark left side */}
+      <div className="absolute inset-0 hidden bg-stone-900 lg:block" />
 
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="font-heading text-6xl tracking-widest text-white md:text-8xl"
-        >
-          BETONEA
-        </motion.h1>
+      <div className="relative z-10 flex min-h-screen flex-col lg:flex-row">
+        {/* Left — text content */}
+        <div className="flex flex-1 flex-col justify-center px-6 pt-28 pb-20 md:px-12 lg:w-1/2 lg:px-16 xl:px-24 lg:pt-0 lg:pb-0">
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+          >
+            <p className="mb-6 text-xs tracking-[0.25em] text-gold-300 uppercase md:text-sm">
+              Dekorativna betonska galanterija
+            </p>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="mt-4 font-heading text-xl italic text-stone-200 md:text-2xl"
-        >
-          Najlepše od betona
-        </motion.p>
+            <h1 className="font-heading text-5xl leading-tight text-white md:text-6xl lg:text-7xl">
+              Najlepše
+              <br />
+              <span className="text-gold-300">od betona</span>
+            </h1>
 
+            <p className="mt-6 max-w-md text-lg leading-relaxed text-stone-300 lg:text-stone-400">
+              Ručno izrađeni dekorativni elementi koji oplemenjuju svaki prostor — žardinjere, skulpture, fontane, stubovi i mnogo više.
+            </p>
+
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <Button variant="primary" size="lg" href="/proizvodi">
+                Pogledaj proizvode
+              </Button>
+              <Button variant="outline" size="lg" href="/kontakt" className="border-stone-500 text-stone-200 hover:bg-stone-800 hover:text-white">
+                <span className="flex items-center gap-2">
+                  Kontaktirajte nas
+                  <ArrowRight className="h-4 w-4" />
+                </span>
+              </Button>
+            </div>
+
+            {/* Stats row */}
+            <div className="mt-14 flex gap-10 border-t border-stone-700 pt-8">
+              <div>
+                <p className="font-heading text-3xl text-gold-300">500+</p>
+                <p className="mt-1 text-xs uppercase tracking-wider text-stone-500">Projekata</p>
+              </div>
+              <div>
+                <p className="font-heading text-3xl text-gold-300">25</p>
+                <p className="mt-1 text-xs uppercase tracking-wider text-stone-500">Godina</p>
+              </div>
+              <div>
+                <p className="font-heading text-3xl text-gold-300">300+</p>
+                <p className="mt-1 text-xs uppercase tracking-wider text-stone-500">Klijenata</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Right — image (desktop only) */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
-          className="mt-10"
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          className="relative hidden lg:block lg:w-1/2"
         >
-          <Button variant="primary" size="lg" href="/proizvodi">
-            Pogledaj proizvode
-          </Button>
+          <div className="relative h-full">
+            <img
+              src="/images/hero.jpg"
+              alt="Betonea dekorativni betonski elementi"
+              className="h-full w-full object-cover"
+            />
+            {/* Left-edge gradient to blend with dark side */}
+            <div className="absolute inset-0 bg-gradient-to-r from-stone-900 via-stone-900/20 to-transparent" />
+          </div>
         </motion.div>
       </div>
 
+      {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
