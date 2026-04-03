@@ -19,13 +19,13 @@ export default function GalleryPage() {
 
   return (
     <>
-      <PageHero title="Galerija" subtitle="NASI RADOVI" />
+      <PageHero title="Galerija" subtitle="NAŠI RADOVI" />
 
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-6 md:px-8">
           <Breadcrumb
             items={[
-              { label: 'Pocetna', href: '/' },
+              { label: 'Početna', href: '/' },
               { label: 'Galerija' },
             ]}
             className="mb-12"

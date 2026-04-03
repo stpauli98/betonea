@@ -14,7 +14,7 @@ export default function InquiryButton({ productName, className }: InquiryButtonP
   const mailtoUrl = createMailtoUrl(
     email,
     `Upit za: ${productName}`,
-    `Postovani, zanima me proizvod ${productName}. Molim vas za vise informacija.`
+    `Poštovani, zanima me proizvod ${productName}. Molim vas za više informacija.`
   );
 
   const whatsappUrl = createWhatsAppUrl(
@@ -32,7 +32,7 @@ export default function InquiryButton({ productName, className }: InquiryButtonP
         className="inline-flex items-center justify-center gap-2 rounded-lg bg-gold-400 px-6 py-3 font-medium text-white transition-colors duration-200 hover:bg-gold-500"
       >
         <Mail className="h-5 w-5" />
-        Posaljite upit
+        Pošaljite upit
       </a>
 
       {/* WhatsApp */}

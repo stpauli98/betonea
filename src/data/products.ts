@@ -5,10 +5,10 @@ export const products: Product[] = [
   // 1. Zardinjere (15 products - page 1)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 462',
+    name: 'Šifra 462',
     slug: 'sifra-462',
     categorySlug: 'betonske-zardinjere',
-    description: 'Betonska zardinjera za cvece. Dimenzije: 110x45cm, h=55cm.',
+    description: 'Betonska zardinjera za cveće. Dimenzije: 110x45cm, h=55cm.',
     price: '€170',
     dimensions: '110x45cm, h=55cm',
     material: 'Armiran beton',
@@ -16,7 +16,7 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 430',
+    name: 'Šifra 430',
     slug: 'sifra-430',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera na postamentu. Dimenzije: ø 55cm, postament 50x50cm, h=127cm.',
@@ -26,7 +26,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/430.jpg'],
   },
   {
-    name: 'Sifra 431',
+    name: 'Šifra 431',
     slug: 'sifra-431',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera na postamentu. Dimenzije: ø 55cm, postament 30x30cm, h=152cm.',
@@ -36,7 +36,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/431.jpg'],
   },
   {
-    name: 'Sifra 432',
+    name: 'Šifra 432',
     slug: 'sifra-432',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: ø 55cm, h=47cm.',
@@ -46,7 +46,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/432.jpg'],
   },
   {
-    name: 'Sifra 433',
+    name: 'Šifra 433',
     slug: 'sifra-433',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: ø 55cm, h=57cm.',
@@ -56,7 +56,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/433.jpg'],
   },
   {
-    name: 'Sifra 434',
+    name: 'Šifra 434',
     slug: 'sifra-434',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 63x63cm, h=68cm.',
@@ -66,7 +66,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/434.jpg'],
   },
   {
-    name: 'Sifra 435',
+    name: 'Šifra 435',
     slug: 'sifra-435',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 47x47cm, h=57cm.',
@@ -76,7 +76,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/435.jpg'],
   },
   {
-    name: 'Sifra 436',
+    name: 'Šifra 436',
     slug: 'sifra-436',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 111x51cm, h=42cm.',
@@ -86,7 +86,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/436.jpg'],
   },
   {
-    name: 'Sifra 438',
+    name: 'Šifra 438',
     slug: 'sifra-438',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 90x35cm, h=35cm.',
@@ -96,7 +96,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/438.jpg'],
   },
   {
-    name: 'Sifra 439',
+    name: 'Šifra 439',
     slug: 'sifra-439',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 100x28cm, h=37cm.',
@@ -106,7 +106,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/439.jpg'],
   },
   {
-    name: 'Sifra 440',
+    name: 'Šifra 440',
     slug: 'sifra-440',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 42x35cm, h=41cm.',
@@ -116,7 +116,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/440.jpg'],
   },
   {
-    name: 'Sifra 441',
+    name: 'Šifra 441',
     slug: 'sifra-441',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 48x27cm, h=37cm.',
@@ -126,7 +126,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/441.jpg'],
   },
   {
-    name: 'Sifra 454',
+    name: 'Šifra 454',
     slug: 'sifra-454',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 56x56cm, h=78cm.',
@@ -136,7 +136,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/454.jpg'],
   },
   {
-    name: 'Sifra 460',
+    name: 'Šifra 460',
     slug: 'sifra-460',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 100x40,5cm, h=50,5cm.',
@@ -146,7 +146,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/460.jpg'],
   },
   {
-    name: 'Sifra 461',
+    name: 'Šifra 461',
     slug: 'sifra-461',
     categorySlug: 'betonske-zardinjere',
     description: 'Betonska zardinjera. Dimenzije: 63x29,5cm, h=41cm.',
@@ -157,13 +157,13 @@ export const products: Product[] = [
   },
 
   // ──────────────────────────────────────────────────
-  // 2. Skulpture za bastu (15 products)
+  // 2. Skulpture za baštu (15 products)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 448',
+    name: 'Šifra 448',
     slug: 'sifra-448',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura od betona. Dimenzije: h=60cm.',
+    description: 'Baštenska skulptura od betona. Dimenzije: h=60cm.',
     price: '€120',
     dimensions: 'h=60cm',
     material: 'Armiran beton',
@@ -171,100 +171,100 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 457',
+    name: 'Šifra 457',
     slug: 'sifra-457',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura od betona. Dimenzije: h=210cm.',
+    description: 'Baštenska skulptura od betona. Dimenzije: h=210cm.',
     price: '€450',
     dimensions: 'h=210cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/457.jpg'],
   },
   {
-    name: 'Sifra 458',
+    name: 'Šifra 458',
     slug: 'sifra-458',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura od betona. Dimenzije: h=130cm.',
+    description: 'Baštenska skulptura od betona. Dimenzije: h=130cm.',
     price: '€250',
     dimensions: 'h=130cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/458.jpg'],
   },
   {
-    name: 'Sifra 447',
+    name: 'Šifra 447',
     slug: 'sifra-447',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura od betona. Dimenzije: h=95cm.',
+    description: 'Baštenska skulptura od betona. Dimenzije: h=95cm.',
     price: '€400',
     dimensions: 'h=95cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/448.jpg'],
   },
   {
-    name: 'Sifra 591',
+    name: 'Šifra 591',
     slug: 'sifra-591',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura od betona. Dimenzije: osnova 20x13cm, h=44cm.',
+    description: 'Baštenska skulptura od betona. Dimenzije: osnova 20x13cm, h=44cm.',
     price: '€90',
     dimensions: 'osnova 20x13cm, h=44cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2026/01/s-591.jpg'],
   },
   {
-    name: 'Sifra 591 A',
+    name: 'Šifra 591 A',
     slug: 'sifra-591-a',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura sa postoljem. Dimenzije: postolje 35x35cm, h=89cm.',
+    description: 'Baštenska skulptura sa postoljem. Dimenzije: postolje 35x35cm, h=89cm.',
     price: '€200',
     dimensions: 'postolje 35x35cm, h=89cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2026/01/s-591-A.jpg'],
   },
   {
-    name: 'Sifra 592',
+    name: 'Šifra 592',
     slug: 'sifra-592',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura od betona. Dimenzije: osnova 15x15cm, h=43cm.',
+    description: 'Baštenska skulptura od betona. Dimenzije: osnova 15x15cm, h=43cm.',
     price: '€80',
     dimensions: 'osnova 15x15cm, h=43cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2026/01/s-592.jpg'],
   },
   {
-    name: 'Sifra 592 A',
+    name: 'Šifra 592 A',
     slug: 'sifra-592-a',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura sa postoljem. Dimenzije: postolje 35x35cm, h=88cm.',
+    description: 'Baštenska skulptura sa postoljem. Dimenzije: postolje 35x35cm, h=88cm.',
     price: '€190',
     dimensions: 'postolje 35x35cm, h=88cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2026/01/s-592-A.jpg'],
   },
   {
-    name: 'Sifra 592 AS',
+    name: 'Šifra 592 AS',
     slug: 'sifra-592-as',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura sa postoljem. Dimenzije: postolje 35x35cm, h=85cm.',
+    description: 'Baštenska skulptura sa postoljem. Dimenzije: postolje 35x35cm, h=85cm.',
     price: '€190',
     dimensions: 'postolje 35x35cm, h=85cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2026/01/s-592-AS.jpg'],
   },
   {
-    name: 'Sifra 592 S',
+    name: 'Šifra 592 S',
     slug: 'sifra-592-s',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura od betona. Dimenzije: osnova 15x15cm, h=40cm.',
+    description: 'Baštenska skulptura od betona. Dimenzije: osnova 15x15cm, h=40cm.',
     price: '€80',
     dimensions: 'osnova 15x15cm, h=40cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2026/01/s-592-S.jpg'],
   },
   {
-    name: 'Sifra 598',
+    name: 'Šifra 598',
     slug: 'sifra-598',
     categorySlug: 'betonske-skulpture-za-bastu',
-    description: 'Bastenska skulptura od betona. Dimenzije: 100x32cm, h=93cm.',
+    description: 'Baštenska skulptura od betona. Dimenzije: 100x32cm, h=93cm.',
     price: '€220',
     dimensions: '100x32cm, h=93cm',
     material: 'Armiran beton',
@@ -272,10 +272,10 @@ export const products: Product[] = [
   },
 
   // ──────────────────────────────────────────────────
-  // 3. Fontane i bastenske cesme (15 products)
+  // 3. Fontane i baštenske česme (15 products)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 442',
+    name: 'Šifra 442',
     slug: 'sifra-442',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: 105x50cm, h=183cm.',
@@ -286,7 +286,7 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 443',
+    name: 'Šifra 443',
     slug: 'sifra-443',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: 78x50cm, h=99cm.',
@@ -296,17 +296,17 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/443.jpg'],
   },
   {
-    name: 'Sifra 444c',
+    name: 'Šifra 444c',
     slug: 'sifra-444c',
     categorySlug: 'betonske-fontane',
-    description: 'Betonska bastenska cesma. Dimenzije: 48x27cm, h=90cm.',
+    description: 'Betonska baštenska česma. Dimenzije: 48x27cm, h=90cm.',
     price: '€120',
     dimensions: '48x27cm, h=90cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/08/Postamenti-sajt-slike-2.jpg'],
   },
   {
-    name: 'Sifra 445',
+    name: 'Šifra 445',
     slug: 'sifra-445',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: ø 120cm, h=154cm.',
@@ -316,7 +316,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/445.jpg'],
   },
   {
-    name: 'Sifra 445z',
+    name: 'Šifra 445z',
     slug: 'sifra-445z',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: ø 120cm, h=127cm.',
@@ -326,7 +326,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/08/445-Z.jpg'],
   },
   {
-    name: 'Sifra 446',
+    name: 'Šifra 446',
     slug: 'sifra-446',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: ø 120cm, h=138cm.',
@@ -336,7 +336,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/446.jpg'],
   },
   {
-    name: 'Sifra 571',
+    name: 'Šifra 571',
     slug: 'sifra-571',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: 76x60cm, h=83cm.',
@@ -346,7 +346,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/571.jpg'],
   },
   {
-    name: 'Sifra 572',
+    name: 'Šifra 572',
     slug: 'sifra-572',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: 76x60cm, h=143cm.',
@@ -356,7 +356,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/572.jpg'],
   },
   {
-    name: 'Sifra 707',
+    name: 'Šifra 707',
     slug: 'sifra-707',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: ø 150cm, h=160cm.',
@@ -366,7 +366,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/707.jpg'],
   },
   {
-    name: 'Sifra 707b',
+    name: 'Šifra 707b',
     slug: 'sifra-707b',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: ø 150cm, h=179cm.',
@@ -376,7 +376,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/08/Postamenti-sajt-slike-3.jpg'],
   },
   {
-    name: 'Sifra 747',
+    name: 'Šifra 747',
     slug: 'sifra-747',
     categorySlug: 'betonske-fontane',
     description: 'Betonska fontana. Dimenzije: ø 84cm, h=100cm.',
@@ -387,13 +387,13 @@ export const products: Product[] = [
   },
 
   // ──────────────────────────────────────────────────
-  // 4. Lampioni za bastu i dvoriste (7 products - all)
+  // 4. Lampioni za baštu i dvorište (7 products - all)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 424',
+    name: 'Šifra 424',
     slug: 'sifra-424',
     categorySlug: 'betonski-lampioni',
-    description: 'Betonski lampion za bastu. Dimenzije: h=260cm.',
+    description: 'Betonski lampion za baštu. Dimenzije: h=260cm.',
     price: '€280',
     dimensions: 'h=260cm',
     material: 'Armiran beton',
@@ -401,60 +401,60 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 425',
+    name: 'Šifra 425',
     slug: 'sifra-425',
     categorySlug: 'betonski-lampioni',
-    description: 'Betonski lampion za bastu. Dimenzije: h=268cm.',
+    description: 'Betonski lampion za baštu. Dimenzije: h=268cm.',
     price: '€330',
     dimensions: 'h=268cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/07/424.jpg'],
   },
   {
-    name: 'Sifra 426',
+    name: 'Šifra 426',
     slug: 'sifra-426',
     categorySlug: 'betonski-lampioni',
-    description: 'Betonski lampion za bastu. Dimenzije: h=195cm.',
+    description: 'Betonski lampion za baštu. Dimenzije: h=195cm.',
     price: '€180',
     dimensions: 'h=195cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/07/426.jpg'],
   },
   {
-    name: 'Sifra 427',
+    name: 'Šifra 427',
     slug: 'sifra-427',
     categorySlug: 'betonski-lampioni',
-    description: 'Betonski lampion za bastu. Dimenzije: h=117cm.',
+    description: 'Betonski lampion za baštu. Dimenzije: h=117cm.',
     price: '€100',
     dimensions: 'h=117cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/07/426.jpg'],
   },
   {
-    name: 'Sifra 428',
+    name: 'Šifra 428',
     slug: 'sifra-428',
     categorySlug: 'betonski-lampioni',
-    description: 'Betonski lampion za bastu. Dimenzije: h=127cm.',
+    description: 'Betonski lampion za baštu. Dimenzije: h=127cm.',
     price: '€380',
     dimensions: 'h=127cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/07/428.jpg'],
   },
   {
-    name: 'Sifra 429',
+    name: 'Šifra 429',
     slug: 'sifra-429',
     categorySlug: 'betonski-lampioni',
-    description: 'Betonski lampion za bastu. Dimenzije: 30x30cm, h=91cm.',
+    description: 'Betonski lampion za baštu. Dimenzije: 30x30cm, h=91cm.',
     price: '€90',
     dimensions: '30x30cm, h=91cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/07/429.jpg'],
   },
   {
-    name: 'Sifra 776',
+    name: 'Šifra 776',
     slug: 'sifra-776',
     categorySlug: 'betonski-lampioni',
-    description: 'Betonski lampion za bastu. Dimenzije: h=190cm.',
+    description: 'Betonski lampion za baštu. Dimenzije: h=190cm.',
     price: '€500',
     dimensions: 'h=190cm',
     material: 'Armiran beton',
@@ -462,10 +462,10 @@ export const products: Product[] = [
   },
 
   // ──────────────────────────────────────────────────
-  // 5. Letnjikovci i bastenske garniture (8 products - all)
+  // 5. Letnjikovci i baštenske garniture (8 products - all)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 300',
+    name: 'Šifra 300',
     slug: 'sifra-300',
     categorySlug: 'letnjikovci',
     description: 'Betonski letnjikovac. Dimenzije: pravilni 8-ugao; 392x392cm; 12,68m2.',
@@ -476,7 +476,7 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 300a',
+    name: 'Šifra 300a',
     slug: 'sifra-300a',
     categorySlug: 'letnjikovci',
     description: 'Betonski letnjikovac. Dimenzije: pravilni 8-ugao; 400x400cm; 11,31m2.',
@@ -486,7 +486,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/300.jpg'],
   },
   {
-    name: 'Sifra 300b',
+    name: 'Šifra 300b',
     slug: 'sifra-300b',
     categorySlug: 'letnjikovci',
     description: 'Betonski letnjikovac. Dimenzije: pravilni 6-ugao; 400x400cm; 10,39m2.',
@@ -496,7 +496,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/300B.jpg'],
   },
   {
-    name: 'Sifra 300c',
+    name: 'Šifra 300c',
     slug: 'sifra-300c',
     categorySlug: 'letnjikovci',
     description: 'Betonski letnjikovac. Dimenzije: pravilni 6-ugao; 500x500cm; 15,24m2.',
@@ -506,40 +506,40 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/300C.jpg'],
   },
   {
-    name: 'Sifra 422',
+    name: 'Šifra 422',
     slug: 'sifra-422',
     categorySlug: 'letnjikovci',
-    description: 'Bastenska garnitura od betona. Dimenzije: ø 126cm, h=74cm.',
+    description: 'Baštenska garnitura od betona. Dimenzije: ø 126cm, h=74cm.',
     price: '€800',
     dimensions: 'ø 126cm, h=74cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/422.jpg'],
   },
   {
-    name: 'Sifra 423',
+    name: 'Šifra 423',
     slug: 'sifra-423',
     categorySlug: 'letnjikovci',
-    description: 'Bastenska garnitura od betona. Dimenzije: 158x71cm, h=76cm.',
+    description: 'Baštenska garnitura od betona. Dimenzije: 158x71cm, h=76cm.',
     price: '€800',
     dimensions: '158x71cm, h=76cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/423.jpg'],
   },
   {
-    name: 'Sifra 465',
+    name: 'Šifra 465',
     slug: 'sifra-465',
     categorySlug: 'letnjikovci',
-    description: 'Bastenska garnitura od betona. Dimenzije: ø 100cm, h=76cm.',
+    description: 'Baštenska garnitura od betona. Dimenzije: ø 100cm, h=76cm.',
     price: '€800',
     dimensions: 'ø 100cm, h=76cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/422.jpg'],
   },
   {
-    name: 'Sifra 756',
+    name: 'Šifra 756',
     slug: 'sifra-756',
     categorySlug: 'letnjikovci',
-    description: 'Bastenska garnitura od betona. Dimenzije: ø 170cm, h=78cm.',
+    description: 'Baštenska garnitura od betona. Dimenzije: ø 170cm, h=78cm.',
     price: '€900',
     dimensions: 'ø 170cm, h=78cm',
     material: 'Armiran beton',
@@ -550,7 +550,7 @@ export const products: Product[] = [
   // 6. Urbani mobilijar (15 products)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 468',
+    name: 'Šifra 468',
     slug: 'sifra-468',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 100x100cm, h=42cm.',
@@ -561,7 +561,7 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 469',
+    name: 'Šifra 469',
     slug: 'sifra-469',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 180x53cm, h=42cm.',
@@ -571,7 +571,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/469.jpg'],
   },
   {
-    name: 'Sifra 479',
+    name: 'Šifra 479',
     slug: 'sifra-479',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 181x51cm, h=48/96cm.',
@@ -581,7 +581,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/07/479.jpg'],
   },
   {
-    name: 'Sifra 480',
+    name: 'Šifra 480',
     slug: 'sifra-480',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 400x74cm, h=40cm.',
@@ -591,7 +591,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/480.jpg'],
   },
   {
-    name: 'Sifra 481',
+    name: 'Šifra 481',
     slug: 'sifra-481',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 400x124cm, h=40cm.',
@@ -601,17 +601,17 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/481.jpg'],
   },
   {
-    name: 'Sifra 491',
+    name: 'Šifra 491',
     slug: 'sifra-491',
     categorySlug: 'urbani-mobilijar',
-    description: 'Betonski parking stubic. Dimenzije: 25x25cm, h=80cm.',
+    description: 'Betonski parking stubić. Dimenzije: 25x25cm, h=80cm.',
     price: '€90',
     dimensions: '25x25cm, h=80cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/491.jpg'],
   },
   {
-    name: 'Sifra 493',
+    name: 'Šifra 493',
     slug: 'sifra-493',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska piksla. Dimenzije: 25x25cm, h=90cm.',
@@ -621,27 +621,27 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/493.jpg'],
   },
   {
-    name: 'Sifra 541',
+    name: 'Šifra 541',
     slug: 'sifra-541',
     categorySlug: 'urbani-mobilijar',
-    description: 'Betonski parking stubic. Dimenzije: 32x32cm, h=70cm.',
+    description: 'Betonski parking stubić. Dimenzije: 32x32cm, h=70cm.',
     price: '€85',
     dimensions: '32x32cm, h=70cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/541.jpg'],
   },
   {
-    name: 'Sifra 541 M',
+    name: 'Šifra 541 M',
     slug: 'sifra-541-m',
     categorySlug: 'urbani-mobilijar',
-    description: 'Betonski parking stubic mali. Dimenzije: osnova 19x19cm, h=36cm.',
+    description: 'Betonski parking stubić mali. Dimenzije: osnova 19x19cm, h=36cm.',
     price: '€30',
     dimensions: 'osnova 19x19cm, h=36cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2026/01/s-541-M.jpg'],
   },
   {
-    name: 'Sifra 542',
+    name: 'Šifra 542',
     slug: 'sifra-542',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 120x100cm, h=50cm.',
@@ -651,7 +651,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/542.jpg'],
   },
   {
-    name: 'Sifra 543',
+    name: 'Šifra 543',
     slug: 'sifra-543',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonski drzac suncobrana. Dimenzije: ø 47cm, h=51cm.',
@@ -661,7 +661,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/543.jpg'],
   },
   {
-    name: 'Sifra 545',
+    name: 'Šifra 545',
     slug: 'sifra-545',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 240cm, h=45cm.',
@@ -671,7 +671,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/545.jpg'],
   },
   {
-    name: 'Sifra 546',
+    name: 'Šifra 546',
     slug: 'sifra-546',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 190/140cmx44cm, h=45cm.',
@@ -681,7 +681,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/546.jpg'],
   },
   {
-    name: 'Sifra 546a',
+    name: 'Šifra 546a',
     slug: 'sifra-546a',
     categorySlug: 'urbani-mobilijar',
     description: 'Betonska klupa. Dimenzije: 140/270/326cm, h=45cm.',
@@ -692,13 +692,13 @@ export const products: Product[] = [
   },
 
   // ──────────────────────────────────────────────────
-  // 7. Grcki stubovi (15 products)
+  // 7. Grčki stubovi (15 products)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 302',
+    name: 'Šifra 302',
     slug: 'sifra-302',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 40cm, h=342,5cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 40cm, h=342,5cm.',
     price: '€380',
     dimensions: 'ø 40cm, h=342,5cm',
     material: 'Armiran beton',
@@ -706,130 +706,130 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 303',
+    name: 'Šifra 303',
     slug: 'sifra-303',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 40cm, h=382cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 40cm, h=382cm.',
     price: '€440',
     dimensions: 'ø 40cm, h=382cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/303.jpg'],
   },
   {
-    name: 'Sifra 304',
+    name: 'Šifra 304',
     slug: 'sifra-304',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø36/ø30cm, h=340cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø36/ø30cm, h=340cm.',
     price: '€300',
     dimensions: 'ø36/ø30cm, h=340cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/304.jpg'],
   },
   {
-    name: 'Sifra 305',
+    name: 'Šifra 305',
     slug: 'sifra-305',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 28/ø22cm, h=287cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 28/ø22cm, h=287cm.',
     price: '€200',
     dimensions: 'ø 28/ø22cm, h=287cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/305.jpg'],
   },
   {
-    name: 'Sifra 306',
+    name: 'Šifra 306',
     slug: 'sifra-306',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 31cm, h=327cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 31cm, h=327cm.',
     price: '€200',
     dimensions: 'ø 31cm, h=327cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/306.jpg'],
   },
   {
-    name: 'Sifra 307',
+    name: 'Šifra 307',
     slug: 'sifra-307',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 26cm, h=350cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 26cm, h=350cm.',
     price: 'Na upit',
     dimensions: 'ø 26cm, h=350cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/307.jpg'],
   },
   {
-    name: 'Sifra 308',
+    name: 'Šifra 308',
     slug: 'sifra-308',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 26cm, h=330cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 26cm, h=330cm.',
     price: '€190',
     dimensions: 'ø 26cm, h=330cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/308.jpg'],
   },
   {
-    name: 'Sifra 309',
+    name: 'Šifra 309',
     slug: 'sifra-309',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 22cm, h=294cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 22cm, h=294cm.',
     price: '€180',
     dimensions: 'ø 22cm, h=294cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/309.jpg'],
   },
   {
-    name: 'Sifra 310',
+    name: 'Šifra 310',
     slug: 'sifra-310',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 22cm, h=280cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 22cm, h=280cm.',
     price: '€170',
     dimensions: 'ø 22cm, h=280cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/310.jpg'],
   },
   {
-    name: 'Sifra 311',
+    name: 'Šifra 311',
     slug: 'sifra-311',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 22cm, h=264cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 22cm, h=264cm.',
     price: '€170',
     dimensions: 'ø 22cm, h=264cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/311.jpg'],
   },
   {
-    name: 'Sifra 312',
+    name: 'Šifra 312',
     slug: 'sifra-312',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 22cm, h=250cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 22cm, h=250cm.',
     price: '€160',
     dimensions: 'ø 22cm, h=250cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/312.jpg'],
   },
   {
-    name: 'Sifra 313',
+    name: 'Šifra 313',
     slug: 'sifra-313',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 19cm, h=207cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 19cm, h=207cm.',
     price: '€110',
     dimensions: 'ø 19cm, h=207cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/313.jpg'],
   },
   {
-    name: 'Sifra 314',
+    name: 'Šifra 314',
     slug: 'sifra-314',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: ø 19cm, h=200cm.',
+    description: 'Betonski grčki stub. Dimenzije: ø 19cm, h=200cm.',
     price: '€110',
     dimensions: 'ø 19cm, h=200cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/05/314.jpg'],
   },
   {
-    name: 'Sifra 315',
+    name: 'Šifra 315',
     slug: 'sifra-315',
     categorySlug: 'grcki-stubovi',
-    description: 'Betonski grcki stub. Dimenzije: 29x29cm, h=315cm.',
+    description: 'Betonski grčki stub. Dimenzije: 29x29cm, h=315cm.',
     price: '€260',
     dimensions: '29x29cm, h=315cm',
     material: 'Armiran beton',
@@ -840,7 +840,7 @@ export const products: Product[] = [
   // 8. Postamenti za skulpture (15 products - all)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 362',
+    name: 'Šifra 362',
     slug: 'sifra-362',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 50x50cm, h=80cm.',
@@ -850,7 +850,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/05/362.jpg'],
   },
   {
-    name: 'Sifra 363',
+    name: 'Šifra 363',
     slug: 'sifra-363',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 60x60cm, h=95cm.',
@@ -860,7 +860,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/05/363.jpg'],
   },
   {
-    name: 'Sifra 364',
+    name: 'Šifra 364',
     slug: 'sifra-364',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 50x50cm, h=73cm.',
@@ -870,7 +870,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/05/364.jpg'],
   },
   {
-    name: 'Sifra 365',
+    name: 'Šifra 365',
     slug: 'sifra-365',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 30x30cm, h=95cm.',
@@ -880,7 +880,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/05/365.jpg'],
   },
   {
-    name: 'Sifra 366',
+    name: 'Šifra 366',
     slug: 'sifra-366',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: ø 30cm, h=134cm.',
@@ -890,7 +890,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/05/366.jpg'],
   },
   {
-    name: 'Sifra 451',
+    name: 'Šifra 451',
     slug: 'sifra-451',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 50x50cm, h=85cm.',
@@ -900,7 +900,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/451.jpg'],
   },
   {
-    name: 'Sifra 452',
+    name: 'Šifra 452',
     slug: 'sifra-452',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 29x29cm, h=79cm.',
@@ -910,7 +910,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/452.jpg'],
   },
   {
-    name: 'Sifra 494',
+    name: 'Šifra 494',
     slug: 'sifra-494',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 30x30cm, h=63cm.',
@@ -920,7 +920,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/494.jpg'],
   },
   {
-    name: 'Sifra 495',
+    name: 'Šifra 495',
     slug: 'sifra-495',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 35x35cm, h=63cm.',
@@ -930,7 +930,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/495.jpg'],
   },
   {
-    name: 'Sifra 496',
+    name: 'Šifra 496',
     slug: 'sifra-496',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 40x40cm, h=63cm.',
@@ -940,7 +940,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/496.jpg'],
   },
   {
-    name: 'Sifra 497',
+    name: 'Šifra 497',
     slug: 'sifra-497',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 50x50cm, h=63cm.',
@@ -950,7 +950,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/497.jpg'],
   },
   {
-    name: 'Sifra 575',
+    name: 'Šifra 575',
     slug: 'sifra-575',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: ø 44cm, h=34cm.',
@@ -960,7 +960,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/575.jpg'],
   },
   {
-    name: 'Sifra 576',
+    name: 'Šifra 576',
     slug: 'sifra-576',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 35x35cm, h=45cm.',
@@ -970,7 +970,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/576.jpg'],
   },
   {
-    name: 'Sifra 706',
+    name: 'Šifra 706',
     slug: 'sifra-706',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: ø 60cm, h=55cm.',
@@ -980,7 +980,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/706.jpg'],
   },
   {
-    name: 'Sifra 708',
+    name: 'Šifra 708',
     slug: 'sifra-708',
     categorySlug: 'betonski-postamenti',
     description: 'Betonski postament za skulpture. Dimenzije: 42x42cm, h=73cm.',
@@ -994,7 +994,7 @@ export const products: Product[] = [
   // 9. Stubovi za ogradu (15 products - page 1)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 318',
+    name: 'Šifra 318',
     slug: 'sifra-318',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 40x40cm, h=174cm.',
@@ -1004,7 +1004,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/318-1.jpg'],
   },
   {
-    name: 'Sifra 319',
+    name: 'Šifra 319',
     slug: 'sifra-319',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 40x40cm, h=161cm.',
@@ -1014,7 +1014,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/319.jpg'],
   },
   {
-    name: 'Sifra 320',
+    name: 'Šifra 320',
     slug: 'sifra-320',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 30x30cm/157cm.',
@@ -1024,7 +1024,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/Postamenti-sajt-slike-2.jpg'],
   },
   {
-    name: 'Sifra 321',
+    name: 'Šifra 321',
     slug: 'sifra-321',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 54x39cm, h=40cm.',
@@ -1034,7 +1034,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/321.jpg'],
   },
   {
-    name: 'Sifra 322',
+    name: 'Šifra 322',
     slug: 'sifra-322',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 38x38, h=40cm.',
@@ -1044,7 +1044,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/322.jpg'],
   },
   {
-    name: 'Sifra 323',
+    name: 'Šifra 323',
     slug: 'sifra-323',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 36x36cm, h=40cm.',
@@ -1054,7 +1054,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/323.jpg'],
   },
   {
-    name: 'Sifra 324',
+    name: 'Šifra 324',
     slug: 'sifra-324',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 20x20cm, h=240cm.',
@@ -1065,7 +1065,7 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 325',
+    name: 'Šifra 325',
     slug: 'sifra-325',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 25x25cm, h=240cm.',
@@ -1075,7 +1075,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/325.jpg'],
   },
   {
-    name: 'Sifra 326',
+    name: 'Šifra 326',
     slug: 'sifra-326',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 30x30cm/221cm.',
@@ -1085,7 +1085,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/326.jpg'],
   },
   {
-    name: 'Sifra 327',
+    name: 'Šifra 327',
     slug: 'sifra-327',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 30x30cm/161cm.',
@@ -1095,7 +1095,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/327.jpg'],
   },
   {
-    name: 'Sifra 328',
+    name: 'Šifra 328',
     slug: 'sifra-328',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 30x30cm/131.',
@@ -1105,7 +1105,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/328.jpg'],
   },
   {
-    name: 'Sifra 329',
+    name: 'Šifra 329',
     slug: 'sifra-329',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 29x29cm/185cm.',
@@ -1115,7 +1115,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/329.jpg'],
   },
   {
-    name: 'Sifra 330',
+    name: 'Šifra 330',
     slug: 'sifra-330',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 29x29cm/175cm.',
@@ -1125,7 +1125,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/330.jpg'],
   },
   {
-    name: 'Sifra 331',
+    name: 'Šifra 331',
     slug: 'sifra-331',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 29x29cm/150cm.',
@@ -1135,7 +1135,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/331.jpg'],
   },
   {
-    name: 'Sifra 332',
+    name: 'Šifra 332',
     slug: 'sifra-332',
     categorySlug: 'stubovi-za-ogradu',
     description: 'Betonski stub za ogradu. Dimenzije: 25x25cm/151cm.',
@@ -1149,7 +1149,7 @@ export const products: Product[] = [
   // 10. Kape za stubove (15 products - page 1)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 318aa',
+    name: 'Šifra 318aa',
     slug: 'sifra-318aa',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 46x46cm, h=13cm.',
@@ -1159,7 +1159,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/318AA.jpg'],
   },
   {
-    name: 'Sifra 320a',
+    name: 'Šifra 320a',
     slug: 'sifra-320a',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 34x34cm, h=13cm.',
@@ -1169,7 +1169,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/320A.jpg'],
   },
   {
-    name: 'Sifra 320aa',
+    name: 'Šifra 320aa',
     slug: 'sifra-320aa',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 30x30cm, h=6cm.',
@@ -1179,7 +1179,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/320AA.jpg'],
   },
   {
-    name: 'Sifra 321a',
+    name: 'Šifra 321a',
     slug: 'sifra-321a',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 52x37cm, h=22cm.',
@@ -1189,7 +1189,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/321A.jpg'],
   },
   {
-    name: 'Sifra 322a',
+    name: 'Šifra 322a',
     slug: 'sifra-322a',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 37x37cm, h=22cm.',
@@ -1199,7 +1199,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/322A.jpg'],
   },
   {
-    name: 'Sifra 348',
+    name: 'Šifra 348',
     slug: 'sifra-348',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 42x42cm, h=23cm.',
@@ -1209,7 +1209,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/348.jpg'],
   },
   {
-    name: 'Sifra 349',
+    name: 'Šifra 349',
     slug: 'sifra-349',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 42,5x28cm, h=20cm.',
@@ -1219,7 +1219,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/349.jpg'],
   },
   {
-    name: 'Sifra 350',
+    name: 'Šifra 350',
     slug: 'sifra-350',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 32x32cm, h=20cm.',
@@ -1229,7 +1229,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/350.jpg'],
   },
   {
-    name: 'Sifra 351',
+    name: 'Šifra 351',
     slug: 'sifra-351',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 27x27cm, h=20cm.',
@@ -1239,7 +1239,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/351.jpg'],
   },
   {
-    name: 'Sifra 352',
+    name: 'Šifra 352',
     slug: 'sifra-352',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 21x21cm, h=20cm.',
@@ -1249,7 +1249,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/352.jpg'],
   },
   {
-    name: 'Sifra 353',
+    name: 'Šifra 353',
     slug: 'sifra-353',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 21,5x21,5, h=13cm.',
@@ -1259,7 +1259,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/353.jpg'],
   },
   {
-    name: 'Sifra 354',
+    name: 'Šifra 354',
     slug: 'sifra-354',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 21,5x21,5, h=10cm.',
@@ -1269,7 +1269,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/354.jpg'],
   },
   {
-    name: 'Sifra 355',
+    name: 'Šifra 355',
     slug: 'sifra-355',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 19x19cm, h=22cm.',
@@ -1279,7 +1279,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/355.jpg'],
   },
   {
-    name: 'Sifra 356',
+    name: 'Šifra 356',
     slug: 'sifra-356',
     categorySlug: 'kape-za-stubove',
     description: 'Betonska kapa za stub. Dimenzije: 19x19cm, h=10cm.',
@@ -1293,7 +1293,7 @@ export const products: Product[] = [
   // 11. Okapnice za temelje (15 products)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 357',
+    name: 'Šifra 357',
     slug: 'sifra-357',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 30/37cm.',
@@ -1303,7 +1303,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s357.jpg'],
   },
   {
-    name: 'Sifra 358',
+    name: 'Šifra 358',
     slug: 'sifra-358',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 25/35cm.',
@@ -1313,7 +1313,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s358.jpg'],
   },
   {
-    name: 'Sifra 359',
+    name: 'Šifra 359',
     slug: 'sifra-359',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 25/32cm.',
@@ -1323,7 +1323,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s359.jpg'],
   },
   {
-    name: 'Sifra 360',
+    name: 'Šifra 360',
     slug: 'sifra-360',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 25/32cm.',
@@ -1333,7 +1333,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s360.jpg'],
   },
   {
-    name: 'Sifra 361',
+    name: 'Šifra 361',
     slug: 'sifra-361',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 25/30cm.',
@@ -1343,7 +1343,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s361.jpg'],
   },
   {
-    name: 'Sifra 455',
+    name: 'Šifra 455',
     slug: 'sifra-455',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 20/25cm.',
@@ -1353,7 +1353,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s455.jpg'],
   },
   {
-    name: 'Sifra 483',
+    name: 'Šifra 483',
     slug: 'sifra-483',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 15/20cm.',
@@ -1363,7 +1363,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s483.jpg'],
   },
   {
-    name: 'Sifra 485',
+    name: 'Šifra 485',
     slug: 'sifra-485',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 26/32cm.',
@@ -1373,7 +1373,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s485-1.jpg'],
   },
   {
-    name: 'Sifra 499',
+    name: 'Šifra 499',
     slug: 'sifra-499',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 20/25cm.',
@@ -1383,7 +1383,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s499.jpg'],
   },
   {
-    name: 'Sifra 536',
+    name: 'Šifra 536',
     slug: 'sifra-536',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 40/46cm.',
@@ -1393,7 +1393,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s536.jpg'],
   },
   {
-    name: 'Sifra 537',
+    name: 'Šifra 537',
     slug: 'sifra-537',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 40/47cm.',
@@ -1403,7 +1403,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s537.jpg'],
   },
   {
-    name: 'Sifra 550',
+    name: 'Šifra 550',
     slug: 'sifra-550',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 30/37cm.',
@@ -1413,7 +1413,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s550.jpg'],
   },
   {
-    name: 'Sifra 551',
+    name: 'Šifra 551',
     slug: 'sifra-551',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 35/40cm.',
@@ -1423,7 +1423,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s551.jpg'],
   },
   {
-    name: 'Sifra 552',
+    name: 'Šifra 552',
     slug: 'sifra-552',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 35/42cm.',
@@ -1433,7 +1433,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/s552.jpg'],
   },
   {
-    name: 'Sifra 553',
+    name: 'Šifra 553',
     slug: 'sifra-553',
     categorySlug: 'betonske-okapnice',
     description: 'Betonska okapnica za temelje. Dimenzije: 46/53cm.',
@@ -1447,7 +1447,7 @@ export const products: Product[] = [
   // 12. Balustrade (15 products)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 367',
+    name: 'Šifra 367',
     slug: 'sifra-367',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=100cm.',
@@ -1458,7 +1458,7 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 367a',
+    name: 'Šifra 367a',
     slug: 'sifra-367a',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=70cm.',
@@ -1468,7 +1468,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/367A.jpg'],
   },
   {
-    name: 'Sifra 368',
+    name: 'Šifra 368',
     slug: 'sifra-368',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=95cm.',
@@ -1478,7 +1478,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/368.jpg'],
   },
   {
-    name: 'Sifra 368a',
+    name: 'Šifra 368a',
     slug: 'sifra-368a',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=66cm.',
@@ -1488,7 +1488,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/368A.jpg'],
   },
   {
-    name: 'Sifra 369',
+    name: 'Šifra 369',
     slug: 'sifra-369',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=95cm.',
@@ -1498,7 +1498,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/369.jpg'],
   },
   {
-    name: 'Sifra 369a',
+    name: 'Šifra 369a',
     slug: 'sifra-369a',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=65cm.',
@@ -1508,7 +1508,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/369A.jpg'],
   },
   {
-    name: 'Sifra 370',
+    name: 'Šifra 370',
     slug: 'sifra-370',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=105cm.',
@@ -1518,7 +1518,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/370.jpg'],
   },
   {
-    name: 'Sifra 370a',
+    name: 'Šifra 370a',
     slug: 'sifra-370a',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=76cm.',
@@ -1528,7 +1528,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/370A.jpg'],
   },
   {
-    name: 'Sifra 371',
+    name: 'Šifra 371',
     slug: 'sifra-371',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=102cm.',
@@ -1538,7 +1538,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/371.jpg'],
   },
   {
-    name: 'Sifra 371a',
+    name: 'Šifra 371a',
     slug: 'sifra-371a',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=88cm.',
@@ -1548,7 +1548,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/371A.jpg'],
   },
   {
-    name: 'Sifra 372',
+    name: 'Šifra 372',
     slug: 'sifra-372',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=98,5cm.',
@@ -1558,7 +1558,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/372.jpg'],
   },
   {
-    name: 'Sifra 372a',
+    name: 'Šifra 372a',
     slug: 'sifra-372a',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=74,5cm.',
@@ -1568,7 +1568,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/372A.jpg'],
   },
   {
-    name: 'Sifra 373',
+    name: 'Šifra 373',
     slug: 'sifra-373',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=92cm.',
@@ -1578,7 +1578,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/373.jpg'],
   },
   {
-    name: 'Sifra 373a',
+    name: 'Šifra 373a',
     slug: 'sifra-373a',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=74,5cm.',
@@ -1588,7 +1588,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/373A.jpg'],
   },
   {
-    name: 'Sifra 374',
+    name: 'Šifra 374',
     slug: 'sifra-374',
     categorySlug: 'betonske-balustrade',
     description: 'Betonska balustrada. Dimenzije: h=75cm.',
@@ -1602,7 +1602,7 @@ export const products: Product[] = [
   // 13. Kamin maske i ukrasi za fasade (15 products)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 420',
+    name: 'Šifra 420',
     slug: 'sifra-420',
     categorySlug: 'kamin-maske',
     description: 'Betonska kamin maska. Dimenzije: 138x30cm, h=114cm.',
@@ -1613,7 +1613,7 @@ export const products: Product[] = [
     isFeatured: true,
   },
   {
-    name: 'Sifra 421',
+    name: 'Šifra 421',
     slug: 'sifra-421',
     categorySlug: 'kamin-maske',
     description: 'Betonska kamin maska. Dimenzije: 70x30cm, h=90cm.',
@@ -1623,7 +1623,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/420.jpg'],
   },
   {
-    name: 'Sifra 398',
+    name: 'Šifra 398',
     slug: 'sifra-398',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=80cm.',
@@ -1633,7 +1633,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/398.jpg'],
   },
   {
-    name: 'Sifra 399',
+    name: 'Šifra 399',
     slug: 'sifra-399',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=60cm.',
@@ -1643,7 +1643,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/399.jpg'],
   },
   {
-    name: 'Sifra 400',
+    name: 'Šifra 400',
     slug: 'sifra-400',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=120cm.',
@@ -1653,7 +1653,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/400.jpg'],
   },
   {
-    name: 'Sifra 401',
+    name: 'Šifra 401',
     slug: 'sifra-401',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=115cm.',
@@ -1663,7 +1663,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/401.jpg'],
   },
   {
-    name: 'Sifra 402',
+    name: 'Šifra 402',
     slug: 'sifra-402',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=80cm.',
@@ -1673,7 +1673,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/402.jpg'],
   },
   {
-    name: 'Sifra 403',
+    name: 'Šifra 403',
     slug: 'sifra-403',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=88cm.',
@@ -1683,7 +1683,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/403.jpg'],
   },
   {
-    name: 'Sifra 404',
+    name: 'Šifra 404',
     slug: 'sifra-404',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=41cm.',
@@ -1693,7 +1693,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/404.jpg'],
   },
   {
-    name: 'Sifra 405',
+    name: 'Šifra 405',
     slug: 'sifra-405',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=36cm.',
@@ -1703,7 +1703,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/405.jpg'],
   },
   {
-    name: 'Sifra 406',
+    name: 'Šifra 406',
     slug: 'sifra-406',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=29cm.',
@@ -1713,7 +1713,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/406.jpg'],
   },
   {
-    name: 'Sifra 407',
+    name: 'Šifra 407',
     slug: 'sifra-407',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=26cm.',
@@ -1723,7 +1723,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/407.jpg'],
   },
   {
-    name: 'Sifra 408',
+    name: 'Šifra 408',
     slug: 'sifra-408',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=20cm.',
@@ -1733,7 +1733,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/408.jpg'],
   },
   {
-    name: 'Sifra 409',
+    name: 'Šifra 409',
     slug: 'sifra-409',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=12cm.',
@@ -1743,7 +1743,7 @@ export const products: Product[] = [
     images: ['https://betonea.com/wp-content/uploads/2025/06/409.jpg'],
   },
   {
-    name: 'Sifra 410',
+    name: 'Šifra 410',
     slug: 'sifra-410',
     categorySlug: 'kamin-maske',
     description: 'Ukras za fasadu. Dimenzije: h=41cm.',
@@ -1754,83 +1754,83 @@ export const products: Product[] = [
   },
 
   // ──────────────────────────────────────────────────
-  // 14. Svecnjaci i andjeli za groblja (10 products with valid images)
+  // 14. Svećnjaci i anđeli za groblja (10 products with valid images)
   // ──────────────────────────────────────────────────
   {
-    name: 'Sifra 449a',
+    name: 'Šifra 449a',
     slug: 'sifra-449a',
     categorySlug: 'svecnjaci-i-andjeli',
-    description: 'Betonski svecnjak za groblje. Dimenzije: 48x48cm, h=71cm.',
+    description: 'Betonski svećnjak za groblje. Dimenzije: 48x48cm, h=71cm.',
     price: '€120',
     dimensions: '48x48cm, h=71cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/499A.jpg'],
   },
   {
-    name: 'Sifra 466',
+    name: 'Šifra 466',
     slug: 'sifra-466',
     categorySlug: 'svecnjaci-i-andjeli',
-    description: 'Betonski svecnjak za groblje. Dimenzije: 51x29cm, h=58cm.',
+    description: 'Betonski svećnjak za groblje. Dimenzije: 51x29cm, h=58cm.',
     price: '€120',
     dimensions: '51x29cm, h=58cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/08/Postamenti-sajt-slike-5.jpg'],
   },
   {
-    name: 'Sifra 466a',
+    name: 'Šifra 466a',
     slug: 'sifra-466a',
     categorySlug: 'svecnjaci-i-andjeli',
-    description: 'Betonski svecnjak za groblje. Dimenzije: 51x29cm, h=58cm.',
+    description: 'Betonski svećnjak za groblje. Dimenzije: 51x29cm, h=58cm.',
     price: '€120',
     dimensions: '51x29cm, h=58cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/466A.jpg'],
   },
   {
-    name: 'Sifra 449',
+    name: 'Šifra 449',
     slug: 'sifra-449',
     categorySlug: 'svecnjaci-i-andjeli',
-    description: 'Betonski svecnjak za groblje. Dimenzije: 48x48cm, h=71cm.',
+    description: 'Betonski svećnjak za groblje. Dimenzije: 48x48cm, h=71cm.',
     price: '€120',
     dimensions: '48x48cm, h=71cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/499A.jpg'],
   },
   {
-    name: 'Sifra 450',
+    name: 'Šifra 450',
     slug: 'sifra-450',
     categorySlug: 'svecnjaci-i-andjeli',
-    description: 'Betonski andjeo za groblje. Dimenzije: h=60cm.',
+    description: 'Betonski anđeo za groblje. Dimenzije: h=60cm.',
     price: '€50',
     dimensions: 'h=60cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/499A.jpg'],
   },
   {
-    name: 'Sifra 577',
+    name: 'Šifra 577',
     slug: 'sifra-577',
     categorySlug: 'svecnjaci-i-andjeli',
-    description: 'Betonski andjeo za groblje. Dimenzije: h=132cm.',
+    description: 'Betonski anđeo za groblje. Dimenzije: h=132cm.',
     price: '€220',
     dimensions: 'h=132cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/06/466A.jpg'],
   },
   {
-    name: 'Sifra 596',
+    name: 'Šifra 596',
     slug: 'sifra-596',
     categorySlug: 'svecnjaci-i-andjeli',
-    description: 'Betonski svecnjak za groblje. Dimenzije: h=32cm.',
+    description: 'Betonski svećnjak za groblje. Dimenzije: h=32cm.',
     price: '€50',
     dimensions: 'h=32cm',
     material: 'Armiran beton',
     images: ['https://betonea.com/wp-content/uploads/2025/08/Postamenti-sajt-slike-5.jpg'],
   },
   {
-    name: 'Sifra 597',
+    name: 'Šifra 597',
     slug: 'sifra-597',
     categorySlug: 'svecnjaci-i-andjeli',
-    description: 'Betonski svecnjak za groblje. Dimenzije: h=56cm.',
+    description: 'Betonski svećnjak za groblje. Dimenzije: h=56cm.',
     price: '€70',
     dimensions: 'h=56cm',
     material: 'Armiran beton',

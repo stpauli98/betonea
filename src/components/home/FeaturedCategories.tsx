@@ -13,7 +13,7 @@ export default function FeaturedCategories() {
       <div className="mx-auto max-w-6xl px-4">
         <SectionHeading
           subtitle="PROIZVODI"
-          title="Istrazite nasu ponudu"
+          title="Istražite našu ponudu"
         />
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -4,7 +4,7 @@ import GalleryPage from '@/components/gallery/GalleryPage';
 export const metadata: Metadata = {
   title: 'Galerija — Betonea',
   description:
-    'Pogledajte nase realizovane projekte. Galerija dekorativnih betonskih proizvoda — zardinjere, fontane, skulpture, ograde i mnogo vise.',
+    'Pogledajte naše realizovane projekte. Galerija dekorativnih betonskih proizvoda — žardinjere, fontane, skulpture, ograde i mnogo više.',
 };
 
 export default function GalerijaPage() {

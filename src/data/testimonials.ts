@@ -3,21 +3,21 @@ import type { Testimonial } from '@/types';
 export const testimonials: Testimonial[] = [
   {
     name: 'Silvia Slavica i Markus Kolly',
-    location: 'Schwarzses, Svajcarska',
+    location: 'Schwarzses, Švajcarska',
     quote:
-      'Pozitivno smo iznenadjeni sa kojom profesionalnoscu i brzinom su sve nase narudzbine primljene, uradjene i u najkracem roku isporucene.',
+      'Pozitivno smo iznenađeni sa kojom profesionalnošću i brzinom su sve naše narudžbine primljene, urađene i u najkraćem roku isporučene.',
   },
   {
-    name: 'Porodica Radojkovic',
-    location: 'Wolfsburg, Nemacka',
+    name: 'Porodica Radojković',
+    location: 'Wolfsburg, Nemačka',
     quote:
-      'Prezadovoljni smo kvalitetom i lepotom ograde koju je vasa firma uradila pre par godina, a koja i danas izgleda kao prvog dana postavljanja.',
+      'Prezadovoljni smo kvalitetom i lepotom ograde koju je vaša firma uradila pre par godina, a koja i danas izgleda kao prvog dana postavljanja.',
   },
   {
-    name: 'Miroljub Puric',
+    name: 'Miroljub Purić',
     location: 'Beograd',
     company: 'Energogroup',
     quote:
-      'Sirokim asortimanom kvalitetnih proizvoda, kao i odlicnim uslugama, svrstali ste se u red pouzdanih saradnika sa kojima cemo poslovati i ubuduce.',
+      'Širokim asortimanom kvalitetnih proizvoda, kao i odličnim uslugama, svrstali ste se u red pouzdanih saradnika sa kojima ćemo poslovati i ubuduće.',
   },
 ];

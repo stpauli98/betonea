@@ -38,7 +38,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-4 font-heading text-xl italic text-stone-200 md:text-2xl"
         >
-          Najlepse od betona
+          Najlepše od betona
         </motion.p>
 
         <motion.div

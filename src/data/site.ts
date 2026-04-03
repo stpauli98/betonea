@@ -1,15 +1,15 @@
 export const siteConfig = {
   name: 'Betonea',
-  tagline: 'Najlepse od betona',
+  tagline: 'Najlepše od betona',
   description:
-    'Betonea - proizvodnja dekorativnih betonskih elemenata. Zardinjere, skulpture, fontane, ograde, stubovi, balustrade i drugi betonski proizvodi vrhunskog kvaliteta.',
+    'Betonea - proizvodnja dekorativnih betonskih elemenata. Žardinjere, skulpture, fontane, ograde, stubovi, balustrade i drugi betonski proizvodi vrhunskog kvaliteta.',
 
   contact: {
     address: 'Srpskih oslobodilaca 4, Lapovo 34220, Srbija',
     email: 'office@betonea.com',
     phones: [
-      { name: 'Goran Petkovic', number: '+381 63 603 181' },
-      { name: 'Tanja Petkovic', number: '+381 64 44 790 44' },
+      { name: 'Goran Petković', number: '+381 63 603 181' },
+      { name: 'Tanja Petković', number: '+381 64 44 790 44' },
       { name: 'Fiksni', number: '+381 34 850 505' },
     ],
     whatsapp: '38163603181',
@@ -33,7 +33,7 @@ export const siteConfig = {
   },
 
   stats: {
-    projects: { value: 500, label: 'Uspesnih projekata', suffix: '+' },
+    projects: { value: 500, label: 'Uspešnih projekata', suffix: '+' },
     clients: { value: 300, label: 'Zadovoljnih klijenata', suffix: '+' },
     years: { value: 25, label: 'Godina postojanja', suffix: '' },
     employees: { value: 15, label: 'Zaposlenih', suffix: '' },

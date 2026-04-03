@@ -7,11 +7,11 @@ export default function NotFound() {
       <p className="font-heading text-9xl text-gold-300">404</p>
 
       <h1 className="mt-6 font-heading text-3xl text-stone-800 md:text-4xl">
-        Stranica nije pronadjena
+        Stranica nije pronađena
       </h1>
 
       <p className="mt-4 max-w-md text-stone-500 leading-relaxed">
-        Izvinite, stranica koju trazite ne postoji ili je premestena. Proverite
+        Izvinite, stranica koju tražite ne postoji ili je premeštena. Proverite
         da li ste uneli ispravnu adresu.
       </p>
 
@@ -19,7 +19,7 @@ export default function NotFound() {
         <Button href="/" variant="primary">
           <span className="flex items-center gap-2">
             <ArrowLeft className="h-4 w-4" />
-            Nazad na pocetnu
+            Nazad na početnu
           </span>
         </Button>
       </div>

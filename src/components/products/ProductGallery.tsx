@@ -91,7 +91,7 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
 
           <img
             src={images[selectedIndex]}
-            alt={`${productName} - uvecana slika`}
+            alt={`${productName} - uvećana slika`}
             className="max-h-[90vh] max-w-[90vw] rounded-lg object-contain"
             onClick={(e) => e.stopPropagation()}
           />

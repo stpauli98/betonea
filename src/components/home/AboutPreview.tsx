@@ -30,11 +30,11 @@ export default function AboutPreview() {
               align="left"
             />
             <p className="mt-6 leading-relaxed text-stone-500">
-              Betonea – dom gde beton poprima oblik umetnosti. Nasa misija je da
-              spojimo trajnost i lepotu. Vec godinama stvaramo zardinjere, skulpture,
-              stubove i dekorativne elemente koji oplemenjuju dvorista, vrtove, javne
-              prostore i druge eksterijere. Svaki nas proizvod je izradjen rucno i sa
-              posebnom paznjom, uz upotrebu visokokvalitetnih materijala i modernih
+              Betonea – dom gde beton poprima oblik umetnosti. Naša misija je da
+              spojimo trajnost i lepotu. Već godinama stvaramo žardinjere, skulpture,
+              stubove i dekorativne elemente koji oplemenjuju dvorišta, vrtove, javne
+              prostore i druge eksterijere. Svaki naš proizvod je izrađen ručno i sa
+              posebnom pažnjom, uz upotrebu visokokvalitetnih materijala i modernih
               tehnologija.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-6">
@@ -49,7 +49,7 @@ export default function AboutPreview() {
             </div>
             <div className="mt-8">
               <Button variant="outline" href="/o-nama">
-                Vise o nama
+                Više o nama
               </Button>
             </div>
           </ScrollReveal>

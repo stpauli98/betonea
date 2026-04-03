@@ -7,7 +7,7 @@ import { createWhatsAppUrl } from '@/lib/utils'
 export default function WhatsAppButton() {
   const url = createWhatsAppUrl(
     siteConfig.contact.whatsapp,
-    'Zdravo, interesuju me vasi proizvodi.'
+    'Zdravo, interesuju me vaši proizvodi.'
   )
 
   return (

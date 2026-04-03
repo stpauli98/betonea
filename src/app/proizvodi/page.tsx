@@ -8,19 +8,19 @@ import { categories } from '@/data/categories';
 export const metadata: Metadata = {
   title: 'Proizvodi — Betonea',
   description:
-    'Katalog dekorativnih betonskih proizvoda. Zardinjere, fontane, skulpture, ograde, stubovi, klupe i mnogo vise. Kvalitetan vibro-presovani beton.',
+    'Katalog dekorativnih betonskih proizvoda. Žardinjere, fontane, skulpture, ograde, stubovi, klupe i mnogo više. Kvalitetan vibro-presovani beton.',
 };
 
 export default function ProizvodiPage() {
   return (
     <>
-      <PageHero title="Nasi proizvodi" subtitle="KATALOG" />
+      <PageHero title="Naši proizvodi" subtitle="KATALOG" />
 
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-6 md:px-8">
           <Breadcrumb
             items={[
-              { label: 'Pocetna', href: '/' },
+              { label: 'Početna', href: '/' },
               { label: 'Proizvodi' },
             ]}
             className="mb-12"

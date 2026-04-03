@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const category = getCategoryBySlug(slug);
 
   if (!category) {
-    return { title: 'Kategorija nije pronadjena — Betonea' };
+    return { title: 'Kategorija nije pronađena — Betonea' };
   }
 
   return {
@@ -51,7 +51,7 @@ export default async function CategoryPage({ params }: PageProps) {
         <div className="mx-auto max-w-7xl px-6 md:px-8">
           <Breadcrumb
             items={[
-              { label: 'Pocetna', href: '/' },
+              { label: 'Početna', href: '/' },
               { label: 'Proizvodi', href: '/proizvodi' },
               { label: category.name },
             ]}

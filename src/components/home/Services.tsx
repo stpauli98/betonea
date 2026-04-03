@@ -7,25 +7,25 @@ const services = [
     icon: Palette,
     title: 'Dekorativni elementi',
     description:
-      'Zardinjere, skulpture, fontane i ostali ukrasni elementi koji oplemenjuju svaki prostor.',
+      'Žardinjere, skulpture, fontane i ostali ukrasni elementi koji oplemenjuju svaki prostor.',
   },
   {
     icon: Armchair,
-    title: 'Betonski namestaj',
+    title: 'Betonski nameštaj',
     description:
       'Klupe, stolovi i urbani mobilijar koji spaja trajnost i dizajn.',
   },
   {
     icon: Building2,
-    title: 'Gradevinski elementi',
+    title: 'Građevinski elementi',
     description:
-      'Stubovi, balustrade, ograde, okapnice i stepenista za vase objekte.',
+      'Stubovi, balustrade, ograde, okapnice i stepeništa za vaše objekte.',
   },
   {
     icon: Wrench,
     title: 'Proizvodnja po meri',
     description:
-      'Realizujemo vase ideje u betonu — po vasim nacrtima i zeljama.',
+      'Realizujemo vaše ideje u betonu — po vašim nacrtima i željama.',
   },
 ] as const;
 
@@ -33,7 +33,7 @@ export default function Services() {
   return (
     <section className="bg-cream py-20 md:py-28">
       <div className="mx-auto max-w-6xl px-4">
-        <SectionHeading subtitle="STA RADIMO" title="Nasa ponuda" />
+        <SectionHeading subtitle="ŠTA RADIMO" title="Naša ponuda" />
 
         <div className="mt-14 grid gap-8 md:grid-cols-2">
           {services.map((service, index) => (

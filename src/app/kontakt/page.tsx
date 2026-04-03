@@ -13,7 +13,7 @@ import { formatPhoneForTel, createWhatsAppUrl } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Kontakt — Betonea',
   description:
-    'Kontaktirajte Betonea tim. Adresa, telefoni, email i kontakt forma. Besplatne konsultacije za vase projekte dekorativnog betona.',
+    'Kontaktirajte Betonea tim. Adresa, telefoni, email i kontakt forma. Besplatne konsultacije za vaše projekte dekorativnog betona.',
 };
 
 const infoCards = [
@@ -83,7 +83,7 @@ export default function KontaktPage() {
         <div className="mx-auto max-w-7xl px-6 md:px-8">
           <Breadcrumb
             items={[
-              { label: 'Pocetna', href: '/' },
+              { label: 'Početna', href: '/' },
               { label: 'Kontakt' },
             ]}
             className="mb-12"
@@ -122,8 +122,8 @@ export default function KontaktPage() {
           <ScrollReveal>
             <SectionHeading
               subtitle="PORUKA"
-              title="Posaljite nam poruku"
-              description="Popunite formu ispod i javicemo vam se u najkracem mogucem roku. Sva polja oznacena sa * su obavezna."
+              title="Pošaljite nam poruku"
+              description="Popunite formu ispod i javićemo vam se u najkraćem mogućem roku. Sva polja označena sa * su obavezna."
               className="mb-12"
             />
           </ScrollReveal>
@@ -142,15 +142,15 @@ export default function KontaktPage() {
               Brz odgovor putem WhatsApp-a
             </h2>
             <p className="mt-4 text-stone-400 leading-relaxed">
-              Potrebna vam je brza informacija? Posaljite nam poruku putem
-              WhatsApp-a i odgovoricemo vam u roku od nekoliko minuta tokom
+              Potrebna vam je brza informacija? Pošaljite nam poruku putem
+              WhatsApp-a i odgovorićemo vam u roku od nekoliko minuta tokom
               radnog vremena.
             </p>
             <div className="mt-8">
               <Button
                 href={createWhatsAppUrl(
                   siteConfig.contact.whatsapp,
-                  'Zdravo, imam pitanje u vezi vasih proizvoda.',
+                  'Zdravo, imam pitanje u vezi vaših proizvoda.',
                 )}
                 variant="primary"
                 size="lg"

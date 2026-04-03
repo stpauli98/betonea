@@ -74,7 +74,7 @@ export default function ContactForm() {
             required
             value={form.name}
             onChange={handleChange}
-            placeholder="Vase ime i prezime"
+            placeholder="Vaše ime i prezime"
             className={inputClasses}
           />
         </div>
@@ -93,7 +93,7 @@ export default function ContactForm() {
             required
             value={form.email}
             onChange={handleChange}
-            placeholder="vasa@email.com"
+            placeholder="vaša@email.com"
             className={inputClasses}
           />
         </div>
@@ -131,7 +131,7 @@ export default function ContactForm() {
           rows={5}
           value={form.message}
           onChange={handleChange}
-          placeholder="Opisite vasu ideju ili postavite pitanje..."
+          placeholder="Opišite vašu ideju ili postavite pitanje..."
           className={inputClasses}
         />
       </div>
@@ -141,18 +141,18 @@ export default function ContactForm() {
         disabled={status === 'sending'}
         className="inline-block rounded-lg bg-gold-400 px-8 py-3 font-medium uppercase tracking-wide text-white transition-colors duration-200 hover:bg-gold-500 disabled:cursor-not-allowed disabled:opacity-60"
       >
-        {status === 'sending' ? 'Slanje...' : 'Posaljite poruku'}
+        {status === 'sending' ? 'Slanje...' : 'Pošaljite poruku'}
       </button>
 
       {status === 'success' && (
         <p className="text-sm text-green-600">
-          Vasa poruka je uspesno poslata! Odgovoricemo vam u najkracem roku.
+          Vaša poruka je uspešno poslata! Odgovorićemo vam u najkraćem roku.
         </p>
       )}
 
       {status === 'error' && (
         <p className="text-sm text-red-600">
-          Doslo je do greske pri slanju. Pokusajte ponovo ili nas kontaktirajte
+          Došlo je do greške pri slanju. Pokušajte ponovo ili nas kontaktirajte
           telefonom.
         </p>
       )}

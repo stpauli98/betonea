@@ -13,9 +13,9 @@ export default function CTASection() {
             Beton koji oblikuje prostor sa stilom
           </h2>
           <p className="mt-4 text-stone-300 leading-relaxed">
-            Vise od 25 godina stvaramo dekorativne betonske elemente koji spajaju
+            Više od 25 godina stvaramo dekorativne betonske elemente koji spajaju
             trajnost i estetiku. Kontaktirajte nas za besplatnu konsultaciju i
-            ponudu prilagodjenu vasim potrebama.
+            ponudu prilagođenu vašim potrebama.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button variant="primary" href="/proizvodi">

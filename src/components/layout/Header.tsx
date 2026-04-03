@@ -10,7 +10,7 @@ import { formatPhoneForTel } from '@/lib/utils'
 import MobileMenu from './MobileMenu'
 
 const navLinks = [
-  { label: 'Pocetna', href: '/' },
+  { label: 'Početna', href: '/' },
   { label: 'Proizvodi', href: '/proizvodi' },
   { label: 'Galerija', href: '/galerija' },
   { label: 'O nama', href: '/o-nama' },

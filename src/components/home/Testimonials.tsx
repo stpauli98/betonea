@@ -25,7 +25,7 @@ export default function Testimonials() {
       <div className="mx-auto max-w-3xl px-4">
         <SectionHeading
           subtitle="UTISCI KLIJENATA"
-          title="Sta kazu nasi klijenti"
+          title="Šta kažu naši klijenti"
         />
 
         <div className="relative mt-14 min-h-[260px]">
@@ -61,7 +61,7 @@ export default function Testimonials() {
               key={index}
               type="button"
               onClick={() => setCurrent(index)}
-              aria-label={`Prikazi utisak ${index + 1}`}
+              aria-label={`Prikaži utisak ${index + 1}`}
               className={`h-2.5 rounded-full transition-all duration-300 ${
                 index === current
                   ? 'w-8 bg-gold-400'

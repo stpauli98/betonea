@@ -91,7 +91,7 @@ export default function Lightbox({
             onNext();
           }}
           className="absolute right-4 z-10 rounded-full bg-white/10 p-2 text-white backdrop-blur-sm transition-colors hover:bg-white/20"
-          aria-label="Sledeca slika"
+          aria-label="Sledeća slika"
         >
           <ChevronRight className="h-6 w-6" />
         </button>

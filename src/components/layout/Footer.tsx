@@ -59,7 +59,7 @@ export default function Footer() {
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-stone-400">
               Proizvodnja dekorativnih betonskih elemenata vrhunskog kvaliteta.
-              Vise od 25 godina iskustva u oblikovanju betona.
+              Više od 25 godina iskustva u oblikovanju betona.
             </p>
             <div className="mt-5 flex gap-3">
               {socialLinks.map((social) => (
@@ -156,7 +156,7 @@ export default function Footer() {
       <div className="border-t border-stone-800">
         <div className="mx-auto max-w-[1280px] px-6 py-5 lg:px-8">
           <p className="text-center text-xs text-stone-500">
-            &copy; 2024 Betonea. Sva prava zadrzana.
+            &copy; 2024 Betonea. Sva prava zadržana.
           </p>
         </div>
       </div>

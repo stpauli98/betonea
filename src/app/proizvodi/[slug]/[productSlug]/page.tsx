@@ -27,7 +27,7 @@ export async function generateMetadata({
   const product = getProduct(productSlug);
 
   if (!product) {
-    return { title: 'Proizvod nije pronadjen' };
+    return { title: 'Proizvod nije pronađen' };
   }
 
   const description = product.dimensions
@@ -67,7 +67,7 @@ export default async function ProductDetailPage({
   // Details table rows
   const details: { label: string; value: string }[] = [];
   if (product.dimensions) details.push({ label: 'Dimenzije', value: product.dimensions });
-  if (product.weight) details.push({ label: 'Tezina', value: product.weight });
+  if (product.weight) details.push({ label: 'Težina', value: product.weight });
   if (product.material) details.push({ label: 'Materijal', value: product.material });
 
   return (
@@ -76,7 +76,7 @@ export default async function ProductDetailPage({
       <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 lg:px-8">
         <Breadcrumb
           items={[
-            { label: 'Pocetna', href: '/' },
+            { label: 'Početna', href: '/' },
             { label: 'Proizvodi', href: '/proizvodi' },
             { label: category.name, href: `/proizvodi/${category.slug}` },
             { label: product.name },
@@ -156,7 +156,7 @@ export default async function ProductDetailPage({
           <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
             <ScrollReveal>
               <h2 className="font-heading text-2xl font-bold text-stone-800">
-                Slicni proizvodi
+                Slični proizvodi
               </h2>
             </ScrollReveal>
 

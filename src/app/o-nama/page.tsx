@@ -13,20 +13,20 @@ import { createWhatsAppUrl } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'O nama — Betonea',
   description:
-    'Betonea – dom gde beton poprima oblik umetnosti. Vas pouzdan partner za dekorativne betonske elemente.',
+    'Betonea – dom gde beton poprima oblik umetnosti. Vaš pouzdan partner za dekorativne betonske elemente.',
 };
 
 export default function ONamaPage() {
   return (
     <>
-      <PageHero title="Vas pouzdan partner za dekorativne betonske elemente" subtitle="KO SMO MI" />
+      <PageHero title="Vaš pouzdan partner za dekorativne betonske elemente" subtitle="KO SMO MI" />
 
       {/* Story Section */}
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-6 md:px-8">
           <Breadcrumb
             items={[
-              { label: 'Pocetna', href: '/' },
+              { label: 'Početna', href: '/' },
               { label: 'O nama' },
             ]}
             className="mb-12"
@@ -37,35 +37,35 @@ export default function ONamaPage() {
               <div>
                 <SectionHeading
                   subtitle="KO SMO MI"
-                  title="Vas pouzdan partner za dekorativne betonske elemente"
+                  title="Vaš pouzdan partner za dekorativne betonske elemente"
                   align="left"
                   className="mb-8"
                 />
 
                 <div className="space-y-5 text-stone-600 leading-relaxed">
                   <p>
-                    Dobrodosli u Betonea – dom gde beton poprima oblik
+                    Dobrodošli u Betonea – dom gde beton poprima oblik
                     umetnosti.
                   </p>
                   <p>
-                    Nasa misija je da spojimo trajnost i lepotu. Vec godinama
-                    stvaramo zardinjere, skulpture, stubove i dekorativne
-                    elemente koji oplemenjuju dvorista, vrtove, javne prostore
-                    i druge eksterijere. Svaki nas proizvod je izradjen rucno
-                    i sa posebnom paznjom, uz upotrebu visokokvalitetnih
+                    Naša misija je da spojimo trajnost i lepotu. Već godinama
+                    stvaramo žardinjere, skulpture, stubove i dekorativne
+                    elemente koji oplemenjuju dvorišta, vrtove, javne prostore
+                    i druge eksterijere. Svaki naš proizvod je izrađen ručno
+                    i sa posebnom pažnjom, uz upotrebu visokokvalitetnih
                     materijala i modernih tehnologija.
                   </p>
                   <p>
                     U Betonei verujemo da detalji prave razliku. Zato svaki
-                    komad nosi pecat elegancije, luksuza i postojanosti, a
-                    nasi klijenti dobijaju vise od dekoracije – dobijaju deo
-                    ambijenta koji traje i inspirise.
+                    komad nosi pečat elegancije, luksuza i postojanosti, a
+                    naši klijenti dobijaju više od dekoracije – dobijaju deo
+                    ambijenta koji traje i inspiriše.
                   </p>
                   <p>
                     Ponosni smo na poverenje koje smo izgradili, na saradnju
-                    sa brojnim domacim i inostranim kupcima, i na cinjenicu da
-                    nasi proizvodi krase dvorista, hotele, restorane i trgove
-                    sirom regiona.
+                    sa brojnim domaćim i inostranim kupcima, i na činjenicu da
+                    naši proizvodi krase dvorišta, hotele, restorane i trgove
+                    širom regiona.
                   </p>
                 </div>
               </div>
@@ -94,9 +94,9 @@ export default function ONamaPage() {
         <div className="mx-auto max-w-7xl px-6 md:px-8">
           <ScrollReveal>
             <SectionHeading
-              subtitle="STA NUDIMO"
+              subtitle="ŠTA NUDIMO"
               title="Dekorativni dizajn u betonu"
-              description="Pogledajte deo nasih najnovijih radova u oblasti dekorativne betonske galanterije. Od bastenskih skulptura i fontana, do ograda, stubova i urbanog mobilijara – nasi proizvodi krase privatna dvorista, poslovne prostore i javne povrsine sirom zemlje."
+              description="Pogledajte deo naših najnovijih radova u oblasti dekorativne betonske galanterije. Od baštenskih skulptura i fontana, do ograda, stubova i urbanog mobilijara – naši proizvodi krase privatna dvorišta, poslovne prostore i javne površine širom zemlje."
               className="mb-12"
             />
           </ScrollReveal>
@@ -105,15 +105,15 @@ export default function ONamaPage() {
             {[
               {
                 title: 'Proizvodnja po meri',
-                text: 'Realizujemo vase ideje u betonu. Prilagodjeni oblici, dimenzije i zavrsne obrade prema vasim specificnim zahtevima.',
+                text: 'Realizujemo vaše ideje u betonu. Prilagođeni oblici, dimenzije i završne obrade prema vašim specifičnim zahtevima.',
               },
               {
-                title: 'Siroka paleta proizvoda',
-                text: 'Zardinjere, fontane, skulpture, ograde, stubovi, balustrade, klupe i mnogi drugi dekorativni elementi za vas prostor.',
+                title: 'Široka paleta proizvoda',
+                text: 'Žardinjere, fontane, skulpture, ograde, stubovi, balustrade, klupe i mnogi drugi dekorativni elementi za vaš prostor.',
               },
               {
-                title: 'Dostava i montaza',
-                text: 'Organizujemo transport i strucnu montazu na celoj teritoriji Srbije. Sardjujemo i sa klijentima iz inostranstva.',
+                title: 'Dostava i montaža',
+                text: 'Organizujemo transport i stručnu montažu na celoj teritoriji Srbije. Sarađujemo i sa klijentima iz inostranstva.',
               },
             ].map((item, index) => (
               <ScrollReveal key={item.title} delay={index * 150}>
@@ -135,8 +135,8 @@ export default function ONamaPage() {
           <ScrollReveal>
             <SectionHeading
               subtitle="VIDEO"
-              title="Pogledajte nas rad"
-              description="Upoznajte se sa nasom proizvodnjom i gotovim projektima kroz video sadrzaj."
+              title="Pogledajte naš rad"
+              description="Upoznajte se sa našom proizvodnjom i gotovim projektima kroz video sadržaj."
               className="mb-12"
             />
           </ScrollReveal>
@@ -160,8 +160,8 @@ export default function ONamaPage() {
       <ScrollReveal>
         <SectionHeading
           subtitle="POVERENJE"
-          title="Nasi klijenti"
-          description="Ponosni smo na saradnju sa vodecim kompanijama i institucijama."
+          title="Naši klijenti"
+          description="Ponosni smo na saradnju sa vodećim kompanijama i institucijama."
           className="pt-16 md:pt-24"
         />
       </ScrollReveal>
@@ -175,8 +175,8 @@ export default function ONamaPage() {
               Imate projekat na umu?
             </h2>
             <p className="mt-4 text-stone-400 leading-relaxed">
-              Kontaktirajte nas i zajedno cemo pronaci najbolje resenje za vas
-              prostor. Besplatna konsultacija i predracun.
+              Kontaktirajte nas i zajedno ćemo pronaći najbolje rešenje za vaš
+              prostor. Besplatna konsultacija i predračun.
             </p>
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <Button href="/kontakt" variant="primary">
@@ -185,7 +185,7 @@ export default function ONamaPage() {
               <Button
                 href={createWhatsAppUrl(
                   siteConfig.contact.whatsapp,
-                  'Zdravo, zanima me vise o vasim proizvodima.',
+                  'Zdravo, zanima me više o vašim proizvodima.',
                 )}
                 variant="outline"
               >
