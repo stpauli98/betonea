@@ -116,8 +116,8 @@ export default function ONamaPage() {
                 text: 'Organizujemo transport i stručnu montažu na celoj teritoriji Srbije. Sarađujemo i sa klijentima iz inostranstva.',
               },
             ].map((item, index) => (
-              <ScrollReveal key={item.title} delay={index * 150}>
-                <div className="rounded-xl bg-white p-8 shadow-sm">
+              <ScrollReveal key={item.title} delay={index * 150} className="h-full">
+                <div className="flex h-full flex-col rounded-xl bg-white p-8 shadow-sm">
                   <h3 className="mb-3 font-heading text-xl text-stone-800">
                     {item.title}
                   </h3>
