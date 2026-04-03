@@ -3,240 +3,260 @@ import type { GalleryImage } from '@/types';
 export const galleryImages: GalleryImage[] = [
   // Zardinjere
   {
-    src: '/images/gallery/betonske-zardinjere/zardinjere-1.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/462.jpg',
     category: 'betonske-zardinjere',
-    caption: 'Zardinjera Athena u dvorisnom ambijentu',
+    caption: 'Sifra 462 - Zardinjera 110x45cm',
   },
   {
-    src: '/images/gallery/betonske-zardinjere/zardinjere-2.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/430.jpg',
     category: 'betonske-zardinjere',
-    caption: 'Komplet zardinijera ispred poslovnog objekta',
+    caption: 'Sifra 430 - Zardinjera na postamentu',
   },
   {
-    src: '/images/gallery/betonske-zardinjere/zardinjere-3.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/434.jpg',
     category: 'betonske-zardinjere',
-    caption: 'Velika zardinjera sa sezonskim cvecem',
+    caption: 'Sifra 434 - Zardinjera 63x63cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/436.jpg',
+    category: 'betonske-zardinjere',
+    caption: 'Sifra 436 - Zardinjera 111x51cm',
   },
 
   // Skulpture za bastu
   {
-    src: '/images/gallery/betonske-skulpture-za-bastu/skulpture-1.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/448.jpg',
     category: 'betonske-skulpture-za-bastu',
-    caption: 'Skulptura lava na ulazu u imanje',
+    caption: 'Sifra 448 - Bastenska skulptura h=60cm',
   },
   {
-    src: '/images/gallery/betonske-skulpture-za-bastu/skulpture-2.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/457.jpg',
     category: 'betonske-skulpture-za-bastu',
-    caption: 'Andjeo u bastenom okruzenju',
+    caption: 'Sifra 457 - Bastenska skulptura h=210cm',
   },
   {
-    src: '/images/gallery/betonske-skulpture-za-bastu/skulpture-3.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/458.jpg',
     category: 'betonske-skulpture-za-bastu',
-    caption: 'Dekorativna figura u vrtu',
+    caption: 'Sifra 458 - Bastenska skulptura h=130cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2026/01/s-591.jpg',
+    category: 'betonske-skulpture-za-bastu',
+    caption: 'Sifra 591 - Skulptura sa osnovom 20x13cm',
   },
 
-  // Fontane
+  // Fontane i bastenske cesme
   {
-    src: '/images/gallery/betonske-fontane/fontane-1.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/442.jpg',
     category: 'betonske-fontane',
-    caption: 'Klasicna fontana u sredisstu dvorista',
+    caption: 'Sifra 442 - Fontana 105x50cm, h=183cm',
   },
   {
-    src: '/images/gallery/betonske-fontane/fontane-2.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/445.jpg',
     category: 'betonske-fontane',
-    caption: 'Viseslojna fontana sa vodoskokom',
+    caption: 'Sifra 445 - Fontana ø 120cm, h=154cm',
   },
   {
-    src: '/images/gallery/betonske-fontane/fontane-3.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/446.jpg',
     category: 'betonske-fontane',
-    caption: 'Zidna fontana na terasi',
+    caption: 'Sifra 446 - Fontana ø 120cm, h=138cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/707.jpg',
+    category: 'betonske-fontane',
+    caption: 'Sifra 707 - Fontana ø 150cm, h=160cm',
   },
 
-  // Stubovi i balustrade
+  // Lampioni za bastu i dvoriste
   {
-    src: '/images/gallery/stubovi-i-balustrade/stubovi-1.jpg',
-    category: 'stubovi-i-balustrade',
-    caption: 'Balustrada na terasi privatne kuce',
+    src: 'https://betonea.com/wp-content/uploads/2025/07/424.jpg',
+    category: 'betonski-lampioni',
+    caption: 'Sifra 424 - Lampion h=260cm',
   },
   {
-    src: '/images/gallery/stubovi-i-balustrade/stubovi-2.jpg',
-    category: 'stubovi-i-balustrade',
-    caption: 'Stubovi na ulazu u imanje',
+    src: 'https://betonea.com/wp-content/uploads/2025/07/426.jpg',
+    category: 'betonski-lampioni',
+    caption: 'Sifra 426 - Lampion h=195cm',
   },
   {
-    src: '/images/gallery/stubovi-i-balustrade/stubovi-3.jpg',
-    category: 'stubovi-i-balustrade',
-    caption: 'Balustrada uz stepeniste',
-  },
-
-  // Ograde
-  {
-    src: '/images/gallery/betonske-ograde/ograde-1.jpg',
-    category: 'betonske-ograde',
-    caption: 'Dekorativna ograda oko dvorista',
-  },
-  {
-    src: '/images/gallery/betonske-ograde/ograde-2.jpg',
-    category: 'betonske-ograde',
-    caption: 'Ograda sa motivom kamena',
-  },
-  {
-    src: '/images/gallery/betonske-ograde/ograde-3.jpg',
-    category: 'betonske-ograde',
-    caption: 'Kombinovana ograda sa stubovima',
+    src: 'https://betonea.com/wp-content/uploads/2025/07/428.jpg',
+    category: 'betonski-lampioni',
+    caption: 'Sifra 428 - Lampion h=127cm',
   },
 
-  // Kamin maske
+  // Letnjikovci i bastenske garniture
   {
-    src: '/images/gallery/kamin-maske/kamin-1.jpg',
-    category: 'kamin-maske',
-    caption: 'Klasicna kamin maska u dnevnoj sobi',
-  },
-  {
-    src: '/images/gallery/kamin-maske/kamin-2.jpg',
-    category: 'kamin-maske',
-    caption: 'Moderna kamin maska sa dekorativnim elementima',
-  },
-  {
-    src: '/images/gallery/kamin-maske/kamin-3.jpg',
-    category: 'kamin-maske',
-    caption: 'Ugaona kamin maska',
-  },
-
-  // Okapnice
-  {
-    src: '/images/gallery/betonske-okapnice/okapnice-1.jpg',
-    category: 'betonske-okapnice',
-    caption: 'Okapnice na fasadi stambenog objekta',
-  },
-  {
-    src: '/images/gallery/betonske-okapnice/okapnice-2.jpg',
-    category: 'betonske-okapnice',
-    caption: 'Dekorativne okapnice na prozorima',
-  },
-  {
-    src: '/images/gallery/betonske-okapnice/okapnice-3.jpg',
-    category: 'betonske-okapnice',
-    caption: 'Okapnice sa profilisanim ivicama',
-  },
-
-  // Klupe i stolovi
-  {
-    src: '/images/gallery/betonske-klupe-i-stolovi/klupe-1.jpg',
-    category: 'betonske-klupe-i-stolovi',
-    caption: 'Bastenska garnitura u privatnom dvorsistu',
-  },
-  {
-    src: '/images/gallery/betonske-klupe-i-stolovi/klupe-2.jpg',
-    category: 'betonske-klupe-i-stolovi',
-    caption: 'Klupa u parku',
-  },
-  {
-    src: '/images/gallery/betonske-klupe-i-stolovi/klupe-3.jpg',
-    category: 'betonske-klupe-i-stolovi',
-    caption: 'Sto sa klupama ispod pergole',
-  },
-
-  // Letnjikovci
-  {
-    src: '/images/gallery/letnjikovci/letnjikovci-1.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/300.jpg',
     category: 'letnjikovci',
-    caption: 'Letnjikovac u privatnom dvorsistu',
+    caption: 'Sifra 300 - Letnjikovac 8-ugao 392x392cm',
   },
   {
-    src: '/images/gallery/letnjikovci/letnjikovci-2.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/300B.jpg',
     category: 'letnjikovci',
-    caption: 'Pergola sa betonskim stubovima',
+    caption: 'Sifra 300b - Letnjikovac 6-ugao 400x400cm',
   },
   {
-    src: '/images/gallery/letnjikovci/letnjikovci-3.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/422.jpg',
     category: 'letnjikovci',
-    caption: 'Letnjikovac kraj bazena',
+    caption: 'Sifra 422 - Bastenska garnitura ø 126cm',
   },
 
   // Urbani mobilijar
   {
-    src: '/images/gallery/urbani-mobilijar/urbani-5.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/468.jpg',
     category: 'urbani-mobilijar',
-    caption: 'Gradske klupe i korpe u parku',
+    caption: 'Sifra 468 - Betonska klupa 100x100cm',
   },
   {
-    src: '/images/gallery/urbani-mobilijar/urbani-6.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/469.jpg',
     category: 'urbani-mobilijar',
-    caption: 'Betonski stalci za bicikle',
+    caption: 'Sifra 469 - Betonska klupa 180x53cm',
   },
   {
-    src: '/images/gallery/urbani-mobilijar/urbani-7.jpg',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/491.jpg',
     category: 'urbani-mobilijar',
-    caption: 'Betonske korpe za otpatke na setalistu',
+    caption: 'Sifra 491 - Parking stubic 25x25cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/545.jpg',
+    category: 'urbani-mobilijar',
+    caption: 'Sifra 545 - Betonska klupa 240cm',
   },
 
-  // Saksije
+  // Grcki stubovi
   {
-    src: '/images/gallery/betonske-saksije/saksije-8.jpg',
-    category: 'betonske-saksije',
-    caption: 'Niz saksija na terasi',
+    src: 'https://betonea.com/wp-content/uploads/2025/05/302.jpg',
+    category: 'grcki-stubovi',
+    caption: 'Sifra 302 - Grcki stub ø 40cm, h=342,5cm',
   },
   {
-    src: '/images/gallery/betonske-saksije/saksije-9.jpg',
-    category: 'betonske-saksije',
-    caption: 'Velika saksija sa palmom',
+    src: 'https://betonea.com/wp-content/uploads/2025/05/303.jpg',
+    category: 'grcki-stubovi',
+    caption: 'Sifra 303 - Grcki stub ø 40cm, h=382cm',
   },
   {
-    src: '/images/gallery/betonske-saksije/saksije-10.jpg',
-    category: 'betonske-saksije',
-    caption: 'Dekorativne saksije na ulazu',
-  },
-
-  // Stepenista
-  {
-    src: '/images/gallery/betonska-stepenista/stepenista-1.jpg',
-    category: 'betonska-stepenista',
-    caption: 'Spoljasnje stepeniste sa gazistima',
-  },
-  {
-    src: '/images/gallery/betonska-stepenista/stepenista-2.jpg',
-    category: 'betonska-stepenista',
-    caption: 'Stepeniste sa balustradom',
-  },
-  {
-    src: '/images/gallery/betonska-stepenista/stepenista-3.jpg',
-    category: 'betonska-stepenista',
-    caption: 'Zavojno stepeniste od betona',
+    src: 'https://betonea.com/wp-content/uploads/2025/05/305.jpg',
+    category: 'grcki-stubovi',
+    caption: 'Sifra 305 - Grcki stub ø 28/ø22cm, h=287cm',
   },
 
-  // Nadgrobni spomenici
+  // Postamenti za skulpture
   {
-    src: '/images/gallery/nadgrobni-spomenici/spomenici-1.jpg',
-    category: 'nadgrobni-spomenici',
-    caption: 'Memorijalni spomenik sa postoljem',
+    src: 'https://betonea.com/wp-content/uploads/2025/05/362.jpg',
+    category: 'betonski-postamenti',
+    caption: 'Sifra 362 - Postament 50x50cm, h=80cm',
   },
   {
-    src: '/images/gallery/nadgrobni-spomenici/spomenici-2.jpg',
-    category: 'nadgrobni-spomenici',
-    caption: 'Nadgrobna ploca sa ukrasnim elementima',
+    src: 'https://betonea.com/wp-content/uploads/2025/05/363.jpg',
+    category: 'betonski-postamenti',
+    caption: 'Sifra 363 - Postament 60x60cm, h=95cm',
   },
   {
-    src: '/images/gallery/nadgrobni-spomenici/spomenici-3.jpg',
-    category: 'nadgrobni-spomenici',
-    caption: 'Kompletan memorijalni set',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/706.jpg',
+    category: 'betonski-postamenti',
+    caption: 'Sifra 706 - Postament ø 60cm, h=55cm',
   },
 
-  // Ostali proizvodi
+  // Stubovi za ogradu
   {
-    src: '/images/gallery/ostali-proizvodi/ostali-11.jpg',
-    category: 'ostali-proizvodi',
-    caption: 'Dekorativni betonski element po narudzbini',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/318-1.jpg',
+    category: 'stubovi-za-ogradu',
+    caption: 'Sifra 318 - Stub za ogradu 40x40cm, h=174cm',
   },
   {
-    src: '/images/gallery/ostali-proizvodi/ostali-12.jpg',
-    category: 'ostali-proizvodi',
-    caption: 'Betonski ukrasni zid',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/319.jpg',
+    category: 'stubovi-za-ogradu',
+    caption: 'Sifra 319 - Stub za ogradu 40x40cm, h=161cm',
   },
   {
-    src: '/images/gallery/ostali-proizvodi/ostali-13.jpg',
-    category: 'ostali-proizvodi',
-    caption: 'Specijalni proizvod za eksterijer',
+    src: 'https://betonea.com/wp-content/uploads/2025/06/324.jpg',
+    category: 'stubovi-za-ogradu',
+    caption: 'Sifra 324 - Stub za ogradu 20x20cm, h=240cm',
+  },
+
+  // Kape za stubove
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/318AA.jpg',
+    category: 'kape-za-stubove',
+    caption: 'Sifra 318aa - Kapa za stub 46x46cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/348.jpg',
+    category: 'kape-za-stubove',
+    caption: 'Sifra 348 - Kapa za stub 42x42cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/350.jpg',
+    category: 'kape-za-stubove',
+    caption: 'Sifra 350 - Kapa za stub 32x32cm',
+  },
+
+  // Okapnice za temelje
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/s357.jpg',
+    category: 'betonske-okapnice',
+    caption: 'Sifra 357 - Okapnica 30/37cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/s536.jpg',
+    category: 'betonske-okapnice',
+    caption: 'Sifra 536 - Okapnica 40/46cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/s551.jpg',
+    category: 'betonske-okapnice',
+    caption: 'Sifra 551 - Okapnica 35/40cm',
+  },
+
+  // Balustrade
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/367.jpg',
+    category: 'betonske-balustrade',
+    caption: 'Sifra 367 - Balustrada h=100cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/369.jpg',
+    category: 'betonske-balustrade',
+    caption: 'Sifra 369 - Balustrada h=95cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/371.jpg',
+    category: 'betonske-balustrade',
+    caption: 'Sifra 371 - Balustrada h=102cm',
+  },
+
+  // Kamin maske i ukrasi za fasade
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/420.jpg',
+    category: 'kamin-maske',
+    caption: 'Sifra 420 - Kamin maska 138x30cm, h=114cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/398.jpg',
+    category: 'kamin-maske',
+    caption: 'Sifra 398 - Ukras za fasadu h=80cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/400.jpg',
+    category: 'kamin-maske',
+    caption: 'Sifra 400 - Ukras za fasadu h=120cm',
+  },
+
+  // Svecnjaci i andjeli za groblja
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/499A.jpg',
+    category: 'svecnjaci-i-andjeli',
+    caption: 'Sifra 449a - Svecnjak za groblje 48x48cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/08/Postamenti-sajt-slike-5.jpg',
+    category: 'svecnjaci-i-andjeli',
+    caption: 'Sifra 466 - Svecnjak za groblje 51x29cm',
+  },
+  {
+    src: 'https://betonea.com/wp-content/uploads/2025/06/466A.jpg',
+    category: 'svecnjaci-i-andjeli',
+    caption: 'Sifra 466a - Svecnjak za groblje 51x29cm',
   },
 ];
 

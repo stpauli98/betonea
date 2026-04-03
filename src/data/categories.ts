@@ -5,7 +5,7 @@ export const categories: Category[] = [
     name: 'Zardinjere',
     slug: 'betonske-zardinjere',
     description:
-      'Dekorativne betonske zardinjere razlicitih oblika i dimenzija. Idealne za uredenje dvorista, terasa i javnih prostora. Izradjene od vibro-presovanog betona najvise klase.',
+      'Dekorativne betonske zardinjere razlicitih oblika i dimenzija. Idealne za uredenje dvorista, terasa i javnih prostora. Izradjene od armiranog betona.',
     image: '/images/categories/zardinjere.jpg',
     productCount: 60,
   },
@@ -18,100 +18,100 @@ export const categories: Category[] = [
     productCount: 35,
   },
   {
-    name: 'Fontane',
+    name: 'Fontane i bastenske cesme',
     slug: 'betonske-fontane',
     description:
-      'Dekorativne betonske fontane za dvorista i vrtove. Razliciti stilovi od klasicnih do modernih, sa ugradenom pumpom za cirkulaciju vode.',
+      'Dekorativne betonske fontane i bastenske cesme za dvorista i vrtove. Razliciti stilovi od klasicnih do modernih, sa ugradenom pumpom za cirkulaciju vode.',
     image: '/images/categories/fontane.jpg',
-    productCount: 20,
+    productCount: 19,
   },
   {
-    name: 'Stubovi i balustrade',
-    slug: 'stubovi-i-balustrade',
+    name: 'Lampioni za bastu i dvoriste',
+    slug: 'betonski-lampioni',
     description:
-      'Betonski stubovi i balustrade za terase, balkone i stepenista. Klasicni i moderni dizajn, visoka otpornost na vremenske uslove.',
+      'Betonski lampioni za bastu i dvoriste. Dekorativno osvetljenje koje daje poseban ugodaj svakom eksterijeru.',
     image: '/images/categories/stubovi.jpg',
-    productCount: 40,
+    productCount: 7,
   },
   {
-    name: 'Ograde',
-    slug: 'betonske-ograde',
-    description:
-      'Dekorativne betonske ograde za dvorista i imanja. Raznovrsni motivi, boje i dimenzije. Trajno i estetski resenje za ogradivanje prostora.',
-    image: '/images/categories/ograde.jpg',
-    productCount: 30,
-  },
-  {
-    name: 'Kamin maske',
-    slug: 'kamin-maske',
-    description:
-      'Dekorativne kamin maske od betona u razlicitim stilovima. Klasicne i moderne varijante koje dodaju eleganciju svakom enterijeru.',
-    image: '/images/categories/kamin-maske.jpg',
-    productCount: 15,
-  },
-  {
-    name: 'Okapnice',
-    slug: 'betonske-okapnice',
-    description:
-      'Betonske okapnice za prozore i fasade. Zastita od atmosferskih padavina uz estetski doprinos izgledu objekta.',
-    image: '/images/categories/okapnice.jpg',
-    productCount: 20,
-  },
-  {
-    name: 'Klupe i stolovi',
-    slug: 'betonske-klupe-i-stolovi',
-    description:
-      'Betonske bastenske klupe i stolovi za dvorista, parkove i javne povrsine. Robusne konstrukcije otporne na sve vremenske uslove.',
-    image: '/images/categories/klupe.jpg',
-    productCount: 18,
-  },
-  {
-    name: 'Letnjikovci',
+    name: 'Letnjikovci i bastenske garniture',
     slug: 'letnjikovci',
     description:
-      'Betonski letnjikovci i pergole za dvorista. Idealno mesto za odmor i uzivanje na otvorenom. Razlicite velicine i dizajn resenja.',
+      'Betonski letnjikovci i bastenske garniture za dvorista. Idealno mesto za odmor i uzivanje na otvorenom. Razlicite velicine i dizajn resenja.',
     image: '/images/categories/letnjikovci.jpg',
-    productCount: 12,
+    productCount: 8,
   },
   {
     name: 'Urbani mobilijar',
     slug: 'urbani-mobilijar',
     description:
-      'Betonski urbani mobilijar za parkove, trgove i javne povrsine. Klupe, korpe za otpatke, stalci za bicikle i drugi elementi urbanog mobilijara.',
+      'Betonski urbani mobilijar za parkove, trgove i javne povrsine. Klupe, korpe za otpatke, parking stubici i drugi elementi urbanog mobilijara.',
     image: '/images/categories/urbani-mobilijar.jpg',
     productCount: 25,
   },
   {
-    name: 'Saksije',
-    slug: 'betonske-saksije',
+    name: 'Grcki stubovi',
+    slug: 'grcki-stubovi',
     description:
-      'Dekorativne betonske saksije za cvece i biljke. Razlicite velicine i oblici za unutrasnje i spoljasnje prostore.',
-    image: '/images/categories/saksije.jpg',
-    productCount: 30,
+      'Betonski grcki stubovi u klasicnom stilu. Razliciti precnici i visine za dekoraciju fasada, ulaza i enterijera.',
+    image: '/images/categories/stepenista.jpg',
+    productCount: 24,
   },
   {
-    name: 'Stepenista',
-    slug: 'betonska-stepenista',
+    name: 'Postamenti za skulpture',
+    slug: 'betonski-postamenti',
     description:
-      'Betonski elementi za stepenista - gazista, podgazista i ivicnjaci. Precizna izrada i postojane dimenzije za sigurno stepeniste.',
-    image: '/images/categories/stepenista.jpg',
+      'Betonski postamenti razlicitih dimenzija za postavljanje skulptura, vaza i dekorativnih elemenata u eksterijeru.',
+    image: '/images/categories/saksije.jpg',
     productCount: 15,
   },
   {
-    name: 'Nadgrobni spomenici',
-    slug: 'nadgrobni-spomenici',
+    name: 'Stubovi za ogradu',
+    slug: 'stubovi-za-ogradu',
     description:
-      'Nadgrobni spomenici i memorijalni elementi od betona. Dostojanstveni i trajni, izradjeni sa posebnom paznjom i postovanjem.',
-    image: '/images/categories/spomenici.jpg',
+      'Betonski stubovi za ogradu razlicitih dimenzija i stilova. Robusni i trajni, idealni za ogradivanje imanja.',
+    image: '/images/categories/ograde.jpg',
+    productCount: 46,
+  },
+  {
+    name: 'Kape za stubove',
+    slug: 'kape-za-stubove',
+    description:
+      'Betonske kape za stubove razlicitih dimenzija. Zastitni i dekorativni zavrsni element za stubove ograda.',
+    image: '/images/categories/ostali.jpg',
+    productCount: 34,
+  },
+  {
+    name: 'Okapnice za temelje',
+    slug: 'betonske-okapnice',
+    description:
+      'Betonske okapnice za temelje i prozore. Zastita od atmosferskih padavina uz estetski doprinos izgledu objekta.',
+    image: '/images/categories/okapnice.jpg',
+    productCount: 22,
+  },
+  {
+    name: 'Balustrade',
+    slug: 'betonske-balustrade',
+    description:
+      'Betonske balustrade za terase, balkone i stepenista. Klasicni dizajn, visoka otpornost na vremenske uslove.',
+    image: '/images/categories/klupe.jpg',
     productCount: 20,
   },
   {
-    name: 'Ostali proizvodi',
-    slug: 'ostali-proizvodi',
+    name: 'Kamin maske i ukrasi za fasade',
+    slug: 'kamin-maske',
     description:
-      'Razliciti betonski dekorativni proizvodi koji ne spadaju u ostale kategorije. Specijalni proizvodi po narudzbini i meri.',
-    image: '/images/categories/ostali.jpg',
-    productCount: 16,
+      'Dekorativne kamin maske i ukrasi za fasade od betona. Klasicne i moderne varijante koje dodaju eleganciju svakom enterijeru i eksterijeru.',
+    image: '/images/categories/kamin-maske.jpg',
+    productCount: 24,
+  },
+  {
+    name: 'Svecnjaci i andjeli za groblja',
+    slug: 'svecnjaci-i-andjeli',
+    description:
+      'Betonski svecnjaci i andjeli za groblja. Dostojanstveni i trajni, izradjeni sa posebnom paznjom i postovanjem.',
+    image: '/images/categories/spomenici.jpg',
+    productCount: 17,
   },
 ];
 
