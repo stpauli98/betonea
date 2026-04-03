@@ -1,46 +1,50 @@
-import { Palette, Armchair, Building2, Wrench } from 'lucide-react';
 import SectionHeading from '@/components/ui/SectionHeading';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const services = [
   {
-    icon: Palette,
-    title: 'Dekorativni elementi',
+    number: '01',
+    title: 'Dekorativni elementi od betona',
     description:
-      'Žardinjere, skulpture, fontane i ostali ukrasni elementi koji oplemenjuju svaki prostor.',
+      'Unikatni detalji koji oplemenjuju eksterijer i enterijer, spajajući estetiku i trajnost.',
   },
   {
-    icon: Armchair,
+    number: '02',
     title: 'Betonski nameštaj',
     description:
-      'Klupe, stolovi i urbani mobilijar koji spaja trajnost i dizajn.',
+      'Moderni i klasični komadi za dvorište ili poslovni prostor, izrađeni od visokokvalitetnog betona.',
   },
   {
-    icon: Building2,
-    title: 'Građevinski elementi',
+    number: '03',
+    title: 'Arhitektonsko-građevinski elementi',
     description:
-      'Stubovi, balustrade, ograde, okapnice i stepeništa za vaše objekte.',
+      'Funkcionalni i estetski betonski proizvodi za objekte — stubovi, balustrade, okapnice, stepeništa.',
   },
   {
-    icon: Wrench,
-    title: 'Proizvodnja po meri',
+    number: '04',
+    title: 'Proizvodi po zahtevu kupaca',
     description:
-      'Realizujemo vaše ideje u betonu — po vašim nacrtima i željama.',
+      'Izrada betonskih elemenata po meri i dizajnu — realizujemo vaše ideje u betonu.',
   },
-] as const;
+];
 
 export default function Services() {
   return (
     <section className="bg-cream py-20 md:py-28">
-      <div className="mx-auto max-w-6xl px-4">
-        <SectionHeading subtitle="ŠTA RADIMO" title="Naša ponuda" />
+      <div className="mx-auto max-w-7xl px-6 md:px-8">
+        <SectionHeading
+          subtitle="DOBRODOŠLI U SVET BETONSKE GALANTERIJE"
+          title="Naše usluge čine nas liderima u betonskoj galanteriji"
+        />
 
-        <div className="mt-14 grid gap-8 md:grid-cols-2">
+        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl bg-stone-200 md:grid-cols-2">
           {services.map((service, index) => (
-            <ScrollReveal key={service.title} delay={index * 100}>
-              <div className="group rounded-xl bg-white p-8 shadow-sm transition-shadow duration-300 hover:shadow-md">
-                <service.icon className="mb-5 h-10 w-10 text-gold-400 transition-colors duration-300 group-hover:text-gold-500" />
-                <h3 className="font-heading text-xl text-stone-800">
+            <ScrollReveal key={service.number} delay={index * 100}>
+              <div className="group relative bg-white p-10 transition-colors duration-300 hover:bg-stone-50">
+                <span className="font-heading text-5xl font-bold text-gold-200 transition-colors duration-300 group-hover:text-gold-300">
+                  {service.number}
+                </span>
+                <h3 className="mt-4 font-heading text-xl text-stone-800 uppercase tracking-wide">
                   {service.title}
                 </h3>
                 <p className="mt-3 leading-relaxed text-stone-500">
