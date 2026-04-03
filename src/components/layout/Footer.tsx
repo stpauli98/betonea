@@ -156,7 +156,15 @@ export default function Footer() {
       <div className="border-t border-stone-800">
         <div className="mx-auto max-w-[1280px] px-6 py-5 lg:px-8">
           <p className="text-center text-xs text-stone-500">
-            &copy; 2024 Betonea. Sva prava zadržana.
+            &copy; {new Date().getFullYear()} Betonea. Sva prava zadržana. | Izrada sajta:{' '}
+            <a
+              href="https://nextpixel.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold-400 transition-colors hover:text-gold-300"
+            >
+              Next Pixel
+            </a>
           </p>
         </div>
       </div>
