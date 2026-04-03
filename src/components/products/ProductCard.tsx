@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import type { Product } from '@/types';
 
@@ -12,11 +14,19 @@ export default function ProductCard({ product, categorySlug }: ProductCardProps)
       href={`/proizvodi/${categorySlug}/${product.slug}`}
       className="group block"
     >
-      <div className="aspect-square overflow-hidden rounded-lg">
+      <div
+        className="aspect-square overflow-hidden rounded-lg bg-stone-200"
+        style={{
+          backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
+          backgroundSize: '200% 100%',
+          animation: 'shimmer 1.5s infinite',
+        }}
+      >
         <img
           src={product.images?.[0] || `/images/products/${categorySlug}/${product.slug}-1.jpg`}
           alt={product.name}
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="h-full w-full object-cover opacity-0 transition-[opacity,transform] duration-500 group-hover:scale-105"
+          onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('opacity-0') }}
         />
       </div>
       <div className="mt-3">

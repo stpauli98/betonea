@@ -23,7 +23,14 @@ export default function FeaturedCategories() {
                 href={`/proizvodi/${category.slug}`}
                 className="group block overflow-hidden rounded-xl"
               >
-                <div className="relative aspect-4/3 overflow-hidden">
+                <div
+                  className="relative aspect-4/3 overflow-hidden bg-stone-200"
+                  style={{
+                    backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
+                    backgroundSize: '200% 100%',
+                    animation: 'shimmer 1.5s infinite',
+                  }}
+                >
                   <Image
                     src={category.image}
                     alt={category.name}

@@ -38,13 +38,19 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
       <div className="space-y-4">
         {/* Main image */}
         <div
-          className="relative aspect-4/3 overflow-hidden rounded-lg bg-stone-100 cursor-zoom-in"
+          className="relative aspect-4/3 overflow-hidden rounded-lg bg-stone-200 cursor-zoom-in"
+          style={{
+            backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
+            backgroundSize: '200% 100%',
+            animation: 'shimmer 1.5s infinite',
+          }}
           onClick={() => setLightboxOpen(true)}
         >
           <img
             src={images[selectedIndex]}
             alt={`${productName} - slika ${selectedIndex + 1}`}
-            className="h-full w-full object-cover transition-opacity duration-300"
+            className="h-full w-full object-cover opacity-0 transition-opacity duration-500"
+            onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('opacity-0') }}
           />
         </div>
 
@@ -57,16 +63,22 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
                 type="button"
                 onClick={() => setSelectedIndex(index)}
                 className={cn(
-                  'relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-md border-2 transition-all duration-200',
+                  'relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-md border-2 transition-all duration-200 bg-stone-200',
                   index === selectedIndex
                     ? 'border-gold-400 ring-1 ring-gold-400/30'
                     : 'border-stone-200 hover:border-stone-400'
                 )}
+                style={{
+                  backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
+                  backgroundSize: '200% 100%',
+                  animation: 'shimmer 1.5s infinite',
+                }}
               >
                 <img
                   src={image}
                   alt={`${productName} - mala slika ${index + 1}`}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover opacity-0 transition-opacity duration-500"
+                  onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('opacity-0') }}
                 />
               </button>
             ))}

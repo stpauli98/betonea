@@ -42,13 +42,19 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
             >
               <button
                 onClick={() => openLightbox(index)}
-                className="group block w-full overflow-hidden rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400"
+                className="group block w-full overflow-hidden rounded-lg bg-stone-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400"
+                style={{
+                  backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
+                  backgroundSize: '200% 100%',
+                  animation: 'shimmer 1.5s infinite',
+                }}
               >
                 <img
                   src={image.src}
                   alt={image.caption || ''}
-                  className="w-full object-cover transition-transform duration-300 group-hover:scale-105 group-hover:brightness-110"
+                  className="w-full object-cover opacity-0 transition-[opacity,transform] duration-500 group-hover:scale-105 group-hover:brightness-110"
                   loading="lazy"
+                  onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('opacity-0') }}
                 />
               </button>
             </motion.div>

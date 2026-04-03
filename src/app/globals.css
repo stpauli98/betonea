@@ -47,3 +47,9 @@ html {
   background-color: var(--color-gold-200);
   color: var(--color-stone-900);
 }
+
+/* Shimmer loading animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
