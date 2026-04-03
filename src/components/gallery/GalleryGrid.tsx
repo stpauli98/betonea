@@ -40,6 +40,12 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
             }}
           >
             <img
+              ref={(el) => {
+                if (el && el.complete && el.naturalWidth > 0) {
+                  el.classList.remove('opacity-0');
+                  if (el.parentElement) el.parentElement.style.animation = 'none';
+                }
+              }}
               src={image.src}
               alt={image.caption || ''}
               className="absolute inset-0 h-full w-full object-cover opacity-0 transition-[opacity,transform] duration-500 group-hover:scale-105 group-hover:brightness-110"

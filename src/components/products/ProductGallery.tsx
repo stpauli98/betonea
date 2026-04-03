@@ -47,10 +47,21 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
           onClick={() => setLightboxOpen(true)}
         >
           <img
+            ref={(el) => {
+              if (el && el.complete && el.naturalWidth > 0) {
+                el.classList.remove('opacity-0');
+                if (el.parentElement) el.parentElement.style.animation = 'none';
+              }
+            }}
             src={images[selectedIndex]}
             alt={`${productName} - slika ${selectedIndex + 1}`}
             className="h-full w-full object-cover opacity-0 transition-opacity duration-500"
-            onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('opacity-0') }}
+            onLoad={(e) => {
+              const img = e.target as HTMLImageElement;
+              img.classList.remove('opacity-0');
+              const parent = img.parentElement;
+              if (parent) parent.style.animation = 'none';
+            }}
           />
         </div>
 
@@ -75,10 +86,21 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
                 }}
               >
                 <img
+                  ref={(el) => {
+                    if (el && el.complete && el.naturalWidth > 0) {
+                      el.classList.remove('opacity-0');
+                      if (el.parentElement) el.parentElement.style.animation = 'none';
+                    }
+                  }}
                   src={image}
                   alt={`${productName} - mala slika ${index + 1}`}
                   className="h-full w-full object-cover opacity-0 transition-opacity duration-500"
-                  onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('opacity-0') }}
+                  onLoad={(e) => {
+                    const img = e.target as HTMLImageElement;
+                    img.classList.remove('opacity-0');
+                    const parent = img.parentElement;
+                    if (parent) parent.style.animation = 'none';
+                  }}
                 />
               </button>
             ))}

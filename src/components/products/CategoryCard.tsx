@@ -19,10 +19,21 @@ export default function CategoryCard({ category }: CategoryCardProps) {
       }}
     >
       <img
+        ref={(el) => {
+          if (el && el.complete && el.naturalWidth > 0) {
+            el.classList.remove('opacity-0');
+            if (el.parentElement) el.parentElement.style.animation = 'none';
+          }
+        }}
         src={category.image}
         alt={category.name}
         className="absolute inset-0 h-full w-full object-cover opacity-0 transition-[opacity,transform] duration-500 group-hover:scale-105"
-        onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('opacity-0') }}
+        onLoad={(e) => {
+          const img = e.target as HTMLImageElement;
+          img.classList.remove('opacity-0');
+          const parent = img.parentElement;
+          if (parent) parent.style.animation = 'none';
+        }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
       <div className="absolute inset-x-0 bottom-0 p-5">
