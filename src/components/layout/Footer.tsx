@@ -158,7 +158,7 @@ export default function Footer() {
           <p className="text-center text-xs text-stone-500">
             &copy; {new Date().getFullYear()} Betonea. Sva prava zadržana. | Izrada sajta:{' '}
             <a
-              href="https://nextpixel.dev"
+              href="https://www.nextpixel.dev/sr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gold-400 transition-colors hover:text-gold-300"
