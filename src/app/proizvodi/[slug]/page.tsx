@@ -55,12 +55,35 @@ export default async function CategoryPage({ params }: PageProps) {
               { label: 'Proizvodi', href: '/proizvodi' },
               { label: category.name },
             ]}
-            className="mb-12"
+            className="mb-8"
           />
 
+          {/* Mobile: horizontal scrollable category filter */}
+          <div className="mb-8 -mx-6 px-6 lg:hidden">
+            <div className="flex gap-2 overflow-x-auto pb-3 scrollbar-hide">
+              {categories.map((cat) => {
+                const isActive = cat.slug === slug;
+                return (
+                  <Link
+                    key={cat.slug}
+                    href={`/proizvodi/${cat.slug}`}
+                    className={cn(
+                      'shrink-0 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-200',
+                      isActive
+                        ? 'bg-gold-400 font-medium text-white'
+                        : 'bg-stone-100 text-stone-600 hover:bg-stone-200',
+                    )}
+                  >
+                    {cat.name}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+
           <div className="flex flex-col gap-12 lg:flex-row">
-            {/* Sidebar */}
-            <aside className="lg:w-64 shrink-0">
+            {/* Desktop sidebar */}
+            <aside className="hidden shrink-0 lg:block lg:w-64">
               <nav>
                 <h2 className="mb-4 font-heading text-lg text-stone-800">
                   Kategorije
@@ -91,9 +114,9 @@ export default async function CategoryPage({ params }: PageProps) {
             {/* Product grid */}
             <div className="flex-1">
               {categoryProducts.length > 0 ? (
-                <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 grid-cols-2 lg:grid-cols-3">
                   {categoryProducts.map((product, index) => (
-                    <ScrollReveal key={product.slug} delay={index * 100}>
+                    <ScrollReveal key={product.slug} delay={Math.min(index, 5) * 80}>
                       <ProductCard
                         product={product}
                         categorySlug={slug}
