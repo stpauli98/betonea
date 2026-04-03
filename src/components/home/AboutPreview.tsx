@@ -26,14 +26,16 @@ export default function AboutPreview() {
           <ScrollReveal delay={200}>
             <SectionHeading
               subtitle="O NAMA"
-              title="Tradicija i kvalitet od 1998."
+              title="Dom gde beton poprima oblik umetnosti"
               align="left"
             />
             <p className="mt-6 leading-relaxed text-stone-500">
-              Betonea je porodicna firma sa sedistem u Lapovu, specijalizovana za
-              proizvodnju dekorativnih betonskih elemenata. Koristimo vibro-presovani
-              beton najviseg kvaliteta i rucnu doradu koja svakom proizvodu daje
-              jedinstven karakter.
+              Betonea – dom gde beton poprima oblik umetnosti. Nasa misija je da
+              spojimo trajnost i lepotu. Vec godinama stvaramo zardinjere, skulpture,
+              stubove i dekorativne elemente koji oplemenjuju dvorista, vrtove, javne
+              prostore i druge eksterijere. Svaki nas proizvod je izradjen rucno i sa
+              posebnom paznjom, uz upotrebu visokokvalitetnih materijala i modernih
+              tehnologija.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-6">
               {stats.map((stat) => (

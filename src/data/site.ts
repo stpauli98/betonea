@@ -33,9 +33,9 @@ export const siteConfig = {
   },
 
   stats: {
-    projects: { value: 500, label: 'Zavrsenih projekata', suffix: '+' },
+    projects: { value: 500, label: 'Uspesnih projekata', suffix: '+' },
     clients: { value: 300, label: 'Zadovoljnih klijenata', suffix: '+' },
-    years: { value: 25, label: 'Godina iskustva', suffix: '' },
+    years: { value: 25, label: 'Godina postojanja', suffix: '' },
     employees: { value: 15, label: 'Zaposlenih', suffix: '' },
   },
 } as const;

@@ -13,13 +13,13 @@ import { createWhatsAppUrl } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'O nama — Betonea',
   description:
-    'Betonea - vise od 25 godina tradicije u proizvodnji dekorativnih betonskih elemenata. Saznajte vise o nasoj prici, vrednostima i timu.',
+    'Betonea – dom gde beton poprima oblik umetnosti. Vas pouzdan partner za dekorativne betonske elemente.',
 };
 
 export default function ONamaPage() {
   return (
     <>
-      <PageHero title="O nama" subtitle="BETONEA" />
+      <PageHero title="Vas pouzdan partner za dekorativne betonske elemente" subtitle="KO SMO MI" />
 
       {/* Story Section */}
       <section className="py-16 md:py-24">
@@ -36,36 +36,36 @@ export default function ONamaPage() {
             <ScrollReveal>
               <div>
                 <SectionHeading
-                  subtitle="NASA PRICA"
-                  title="Vise od 25 godina tradicije"
+                  subtitle="KO SMO MI"
+                  title="Vas pouzdan partner za dekorativne betonske elemente"
                   align="left"
                   className="mb-8"
                 />
 
                 <div className="space-y-5 text-stone-600 leading-relaxed">
                   <p>
-                    Betonea je porodicna firma koja od 1998. godine stvara
-                    dekorativne betonske elemente izuzetnog kvaliteta. Poceli
-                    smo kao mala radionica u Lapovu, a danas smo jedan od
-                    vodecih proizvodjaca dekorativnog betona u regionu. Nasa
-                    strast prema zanatu i posvecnost detaljima ostale su
-                    nepromenjene od prvog dana.
+                    Dobrodosli u Betonea – dom gde beton poprima oblik
+                    umetnosti.
                   </p>
                   <p>
-                    Svaki nas proizvod prolazi kroz ruke iskusnih majstora koji
-                    spajaju tradicionalne tehnike izrade sa savremenim
-                    materijalima i tehnologijama. Koristimo vibro-presovani
-                    beton najvise klase, otporan na mraz, UV zracenje i
-                    mehaniicka ostecenja. Rezultat je proizvod koji traje
-                    decenijama i vremenom postaje jos lepsi.
+                    Nasa misija je da spojimo trajnost i lepotu. Vec godinama
+                    stvaramo zardinjere, skulpture, stubove i dekorativne
+                    elemente koji oplemenjuju dvorista, vrtove, javne prostore
+                    i druge eksterijere. Svaki nas proizvod je izradjen rucno
+                    i sa posebnom paznjom, uz upotrebu visokokvalitetnih
+                    materijala i modernih tehnologija.
                   </p>
                   <p>
-                    Nasi proizvodi krase vrtove, parkove, hotele i javne
-                    prostore sirom Srbije i regiona. Sardjujemo sa
-                    arhitektama, dizajnerima enterijera i krajnjim kupcima koji
-                    cene kvalitet i jedinstven dizajn. Izvozimo u zemlje
-                    Evropske unije, sto je potvrda nasih visokih standarda
-                    proizvodnje.
+                    U Betonei verujemo da detalji prave razliku. Zato svaki
+                    komad nosi pecat elegancije, luksuza i postojanosti, a
+                    nasi klijenti dobijaju vise od dekoracije – dobijaju deo
+                    ambijenta koji traje i inspirise.
+                  </p>
+                  <p>
+                    Ponosni smo na poverenje koje smo izgradili, na saradnju
+                    sa brojnim domacim i inostranim kupcima, i na cinjenicu da
+                    nasi proizvodi krase dvorista, hotele, restorane i trgove
+                    sirom regiona.
                   </p>
                 </div>
               </div>
@@ -74,8 +74,8 @@ export default function ONamaPage() {
             <ScrollReveal delay={200}>
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-stone-200">
                 <Image
-                  src="/images/about/radionica.jpg"
-                  alt="Betonea radionica - proizvodnja dekorativnog betona"
+                  src="/images/about-hero.jpg"
+                  alt="Betonea - dekorativni betonski elementi"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -95,8 +95,8 @@ export default function ONamaPage() {
           <ScrollReveal>
             <SectionHeading
               subtitle="STA NUDIMO"
-              title="Kompletan asortiman dekorativnog betona"
-              description="Od malih ukrasnih elemenata do velikih arhitektonskih projekata - pokrivamo sve vase potrebe za dekorativnim betonom."
+              title="Dekorativni dizajn u betonu"
+              description="Pogledajte deo nasih najnovijih radova u oblasti dekorativne betonske galanterije. Od bastenskih skulptura i fontana, do ograda, stubova i urbanog mobilijara – nasi proizvodi krase privatna dvorista, poslovne prostore i javne povrsine sirom zemlje."
               className="mb-12"
             />
           </ScrollReveal>
