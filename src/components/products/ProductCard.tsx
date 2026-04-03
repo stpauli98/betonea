@@ -14,7 +14,7 @@ export default function ProductCard({ product, categorySlug }: ProductCardProps)
     >
       <div className="aspect-square overflow-hidden rounded-lg">
         <img
-          src={`/images/products/${categorySlug}/${product.slug}-1.svg`}
+          src={product.images?.[0] || `/images/products/${categorySlug}/${product.slug}-1.jpg`}
           alt={product.name}
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />

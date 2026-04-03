@@ -53,14 +53,11 @@ export default async function ProductDetailPage({
   const category = getCategoryBySlug(slug);
   if (!category) notFound();
 
-  // Build image paths referencing SVGs
+  // Use product image paths from data
   const images =
     product.images.length > 0
-      ? product.images.map(
-          (_, i) =>
-            `/images/products/${product.categorySlug}/${product.slug}-${i + 1}.svg`
-        )
-      : [`/images/products/${product.categorySlug}/${product.slug}-1.svg`];
+      ? product.images
+      : [`/images/products/${product.categorySlug}/${product.slug}-1.jpg`];
 
   // Related products: same category, exclude current, take up to 4
   const relatedProducts = getProductsByCategory(product.categorySlug)

@@ -6,7 +6,7 @@ export const categories: Category[] = [
     slug: 'betonske-zardinjere',
     description:
       'Dekorativne betonske zardinjere razlicitih oblika i dimenzija. Idealne za uredenje dvorista, terasa i javnih prostora. Izradjene od vibro-presovanog betona najvise klase.',
-    image: '/images/categories/zardinjere.svg',
+    image: '/images/categories/zardinjere.jpg',
     productCount: 60,
   },
   {
@@ -14,7 +14,7 @@ export const categories: Category[] = [
     slug: 'betonske-skulpture-za-bastu',
     description:
       'Bastenske skulpture od betona koje oplemenjuju svaki vrt. Figurine, andjeli, zivotinje i klasicne skulpture uredene do najsitnijeg detalja.',
-    image: '/images/categories/skulpture.svg',
+    image: '/images/categories/skulpture.jpg',
     productCount: 35,
   },
   {
@@ -22,7 +22,7 @@ export const categories: Category[] = [
     slug: 'betonske-fontane',
     description:
       'Dekorativne betonske fontane za dvorista i vrtove. Razliciti stilovi od klasicnih do modernih, sa ugradenom pumpom za cirkulaciju vode.',
-    image: '/images/categories/fontane.svg',
+    image: '/images/categories/fontane.jpg',
     productCount: 20,
   },
   {
@@ -30,7 +30,7 @@ export const categories: Category[] = [
     slug: 'stubovi-i-balustrade',
     description:
       'Betonski stubovi i balustrade za terase, balkone i stepenista. Klasicni i moderni dizajn, visoka otpornost na vremenske uslove.',
-    image: '/images/categories/stubovi.svg',
+    image: '/images/categories/stubovi.jpg',
     productCount: 40,
   },
   {
@@ -38,7 +38,7 @@ export const categories: Category[] = [
     slug: 'betonske-ograde',
     description:
       'Dekorativne betonske ograde za dvorista i imanja. Raznovrsni motivi, boje i dimenzije. Trajno i estetski resenje za ogradivanje prostora.',
-    image: '/images/categories/ograde.svg',
+    image: '/images/categories/ograde.jpg',
     productCount: 30,
   },
   {
@@ -46,7 +46,7 @@ export const categories: Category[] = [
     slug: 'kamin-maske',
     description:
       'Dekorativne kamin maske od betona u razlicitim stilovima. Klasicne i moderne varijante koje dodaju eleganciju svakom enterijeru.',
-    image: '/images/categories/kamin-maske.svg',
+    image: '/images/categories/kamin-maske.jpg',
     productCount: 15,
   },
   {
@@ -54,7 +54,7 @@ export const categories: Category[] = [
     slug: 'betonske-okapnice',
     description:
       'Betonske okapnice za prozore i fasade. Zastita od atmosferskih padavina uz estetski doprinos izgledu objekta.',
-    image: '/images/categories/okapnice.svg',
+    image: '/images/categories/okapnice.jpg',
     productCount: 20,
   },
   {
@@ -62,7 +62,7 @@ export const categories: Category[] = [
     slug: 'betonske-klupe-i-stolovi',
     description:
       'Betonske bastenske klupe i stolovi za dvorista, parkove i javne povrsine. Robusne konstrukcije otporne na sve vremenske uslove.',
-    image: '/images/categories/klupe.svg',
+    image: '/images/categories/klupe.jpg',
     productCount: 18,
   },
   {
@@ -70,7 +70,7 @@ export const categories: Category[] = [
     slug: 'letnjikovci',
     description:
       'Betonski letnjikovci i pergole za dvorista. Idealno mesto za odmor i uzivanje na otvorenom. Razlicite velicine i dizajn resenja.',
-    image: '/images/categories/letnjikovci.svg',
+    image: '/images/categories/letnjikovci.jpg',
     productCount: 12,
   },
   {
@@ -78,7 +78,7 @@ export const categories: Category[] = [
     slug: 'urbani-mobilijar',
     description:
       'Betonski urbani mobilijar za parkove, trgove i javne povrsine. Klupe, korpe za otpatke, stalci za bicikle i drugi elementi urbanog mobilijara.',
-    image: '/images/categories/urbani-mobilijar.svg',
+    image: '/images/categories/urbani-mobilijar.jpg',
     productCount: 25,
   },
   {
@@ -86,7 +86,7 @@ export const categories: Category[] = [
     slug: 'betonske-saksije',
     description:
       'Dekorativne betonske saksije za cvece i biljke. Razlicite velicine i oblici za unutrasnje i spoljasnje prostore.',
-    image: '/images/categories/saksije.svg',
+    image: '/images/categories/saksije.jpg',
     productCount: 30,
   },
   {
@@ -94,7 +94,7 @@ export const categories: Category[] = [
     slug: 'betonska-stepenista',
     description:
       'Betonski elementi za stepenista - gazista, podgazista i ivicnjaci. Precizna izrada i postojane dimenzije za sigurno stepeniste.',
-    image: '/images/categories/stepenista.svg',
+    image: '/images/categories/stepenista.jpg',
     productCount: 15,
   },
   {
@@ -102,7 +102,7 @@ export const categories: Category[] = [
     slug: 'nadgrobni-spomenici',
     description:
       'Nadgrobni spomenici i memorijalni elementi od betona. Dostojanstveni i trajni, izradjeni sa posebnom paznjom i postovanjem.',
-    image: '/images/categories/spomenici.svg',
+    image: '/images/categories/spomenici.jpg',
     productCount: 20,
   },
   {
@@ -110,7 +110,7 @@ export const categories: Category[] = [
     slug: 'ostali-proizvodi',
     description:
       'Razliciti betonski dekorativni proizvodi koji ne spadaju u ostale kategorije. Specijalni proizvodi po narudzbini i meri.',
-    image: '/images/categories/ostali.svg',
+    image: '/images/categories/ostali.jpg',
     productCount: 16,
   },
 ];

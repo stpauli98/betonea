@@ -15,8 +15,8 @@ export const products: Product[] = [
     weight: '95 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-zardinjere/athena-v120-1.svg',
-      '/images/products/betonske-zardinjere/athena-v120-2.svg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-1-1.jpg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-1-2.jpg',
     ],
     isFeatured: true,
   },
@@ -31,8 +31,8 @@ export const products: Product[] = [
     weight: '78 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-zardinjere/roma-v60-1.svg',
-      '/images/products/betonske-zardinjere/roma-v60-2.svg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-2-1.jpg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-2-2.jpg',
     ],
   },
   {
@@ -46,8 +46,8 @@ export const products: Product[] = [
     weight: '72 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-zardinjere/diana-v100-1.svg',
-      '/images/products/betonske-zardinjere/diana-v100-2.svg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-3-1.jpg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-3-2.jpg',
     ],
   },
   {
@@ -61,8 +61,8 @@ export const products: Product[] = [
     weight: '130 kg',
     material: 'Armiran vibro-presovani beton',
     images: [
-      '/images/products/betonske-zardinjere/olimp-v150-1.svg',
-      '/images/products/betonske-zardinjere/olimp-v150-2.svg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-4-1.jpg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-4-2.jpg',
     ],
   },
   {
@@ -76,8 +76,8 @@ export const products: Product[] = [
     weight: '45 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-zardinjere/venus-v80-1.svg',
-      '/images/products/betonske-zardinjere/venus-v80-2.svg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-5-1.jpg',
+      '/images/products/betonske-zardinjere/zardinjere-prod-5-2.jpg',
     ],
   },
 
@@ -95,8 +95,8 @@ export const products: Product[] = [
     weight: '85 kg',
     material: 'Armiran beton, rucna dorada',
     images: [
-      '/images/products/betonske-skulpture-za-bastu/lav-1.svg',
-      '/images/products/betonske-skulpture-za-bastu/lav-2.svg',
+      '/images/products/betonske-skulpture-za-bastu/skulpture-prod-1-1.jpg',
+      '/images/products/betonske-skulpture-za-bastu/skulpture-prod-1-2.jpg',
     ],
     isFeatured: true,
   },
@@ -111,8 +111,8 @@ export const products: Product[] = [
     weight: '55 kg',
     material: 'Vibro-presovani beton, rucna dorada',
     images: [
-      '/images/products/betonske-skulpture-za-bastu/andjeo-1.svg',
-      '/images/products/betonske-skulpture-za-bastu/andjeo-2.svg',
+      '/images/products/betonske-skulpture-za-bastu/skulpture-prod-2-1.jpg',
+      '/images/products/betonske-skulpture-za-bastu/skulpture-prod-2-2.jpg',
     ],
   },
   {
@@ -126,8 +126,8 @@ export const products: Product[] = [
     weight: '65 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-skulpture-za-bastu/devocka-sa-vrcom-1.svg',
-      '/images/products/betonske-skulpture-za-bastu/devocka-sa-vrcom-2.svg',
+      '/images/products/betonske-skulpture-za-bastu/skulpture-prod-3-1.jpg',
+      '/images/products/betonske-skulpture-za-bastu/skulpture-prod-3-2.jpg',
     ],
   },
   {
@@ -141,8 +141,8 @@ export const products: Product[] = [
     weight: '70 kg (svaki)',
     material: 'Armiran beton, rucna dorada',
     images: [
-      '/images/products/betonske-skulpture-za-bastu/orao-1.svg',
-      '/images/products/betonske-skulpture-za-bastu/orao-2.svg',
+      '/images/products/betonske-skulpture-za-bastu/skulpture-prod-4-1.jpg',
+      '/images/products/betonske-skulpture-za-bastu/skulpture-prod-4-2.jpg',
     ],
   },
 
@@ -160,8 +160,8 @@ export const products: Product[] = [
     weight: '350 kg',
     material: 'Armiran vibro-presovani beton',
     images: [
-      '/images/products/betonske-fontane/neptun-1.svg',
-      '/images/products/betonske-fontane/neptun-2.svg',
+      '/images/products/betonske-fontane/fontane-prod-1-1.jpg',
+      '/images/products/betonske-fontane/fontane-prod-1-2.jpg',
     ],
     isFeatured: true,
   },
@@ -176,8 +176,8 @@ export const products: Product[] = [
     weight: '180 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-fontane/versaj-1.svg',
-      '/images/products/betonske-fontane/versaj-2.svg',
+      '/images/products/betonske-fontane/fontane-prod-2-1.jpg',
+      '/images/products/betonske-fontane/fontane-prod-2-2.jpg',
     ],
   },
   {
@@ -191,8 +191,8 @@ export const products: Product[] = [
     weight: '65 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-fontane/mali-vodoskok-1.svg',
-      '/images/products/betonske-fontane/mali-vodoskok-2.svg',
+      '/images/products/betonske-fontane/fontane-prod-3-1.jpg',
+      '/images/products/betonske-fontane/fontane-prod-3-2.jpg',
     ],
   },
   {
@@ -206,8 +206,8 @@ export const products: Product[] = [
     weight: '150 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-fontane/kaskada-1.svg',
-      '/images/products/betonske-fontane/kaskada-2.svg',
+      '/images/products/betonske-fontane/fontane-prod-4-1.jpg',
+      '/images/products/betonske-fontane/fontane-prod-4-2.jpg',
     ],
   },
 
@@ -225,8 +225,8 @@ export const products: Product[] = [
     weight: '28 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/stubovi-i-balustrade/jonski-stub-1.svg',
-      '/images/products/stubovi-i-balustrade/jonski-stub-2.svg',
+      '/images/products/stubovi-i-balustrade/stubovi-prod-1-1.jpg',
+      '/images/products/stubovi-i-balustrade/stubovi-prod-1-2.jpg',
     ],
   },
   {
@@ -240,8 +240,8 @@ export const products: Product[] = [
     weight: '35 kg/m',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/stubovi-i-balustrade/balustrada-klasik-1.svg',
-      '/images/products/stubovi-i-balustrade/balustrada-klasik-2.svg',
+      '/images/products/stubovi-i-balustrade/stubovi-prod-2-1.jpg',
+      '/images/products/stubovi-i-balustrade/stubovi-prod-2-2.jpg',
     ],
     isFeatured: true,
   },
@@ -256,8 +256,8 @@ export const products: Product[] = [
     weight: '180 kg',
     material: 'Armiran beton',
     images: [
-      '/images/products/stubovi-i-balustrade/stub-atlas-1.svg',
-      '/images/products/stubovi-i-balustrade/stub-atlas-2.svg',
+      '/images/products/stubovi-i-balustrade/stubovi-prod-3-1.jpg',
+      '/images/products/stubovi-i-balustrade/stubovi-prod-3-2.jpg',
     ],
   },
   {
@@ -271,8 +271,8 @@ export const products: Product[] = [
     weight: '30 kg/m',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/stubovi-i-balustrade/korintski-stub-1.svg',
-      '/images/products/stubovi-i-balustrade/korintski-stub-2.svg',
+      '/images/products/stubovi-i-balustrade/stubovi-prod-4-1.jpg',
+      '/images/products/stubovi-i-balustrade/stubovi-prod-4-2.jpg',
     ],
   },
 
@@ -290,8 +290,8 @@ export const products: Product[] = [
     weight: '85 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-ograde/ograda-rustik-1.svg',
-      '/images/products/betonske-ograde/ograda-rustik-2.svg',
+      '/images/products/betonske-ograde/ograde-prod-1-1.jpg',
+      '/images/products/betonske-ograde/ograde-prod-1-2.jpg',
     ],
     isFeatured: true,
   },
@@ -306,8 +306,8 @@ export const products: Product[] = [
     weight: '82 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-ograde/ograda-klasik-1.svg',
-      '/images/products/betonske-ograde/ograda-klasik-2.svg',
+      '/images/products/betonske-ograde/ograde-prod-2-1.jpg',
+      '/images/products/betonske-ograde/ograde-prod-2-2.jpg',
     ],
   },
   {
@@ -321,8 +321,8 @@ export const products: Product[] = [
     weight: '80 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-ograde/ograda-moderna-1.svg',
-      '/images/products/betonske-ograde/ograda-moderna-2.svg',
+      '/images/products/betonske-ograde/ograde-prod-3-1.jpg',
+      '/images/products/betonske-ograde/ograde-prod-3-2.jpg',
     ],
   },
   {
@@ -336,8 +336,8 @@ export const products: Product[] = [
     weight: '65 kg',
     material: 'Armiran beton',
     images: [
-      '/images/products/betonske-ograde/ograda-barok-1.svg',
-      '/images/products/betonske-ograde/ograda-barok-2.svg',
+      '/images/products/betonske-ograde/ograde-prod-4-1.jpg',
+      '/images/products/betonske-ograde/ograde-prod-4-2.jpg',
     ],
   },
 
@@ -355,8 +355,8 @@ export const products: Product[] = [
     weight: '120 kg',
     material: 'Vibro-presovani beton, rucna dorada',
     images: [
-      '/images/products/kamin-maske/kamin-klasik-1.svg',
-      '/images/products/kamin-maske/kamin-klasik-2.svg',
+      '/images/products/kamin-maske/kamin-prod-1-1.jpg',
+      '/images/products/kamin-maske/kamin-prod-1-2.jpg',
     ],
   },
   {
@@ -370,8 +370,8 @@ export const products: Product[] = [
     weight: '100 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/kamin-maske/kamin-modern-1.svg',
-      '/images/products/kamin-maske/kamin-modern-2.svg',
+      '/images/products/kamin-maske/kamin-prod-2-1.jpg',
+      '/images/products/kamin-maske/kamin-prod-2-2.jpg',
     ],
   },
   {
@@ -385,8 +385,8 @@ export const products: Product[] = [
     weight: '95 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/kamin-maske/kamin-versaj-1.svg',
-      '/images/products/kamin-maske/kamin-versaj-2.svg',
+      '/images/products/kamin-maske/kamin-prod-3-1.jpg',
+      '/images/products/kamin-maske/kamin-prod-3-2.jpg',
     ],
   },
 
@@ -404,8 +404,8 @@ export const products: Product[] = [
     weight: '12 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-okapnice/okapnica-ravna-1.svg',
-      '/images/products/betonske-okapnice/okapnica-ravna-2.svg',
+      '/images/products/betonske-okapnice/okapnice-prod-1-1.jpg',
+      '/images/products/betonske-okapnice/okapnice-prod-1-2.jpg',
     ],
   },
   {
@@ -419,8 +419,8 @@ export const products: Product[] = [
     weight: '16 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-okapnice/okapnica-profilisana-1.svg',
-      '/images/products/betonske-okapnice/okapnica-profilisana-2.svg',
+      '/images/products/betonske-okapnice/okapnice-prod-2-1.jpg',
+      '/images/products/betonske-okapnice/okapnice-prod-2-2.jpg',
     ],
   },
   {
@@ -434,8 +434,8 @@ export const products: Product[] = [
     weight: '14 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-okapnice/okapnica-ukrasna-1.svg',
-      '/images/products/betonske-okapnice/okapnica-ukrasna-2.svg',
+      '/images/products/betonske-okapnice/okapnice-prod-3-1.jpg',
+      '/images/products/betonske-okapnice/okapnice-prod-3-2.jpg',
     ],
   },
 
@@ -453,8 +453,8 @@ export const products: Product[] = [
     weight: '250 kg (komplet)',
     material: 'Armiran vibro-presovani beton',
     images: [
-      '/images/products/betonske-klupe-i-stolovi/klupa-sa-naslonom-1.svg',
-      '/images/products/betonske-klupe-i-stolovi/klupa-sa-naslonom-2.svg',
+      '/images/products/betonske-klupe-i-stolovi/klupe-prod-1-1.jpg',
+      '/images/products/betonske-klupe-i-stolovi/klupe-prod-1-2.jpg',
     ],
     isFeatured: true,
   },
@@ -469,8 +469,8 @@ export const products: Product[] = [
     weight: '120 kg',
     material: 'Armiran beton, tretirano drvo',
     images: [
-      '/images/products/betonske-klupe-i-stolovi/klupa-park-1.svg',
-      '/images/products/betonske-klupe-i-stolovi/klupa-park-2.svg',
+      '/images/products/betonske-klupe-i-stolovi/klupe-prod-2-1.jpg',
+      '/images/products/betonske-klupe-i-stolovi/klupe-prod-2-2.jpg',
     ],
   },
   {
@@ -484,8 +484,8 @@ export const products: Product[] = [
     weight: '90 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-klupe-i-stolovi/sto-okrugli-1.svg',
-      '/images/products/betonske-klupe-i-stolovi/sto-okrugli-2.svg',
+      '/images/products/betonske-klupe-i-stolovi/klupe-prod-3-1.jpg',
+      '/images/products/betonske-klupe-i-stolovi/klupe-prod-3-2.jpg',
     ],
   },
 
@@ -503,8 +503,8 @@ export const products: Product[] = [
     weight: '2500 kg',
     material: 'Armiran beton, metalna konstrukcija krova',
     images: [
-      '/images/products/letnjikovci/letnjikovac-klasik-1.svg',
-      '/images/products/letnjikovci/letnjikovac-klasik-2.svg',
+      '/images/products/letnjikovci/letnjikovci-prod-1-1.jpg',
+      '/images/products/letnjikovci/letnjikovci-prod-1-2.jpg',
     ],
     isFeatured: true,
   },
@@ -519,8 +519,8 @@ export const products: Product[] = [
     weight: '2000 kg',
     material: 'Armiran beton, metalna konstrukcija krova',
     images: [
-      '/images/products/letnjikovci/letnjikovac-rimski-1.svg',
-      '/images/products/letnjikovci/letnjikovac-rimski-2.svg',
+      '/images/products/letnjikovci/letnjikovci-prod-2-1.jpg',
+      '/images/products/letnjikovci/letnjikovci-prod-2-2.jpg',
     ],
   },
   {
@@ -534,8 +534,8 @@ export const products: Product[] = [
     weight: '1800 kg',
     material: 'Armiran beton',
     images: [
-      '/images/products/letnjikovci/letnjikovac-moderni-1.svg',
-      '/images/products/letnjikovci/letnjikovac-moderni-2.svg',
+      '/images/products/letnjikovci/letnjikovci-prod-3-1.jpg',
+      '/images/products/letnjikovci/letnjikovci-prod-3-2.jpg',
     ],
   },
 
@@ -553,8 +553,8 @@ export const products: Product[] = [
     weight: '200 kg',
     material: 'Armiran beton, tretirano drvo',
     images: [
-      '/images/products/urbani-mobilijar/klupa-urbana-1.svg',
-      '/images/products/urbani-mobilijar/klupa-urbana-2.svg',
+      '/images/products/urbani-mobilijar/urbani-prod-1-1.jpg',
+      '/images/products/urbani-mobilijar/urbani-prod-1-2.jpg',
     ],
   },
   {
@@ -568,8 +568,8 @@ export const products: Product[] = [
     weight: '65 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/urbani-mobilijar/kanta-za-smece-1.svg',
-      '/images/products/urbani-mobilijar/kanta-za-smece-2.svg',
+      '/images/products/urbani-mobilijar/urbani-prod-2-1.jpg',
+      '/images/products/urbani-mobilijar/urbani-prod-2-2.jpg',
     ],
   },
   {
@@ -583,8 +583,8 @@ export const products: Product[] = [
     weight: '180 kg',
     material: 'Armiran beton, nerdjajuci celik',
     images: [
-      '/images/products/urbani-mobilijar/stubic-parkovni-1.svg',
-      '/images/products/urbani-mobilijar/stubic-parkovni-2.svg',
+      '/images/products/urbani-mobilijar/urbani-prod-3-1.jpg',
+      '/images/products/urbani-mobilijar/urbani-prod-3-2.jpg',
     ],
   },
   {
@@ -598,8 +598,8 @@ export const products: Product[] = [
     weight: '75 kg',
     material: 'Armiran beton',
     images: [
-      '/images/products/urbani-mobilijar/jardinijera-urbana-1.svg',
-      '/images/products/urbani-mobilijar/jardinijera-urbana-2.svg',
+      '/images/products/urbani-mobilijar/urbani-prod-4-1.jpg',
+      '/images/products/urbani-mobilijar/urbani-prod-4-2.jpg',
     ],
   },
 
@@ -617,8 +617,8 @@ export const products: Product[] = [
     weight: '35 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-saksije/saksija-kugla-1.svg',
-      '/images/products/betonske-saksije/saksija-kugla-2.svg',
+      '/images/products/betonske-saksije/saksije-prod-1-1.jpg',
+      '/images/products/betonske-saksije/saksije-prod-1-2.jpg',
     ],
   },
   {
@@ -632,8 +632,8 @@ export const products: Product[] = [
     weight: '28 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-saksije/saksija-pravougaona-1.svg',
-      '/images/products/betonske-saksije/saksija-pravougaona-2.svg',
+      '/images/products/betonske-saksije/saksije-prod-2-1.jpg',
+      '/images/products/betonske-saksije/saksije-prod-2-2.jpg',
     ],
   },
   {
@@ -647,8 +647,8 @@ export const products: Product[] = [
     weight: '40 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonske-saksije/saksija-oval-1.svg',
-      '/images/products/betonske-saksije/saksija-oval-2.svg',
+      '/images/products/betonske-saksije/saksije-prod-3-1.jpg',
+      '/images/products/betonske-saksije/saksije-prod-3-2.jpg',
     ],
   },
   {
@@ -662,8 +662,8 @@ export const products: Product[] = [
     weight: '12 kg',
     material: 'Laki vibro-presovani beton',
     images: [
-      '/images/products/betonske-saksije/saksija-konus-1.svg',
-      '/images/products/betonske-saksije/saksija-konus-2.svg',
+      '/images/products/betonske-saksije/saksije-prod-4-1.jpg',
+      '/images/products/betonske-saksije/saksije-prod-4-2.jpg',
     ],
   },
 
@@ -681,8 +681,8 @@ export const products: Product[] = [
     weight: '22 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonska-stepenista/stepeniste-klasicno-1.svg',
-      '/images/products/betonska-stepenista/stepeniste-klasicno-2.svg',
+      '/images/products/betonska-stepenista/stepenista-prod-1-1.jpg',
+      '/images/products/betonska-stepenista/stepenista-prod-1-2.jpg',
     ],
   },
   {
@@ -696,8 +696,8 @@ export const products: Product[] = [
     weight: '28 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonska-stepenista/stepeniste-moderno-1.svg',
-      '/images/products/betonska-stepenista/stepeniste-moderno-2.svg',
+      '/images/products/betonska-stepenista/stepenista-prod-2-1.jpg',
+      '/images/products/betonska-stepenista/stepenista-prod-2-2.jpg',
     ],
   },
   {
@@ -711,8 +711,8 @@ export const products: Product[] = [
     weight: '18 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/betonska-stepenista/stepeniste-spiralno-1.svg',
-      '/images/products/betonska-stepenista/stepeniste-spiralno-2.svg',
+      '/images/products/betonska-stepenista/stepenista-prod-3-1.jpg',
+      '/images/products/betonska-stepenista/stepenista-prod-3-2.jpg',
     ],
   },
 
@@ -730,8 +730,8 @@ export const products: Product[] = [
     weight: '450 kg',
     material: 'Armiran vibro-presovani beton',
     images: [
-      '/images/products/nadgrobni-spomenici/spomenik-klasik-1.svg',
-      '/images/products/nadgrobni-spomenici/spomenik-klasik-2.svg',
+      '/images/products/nadgrobni-spomenici/spomenici-prod-1-1.jpg',
+      '/images/products/nadgrobni-spomenici/spomenici-prod-1-2.jpg',
     ],
   },
   {
@@ -745,8 +745,8 @@ export const products: Product[] = [
     weight: '55 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/nadgrobni-spomenici/spomenik-andjeo-1.svg',
-      '/images/products/nadgrobni-spomenici/spomenik-andjeo-2.svg',
+      '/images/products/nadgrobni-spomenici/spomenici-prod-2-1.jpg',
+      '/images/products/nadgrobni-spomenici/spomenici-prod-2-2.jpg',
     ],
   },
   {
@@ -760,8 +760,8 @@ export const products: Product[] = [
     weight: '80 kg',
     material: 'Armiran beton',
     images: [
-      '/images/products/nadgrobni-spomenici/spomenik-krst-1.svg',
-      '/images/products/nadgrobni-spomenici/spomenik-krst-2.svg',
+      '/images/products/nadgrobni-spomenici/spomenici-prod-3-1.jpg',
+      '/images/products/nadgrobni-spomenici/spomenici-prod-3-2.jpg',
     ],
   },
 
@@ -779,8 +779,8 @@ export const products: Product[] = [
     weight: '35 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/ostali-proizvodi/betonski-cvet-1.svg',
-      '/images/products/ostali-proizvodi/betonski-cvet-2.svg',
+      '/images/products/ostali-proizvodi/ostali-prod-1-1.jpg',
+      '/images/products/ostali-proizvodi/ostali-prod-1-2.jpg',
     ],
   },
   {
@@ -794,8 +794,8 @@ export const products: Product[] = [
     weight: '8 kg',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/ostali-proizvodi/dekorativna-ploca-1.svg',
-      '/images/products/ostali-proizvodi/dekorativna-ploca-2.svg',
+      '/images/products/ostali-proizvodi/ostali-prod-2-1.jpg',
+      '/images/products/ostali-proizvodi/ostali-prod-2-2.jpg',
     ],
   },
   {
@@ -809,8 +809,8 @@ export const products: Product[] = [
     weight: '0.5 kg (po cifri)',
     material: 'Vibro-presovani beton',
     images: [
-      '/images/products/ostali-proizvodi/ukrasni-kamen-1.svg',
-      '/images/products/ostali-proizvodi/ukrasni-kamen-2.svg',
+      '/images/products/ostali-proizvodi/ostali-prod-3-1.jpg',
+      '/images/products/ostali-proizvodi/ostali-prod-3-2.jpg',
     ],
     isFeatured: true,
   },
