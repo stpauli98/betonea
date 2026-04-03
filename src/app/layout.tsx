@@ -19,18 +19,41 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Betonea — Dekorativna betonska galanterija | Lapovo, Srbija',
+    default: 'Betonska Galanterija - Betonea Lapovo',
     template: '%s | Betonea',
   },
   description:
-    'Betonea — proizvođač dekorativne betonske galanterije. Žardinjere, skulpture, fontane, stubovi, balustrade i urbani mobilijar. Ručna izrada, Lapovo, Srbija.',
+    'Betonska galanterija Betonea Lapovo – skulpture od betona, betonski elementi i betonska dekoracija po vašoj želji.',
   metadataBase: new URL('https://betonea.com'),
+  icons: {
+    icon: [
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-192x192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180' },
+    ],
+  },
   openGraph: {
     type: 'website',
-    locale: 'sr_RS',
+    locale: 'bs_BA',
     url: 'https://betonea.com',
     siteName: 'Betonea',
-    images: [{ url: '/images/og-image.jpg', width: 1200, height: 630 }],
+    title: 'Betonska Galanterija - Betonea Lapovo',
+    description: 'Betonska galanterija Betonea Lapovo – skulpture od betona, betonski elementi i betonska dekoracija po vašoj želji.',
+    images: [{ url: '/og-logo.png', width: 512, height: 512 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Betonska Galanterija - Betonea Lapovo',
+    description: 'Betonska galanterija Betonea Lapovo – skulpture od betona, betonski elementi i betonska dekoracija po vašoj želji.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    'max-snippet': -1,
+    'max-video-preview': -1,
+    'max-image-preview': 'large' as const,
   },
 }
 
