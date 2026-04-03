@@ -18,17 +18,31 @@ const navLinks = [
 ]
 
 export default function Header() {
-  const [scrolled, setScrolled] = useState(false)
+  const [scrolled, setScrolled] = useState(true) // start solid, switch to transparent if hero exists
+  const [hasHero, setHasHero] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   useEffect(() => {
+    // Detect if page has a hero section (PageHero or Hero component with -mt- class)
+    const heroEl = document.querySelector('section.-mt-16, section.-mt-20, [class*="-mt-16"], [class*="-mt-20"]')
+    const pageHasHero = !!heroEl
+    setHasHero(pageHasHero)
+
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20)
+      if (pageHasHero) {
+        setScrolled(window.scrollY > 50)
+      } else {
+        setScrolled(true) // always solid on pages without hero
+      }
     }
-    window.addEventListener('scroll', handleScroll, { passive: true })
+
     handleScroll()
+    window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  // On pages without hero, always use dark text
+  const isTransparent = hasHero && !scrolled
 
   const primaryPhone = siteConfig.contact.phones[0]
 
@@ -36,16 +50,16 @@ export default function Header() {
     <>
       <motion.header
         className={cn(
-          'fixed top-0 left-0 right-0 z-50 transition-colors duration-300',
-          scrolled
-            ? 'bg-white/95 backdrop-blur-md shadow-sm'
-            : 'bg-transparent'
+          'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+          isTransparent
+            ? 'bg-transparent'
+            : 'bg-white/95 backdrop-blur-md shadow-sm'
         )}
         initial={false}
         animate={{
-          backgroundColor: scrolled
-            ? 'rgba(255, 255, 255, 0.95)'
-            : 'rgba(255, 255, 255, 0)',
+          backgroundColor: isTransparent
+            ? 'rgba(255, 255, 255, 0)'
+            : 'rgba(255, 255, 255, 0.95)',
         }}
         transition={{ duration: 0.3 }}
       >
@@ -54,7 +68,10 @@ export default function Header() {
             {/* Logo */}
             <Link
               href="/"
-              className="font-heading text-xl tracking-widest text-stone-900 transition-colors hover:text-gold-400"
+              className={cn(
+                'font-heading text-xl tracking-widest transition-colors hover:text-gold-400',
+                isTransparent ? 'text-white' : 'text-stone-900'
+              )}
             >
               BETONEA
             </Link>
@@ -65,7 +82,10 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm font-medium text-stone-700 transition-colors hover:text-gold-400"
+                  className={cn(
+                    'text-sm font-medium transition-colors hover:text-gold-400',
+                    isTransparent ? 'text-white/90' : 'text-stone-700'
+                  )}
                 >
                   {link.label}
                 </Link>
@@ -76,7 +96,10 @@ export default function Header() {
             <div className="hidden items-center gap-4 lg:flex">
               <a
                 href={`tel:${formatPhoneForTel(primaryPhone.number)}`}
-                className="flex items-center gap-2 text-sm text-stone-600 transition-colors hover:text-gold-400"
+                className={cn(
+                  'flex items-center gap-2 text-sm transition-colors hover:text-gold-400',
+                  isTransparent ? 'text-white/80' : 'text-stone-600'
+                )}
               >
                 <Phone className="h-4 w-4" />
                 <span>{primaryPhone.number}</span>
@@ -92,7 +115,10 @@ export default function Header() {
             {/* Mobile hamburger */}
             <button
               type="button"
-              className="flex items-center justify-center rounded-md p-2 text-stone-700 transition-colors hover:text-gold-400 lg:hidden"
+              className={cn(
+                'flex items-center justify-center rounded-md p-2 transition-colors hover:text-gold-400 lg:hidden',
+                isTransparent ? 'text-white' : 'text-stone-700'
+              )}
               onClick={() => setMobileMenuOpen(true)}
               aria-label="Otvori meni"
             >
