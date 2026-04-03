@@ -14,7 +14,10 @@ export const products: Product[] = [
     dimensions: '120 x 45 x 50 cm',
     weight: '95 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-zardinjere/zardinjera-athena-v-120-1.jpg'],
+    images: [
+      '/images/products/betonske-zardinjere/athena-v120-1.svg',
+      '/images/products/betonske-zardinjere/athena-v120-2.svg',
+    ],
     isFeatured: true,
   },
   {
@@ -27,7 +30,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 80 cm, visina 55 cm',
     weight: '78 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-zardinjere/zardinjera-rimska-okrugla-r-80-1.jpg'],
+    images: [
+      '/images/products/betonske-zardinjere/roma-v60-1.svg',
+      '/images/products/betonske-zardinjere/roma-v60-2.svg',
+    ],
   },
   {
     name: 'Zardinjera Moderna K-100',
@@ -39,7 +45,10 @@ export const products: Product[] = [
     dimensions: '100 x 40 x 45 cm',
     weight: '72 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-zardinjere/zardinjera-moderna-k-100-1.jpg'],
+    images: [
+      '/images/products/betonske-zardinjere/diana-v100-1.svg',
+      '/images/products/betonske-zardinjere/diana-v100-2.svg',
+    ],
   },
   {
     name: 'Zardinjera Versailles V-150',
@@ -51,7 +60,10 @@ export const products: Product[] = [
     dimensions: '150 x 50 x 60 cm',
     weight: '130 kg',
     material: 'Armiran vibro-presovani beton',
-    images: ['/images/products/betonske-zardinjere/zardinjera-versailles-v-150-1.jpg'],
+    images: [
+      '/images/products/betonske-zardinjere/olimp-v150-1.svg',
+      '/images/products/betonske-zardinjere/olimp-v150-2.svg',
+    ],
   },
   {
     name: 'Zardinjera Piramida P-60',
@@ -63,7 +75,10 @@ export const products: Product[] = [
     dimensions: '60 x 60 x 50 cm',
     weight: '45 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-zardinjere/zardinjera-piramida-p-60-1.jpg'],
+    images: [
+      '/images/products/betonske-zardinjere/venus-v80-1.svg',
+      '/images/products/betonske-zardinjere/venus-v80-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -79,7 +94,10 @@ export const products: Product[] = [
     dimensions: '75 x 35 x 60 cm',
     weight: '85 kg',
     material: 'Armiran beton, rucna dorada',
-    images: ['/images/products/betonske-skulpture-za-bastu/skulptura-lav-1.jpg'],
+    images: [
+      '/images/products/betonske-skulpture-za-bastu/lav-1.svg',
+      '/images/products/betonske-skulpture-za-bastu/lav-2.svg',
+    ],
     isFeatured: true,
   },
   {
@@ -92,7 +110,10 @@ export const products: Product[] = [
     dimensions: '40 x 30 x 90 cm',
     weight: '55 kg',
     material: 'Vibro-presovani beton, rucna dorada',
-    images: ['/images/products/betonske-skulpture-za-bastu/andjeo-sa-krilima-1.jpg'],
+    images: [
+      '/images/products/betonske-skulpture-za-bastu/andjeo-1.svg',
+      '/images/products/betonske-skulpture-za-bastu/andjeo-2.svg',
+    ],
   },
   {
     name: 'Devojka sa dzbanovom',
@@ -104,7 +125,10 @@ export const products: Product[] = [
     dimensions: '35 x 35 x 100 cm',
     weight: '65 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-skulpture-za-bastu/devojka-sa-dzbanovom-1.jpg'],
+    images: [
+      '/images/products/betonske-skulpture-za-bastu/devocka-sa-vrcom-1.svg',
+      '/images/products/betonske-skulpture-za-bastu/devocka-sa-vrcom-2.svg',
+    ],
   },
   {
     name: 'Par lavova - komplet',
@@ -116,7 +140,10 @@ export const products: Product[] = [
     dimensions: '65 x 30 x 50 cm (svaki)',
     weight: '70 kg (svaki)',
     material: 'Armiran beton, rucna dorada',
-    images: ['/images/products/betonske-skulpture-za-bastu/par-lavova-komplet-1.jpg'],
+    images: [
+      '/images/products/betonske-skulpture-za-bastu/orao-1.svg',
+      '/images/products/betonske-skulpture-za-bastu/orao-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -132,7 +159,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 180 cm, visina 200 cm',
     weight: '350 kg',
     material: 'Armiran vibro-presovani beton',
-    images: ['/images/products/betonske-fontane/fontana-neptun-1.jpg'],
+    images: [
+      '/images/products/betonske-fontane/neptun-1.svg',
+      '/images/products/betonske-fontane/neptun-2.svg',
+    ],
     isFeatured: true,
   },
   {
@@ -145,7 +175,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 120 cm, visina 150 cm',
     weight: '180 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-fontane/fontana-venecija-1.jpg'],
+    images: [
+      '/images/products/betonske-fontane/versaj-1.svg',
+      '/images/products/betonske-fontane/versaj-2.svg',
+    ],
   },
   {
     name: 'Zidna fontana Lav',
@@ -157,7 +190,10 @@ export const products: Product[] = [
     dimensions: '60 x 30 x 80 cm',
     weight: '65 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-fontane/zidna-fontana-lav-1.jpg'],
+    images: [
+      '/images/products/betonske-fontane/mali-vodoskok-1.svg',
+      '/images/products/betonske-fontane/mali-vodoskok-2.svg',
+    ],
   },
   {
     name: 'Fontana Kaskada',
@@ -169,7 +205,10 @@ export const products: Product[] = [
     dimensions: '100 x 100 x 130 cm',
     weight: '150 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-fontane/fontana-kaskada-1.jpg'],
+    images: [
+      '/images/products/betonske-fontane/kaskada-1.svg',
+      '/images/products/betonske-fontane/kaskada-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -185,7 +224,10 @@ export const products: Product[] = [
     dimensions: '15 x 15 x 90 cm',
     weight: '28 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/stubovi-i-balustrade/stub-klasicni-s-90-1.jpg'],
+    images: [
+      '/images/products/stubovi-i-balustrade/jonski-stub-1.svg',
+      '/images/products/stubovi-i-balustrade/jonski-stub-2.svg',
+    ],
   },
   {
     name: 'Balustrada Antika komplet',
@@ -197,7 +239,10 @@ export const products: Product[] = [
     dimensions: 'Visina 85 cm, rastojanje baluster 12 cm',
     weight: '35 kg/m',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/stubovi-i-balustrade/balustrada-antika-komplet-1.jpg'],
+    images: [
+      '/images/products/stubovi-i-balustrade/balustrada-klasik-1.svg',
+      '/images/products/stubovi-i-balustrade/balustrada-klasik-2.svg',
+    ],
     isFeatured: true,
   },
   {
@@ -210,7 +255,10 @@ export const products: Product[] = [
     dimensions: '40 x 40 x 200 cm',
     weight: '180 kg',
     material: 'Armiran beton',
-    images: ['/images/products/stubovi-i-balustrade/stub-kapije-veliki-sk-200-1.jpg'],
+    images: [
+      '/images/products/stubovi-i-balustrade/stub-atlas-1.svg',
+      '/images/products/stubovi-i-balustrade/stub-atlas-2.svg',
+    ],
   },
   {
     name: 'Balustrada Moderna komplet',
@@ -222,7 +270,10 @@ export const products: Product[] = [
     dimensions: 'Visina 90 cm, rastojanje baluster 10 cm',
     weight: '30 kg/m',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/stubovi-i-balustrade/balustrada-moderna-komplet-1.jpg'],
+    images: [
+      '/images/products/stubovi-i-balustrade/korintski-stub-1.svg',
+      '/images/products/stubovi-i-balustrade/korintski-stub-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -238,7 +289,10 @@ export const products: Product[] = [
     dimensions: '200 x 5 x 50 cm (panel)',
     weight: '85 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-ograde/ograda-kamen-motiv-1.jpg'],
+    images: [
+      '/images/products/betonske-ograde/ograda-rustik-1.svg',
+      '/images/products/betonske-ograde/ograda-rustik-2.svg',
+    ],
     isFeatured: true,
   },
   {
@@ -251,7 +305,10 @@ export const products: Product[] = [
     dimensions: '200 x 5 x 50 cm (panel)',
     weight: '82 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-ograde/ograda-cigla-motiv-1.jpg'],
+    images: [
+      '/images/products/betonske-ograde/ograda-klasik-1.svg',
+      '/images/products/betonske-ograde/ograda-klasik-2.svg',
+    ],
   },
   {
     name: 'Ograda Dijamant',
@@ -263,7 +320,10 @@ export const products: Product[] = [
     dimensions: '200 x 5 x 50 cm (panel)',
     weight: '80 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-ograde/ograda-dijamant-1.jpg'],
+    images: [
+      '/images/products/betonske-ograde/ograda-moderna-1.svg',
+      '/images/products/betonske-ograde/ograda-moderna-2.svg',
+    ],
   },
   {
     name: 'Ograda Stub za ogradu S-250',
@@ -275,7 +335,10 @@ export const products: Product[] = [
     dimensions: '14 x 14 x 250 cm',
     weight: '65 kg',
     material: 'Armiran beton',
-    images: ['/images/products/betonske-ograde/ograda-stub-s-250-1.jpg'],
+    images: [
+      '/images/products/betonske-ograde/ograda-barok-1.svg',
+      '/images/products/betonske-ograde/ograda-barok-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -291,7 +354,10 @@ export const products: Product[] = [
     dimensions: '130 x 25 x 110 cm',
     weight: '120 kg',
     material: 'Vibro-presovani beton, rucna dorada',
-    images: ['/images/products/kamin-maske/kamin-maska-klasik-1.jpg'],
+    images: [
+      '/images/products/kamin-maske/kamin-klasik-1.svg',
+      '/images/products/kamin-maske/kamin-klasik-2.svg',
+    ],
   },
   {
     name: 'Kamin maska Moderna',
@@ -303,7 +369,10 @@ export const products: Product[] = [
     dimensions: '140 x 20 x 115 cm',
     weight: '100 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/kamin-maske/kamin-maska-moderna-1.jpg'],
+    images: [
+      '/images/products/kamin-maske/kamin-modern-1.svg',
+      '/images/products/kamin-maske/kamin-modern-2.svg',
+    ],
   },
   {
     name: 'Kamin maska Ugaona',
@@ -315,7 +384,10 @@ export const products: Product[] = [
     dimensions: '100 x 100 x 110 cm',
     weight: '95 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/kamin-maske/kamin-maska-ugaona-1.jpg'],
+    images: [
+      '/images/products/kamin-maske/kamin-versaj-1.svg',
+      '/images/products/kamin-maske/kamin-versaj-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -331,7 +403,10 @@ export const products: Product[] = [
     dimensions: '100 x 18 x 4 cm',
     weight: '12 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-okapnice/okapnica-ravna-or-100-1.jpg'],
+    images: [
+      '/images/products/betonske-okapnice/okapnica-ravna-1.svg',
+      '/images/products/betonske-okapnice/okapnica-ravna-2.svg',
+    ],
   },
   {
     name: 'Okapnica Profilisana OP-120',
@@ -343,7 +418,10 @@ export const products: Product[] = [
     dimensions: '120 x 20 x 5 cm',
     weight: '16 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-okapnice/okapnica-profilisana-op-120-1.jpg'],
+    images: [
+      '/images/products/betonske-okapnice/okapnica-profilisana-1.svg',
+      '/images/products/betonske-okapnice/okapnica-profilisana-2.svg',
+    ],
   },
   {
     name: 'Okapnica sa nosom ON-100',
@@ -355,7 +433,10 @@ export const products: Product[] = [
     dimensions: '100 x 22 x 5 cm',
     weight: '14 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-okapnice/okapnica-sa-nosom-on-100-1.jpg'],
+    images: [
+      '/images/products/betonske-okapnice/okapnica-ukrasna-1.svg',
+      '/images/products/betonske-okapnice/okapnica-ukrasna-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -371,7 +452,10 @@ export const products: Product[] = [
     dimensions: 'Sto: 150 x 80 x 75 cm, Klupa: 150 x 40 x 45 cm',
     weight: '250 kg (komplet)',
     material: 'Armiran vibro-presovani beton',
-    images: ['/images/products/betonske-klupe-i-stolovi/bastenska-garnitura-klasik-1.jpg'],
+    images: [
+      '/images/products/betonske-klupe-i-stolovi/klupa-sa-naslonom-1.svg',
+      '/images/products/betonske-klupe-i-stolovi/klupa-sa-naslonom-2.svg',
+    ],
     isFeatured: true,
   },
   {
@@ -384,7 +468,10 @@ export const products: Product[] = [
     dimensions: '180 x 55 x 80 cm',
     weight: '120 kg',
     material: 'Armiran beton, tretirano drvo',
-    images: ['/images/products/betonske-klupe-i-stolovi/klupa-parkska-k-180-1.jpg'],
+    images: [
+      '/images/products/betonske-klupe-i-stolovi/klupa-park-1.svg',
+      '/images/products/betonske-klupe-i-stolovi/klupa-park-2.svg',
+    ],
   },
   {
     name: 'Okrugli sto Rimski',
@@ -396,7 +483,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 100 cm, visina 75 cm',
     weight: '90 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-klupe-i-stolovi/okrugli-sto-rimski-1.jpg'],
+    images: [
+      '/images/products/betonske-klupe-i-stolovi/sto-okrugli-1.svg',
+      '/images/products/betonske-klupe-i-stolovi/sto-okrugli-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -412,7 +502,10 @@ export const products: Product[] = [
     dimensions: '350 x 350 x 320 cm',
     weight: '2500 kg',
     material: 'Armiran beton, metalna konstrukcija krova',
-    images: ['/images/products/letnjikovci/letnjikovac-atina-l-350-1.jpg'],
+    images: [
+      '/images/products/letnjikovci/letnjikovac-klasik-1.svg',
+      '/images/products/letnjikovci/letnjikovac-klasik-2.svg',
+    ],
     isFeatured: true,
   },
   {
@@ -425,7 +518,10 @@ export const products: Product[] = [
     dimensions: '300 x 300 x 300 cm',
     weight: '2000 kg',
     material: 'Armiran beton, metalna konstrukcija krova',
-    images: ['/images/products/letnjikovci/letnjikovac-rim-l-300-1.jpg'],
+    images: [
+      '/images/products/letnjikovci/letnjikovac-rimski-1.svg',
+      '/images/products/letnjikovci/letnjikovac-rimski-2.svg',
+    ],
   },
   {
     name: 'Pergola Moderna P-400',
@@ -437,7 +533,10 @@ export const products: Product[] = [
     dimensions: '400 x 300 x 280 cm',
     weight: '1800 kg',
     material: 'Armiran beton',
-    images: ['/images/products/letnjikovci/pergola-moderna-p-400-1.jpg'],
+    images: [
+      '/images/products/letnjikovci/letnjikovac-moderni-1.svg',
+      '/images/products/letnjikovci/letnjikovac-moderni-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -453,7 +552,10 @@ export const products: Product[] = [
     dimensions: '180 x 60 x 80 cm',
     weight: '200 kg',
     material: 'Armiran beton, tretirano drvo',
-    images: ['/images/products/urbani-mobilijar/gradska-klupa-gk-180-1.jpg'],
+    images: [
+      '/images/products/urbani-mobilijar/klupa-urbana-1.svg',
+      '/images/products/urbani-mobilijar/klupa-urbana-2.svg',
+    ],
   },
   {
     name: 'Korpa za otpatke KO-60',
@@ -465,7 +567,10 @@ export const products: Product[] = [
     dimensions: '40 x 40 x 60 cm',
     weight: '65 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/urbani-mobilijar/korpa-za-otpatke-ko-60-1.jpg'],
+    images: [
+      '/images/products/urbani-mobilijar/kanta-za-smece-1.svg',
+      '/images/products/urbani-mobilijar/kanta-za-smece-2.svg',
+    ],
   },
   {
     name: 'Stalak za bicikle SB-150',
@@ -477,7 +582,10 @@ export const products: Product[] = [
     dimensions: '150 x 50 x 40 cm',
     weight: '180 kg',
     material: 'Armiran beton, nerdjajuci celik',
-    images: ['/images/products/urbani-mobilijar/stalak-za-bicikle-sb-150-1.jpg'],
+    images: [
+      '/images/products/urbani-mobilijar/stubic-parkovni-1.svg',
+      '/images/products/urbani-mobilijar/stubic-parkovni-2.svg',
+    ],
   },
   {
     name: 'Betonska zastitna polusfera',
@@ -489,7 +597,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 50 cm, visina 30 cm',
     weight: '75 kg',
     material: 'Armiran beton',
-    images: ['/images/products/urbani-mobilijar/betonska-zastitna-polusfera-1.jpg'],
+    images: [
+      '/images/products/urbani-mobilijar/jardinijera-urbana-1.svg',
+      '/images/products/urbani-mobilijar/jardinijera-urbana-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -505,7 +616,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 50 cm, visina 45 cm',
     weight: '35 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-saksije/saksija-olimp-s-50-1.jpg'],
+    images: [
+      '/images/products/betonske-saksije/saksija-kugla-1.svg',
+      '/images/products/betonske-saksije/saksija-kugla-2.svg',
+    ],
   },
   {
     name: 'Saksija Kocka SK-40',
@@ -517,7 +631,10 @@ export const products: Product[] = [
     dimensions: '40 x 40 x 40 cm',
     weight: '28 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-saksije/saksija-kocka-sk-40-1.jpg'],
+    images: [
+      '/images/products/betonske-saksije/saksija-pravougaona-1.svg',
+      '/images/products/betonske-saksije/saksija-pravougaona-2.svg',
+    ],
   },
   {
     name: 'Saksija Amfora SA-70',
@@ -529,7 +646,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 45 cm, visina 70 cm',
     weight: '40 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonske-saksije/saksija-amfora-sa-70-1.jpg'],
+    images: [
+      '/images/products/betonske-saksije/saksija-oval-1.svg',
+      '/images/products/betonske-saksije/saksija-oval-2.svg',
+    ],
   },
   {
     name: 'Saksija Viseca SV-30',
@@ -541,7 +661,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 30 cm, visina 25 cm',
     weight: '12 kg',
     material: 'Laki vibro-presovani beton',
-    images: ['/images/products/betonske-saksije/saksija-viseca-sv-30-1.jpg'],
+    images: [
+      '/images/products/betonske-saksije/saksija-konus-1.svg',
+      '/images/products/betonske-saksije/saksija-konus-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -557,7 +680,10 @@ export const products: Product[] = [
     dimensions: '100 x 33 x 4 cm',
     weight: '22 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonska-stepenista/gaziste-ravno-gr-100-1.jpg'],
+    images: [
+      '/images/products/betonska-stepenista/stepeniste-klasicno-1.svg',
+      '/images/products/betonska-stepenista/stepeniste-klasicno-2.svg',
+    ],
   },
   {
     name: 'Gaziste profilisano GP-120',
@@ -569,7 +695,10 @@ export const products: Product[] = [
     dimensions: '120 x 35 x 5 cm',
     weight: '28 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonska-stepenista/gaziste-profilisano-gp-120-1.jpg'],
+    images: [
+      '/images/products/betonska-stepenista/stepeniste-moderno-1.svg',
+      '/images/products/betonska-stepenista/stepeniste-moderno-2.svg',
+    ],
   },
   {
     name: 'Ivicnjak stepenisni IS-100',
@@ -581,7 +710,10 @@ export const products: Product[] = [
     dimensions: '100 x 15 x 15 cm',
     weight: '18 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/betonska-stepenista/ivicnjak-stepenisni-is-100-1.jpg'],
+    images: [
+      '/images/products/betonska-stepenista/stepeniste-spiralno-1.svg',
+      '/images/products/betonska-stepenista/stepeniste-spiralno-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -597,7 +729,10 @@ export const products: Product[] = [
     dimensions: '200 x 100 x 120 cm (komplet)',
     weight: '450 kg',
     material: 'Armiran vibro-presovani beton',
-    images: ['/images/products/nadgrobni-spomenici/spomenik-klasicni-sk-01-1.jpg'],
+    images: [
+      '/images/products/nadgrobni-spomenici/spomenik-klasik-1.svg',
+      '/images/products/nadgrobni-spomenici/spomenik-klasik-2.svg',
+    ],
   },
   {
     name: 'Nadgrobna ploca NP-01',
@@ -609,7 +744,10 @@ export const products: Product[] = [
     dimensions: '80 x 60 x 8 cm',
     weight: '55 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/nadgrobni-spomenici/nadgrobna-ploca-np-01-1.jpg'],
+    images: [
+      '/images/products/nadgrobni-spomenici/spomenik-andjeo-1.svg',
+      '/images/products/nadgrobni-spomenici/spomenik-andjeo-2.svg',
+    ],
   },
   {
     name: 'Memorijalni krst MK-01',
@@ -621,7 +759,10 @@ export const products: Product[] = [
     dimensions: '45 x 20 x 150 cm',
     weight: '80 kg',
     material: 'Armiran beton',
-    images: ['/images/products/nadgrobni-spomenici/memorijalni-krst-mk-01-1.jpg'],
+    images: [
+      '/images/products/nadgrobni-spomenici/spomenik-krst-1.svg',
+      '/images/products/nadgrobni-spomenici/spomenik-krst-2.svg',
+    ],
   },
 
   // ──────────────────────────────────────────────────
@@ -637,7 +778,10 @@ export const products: Product[] = [
     dimensions: 'Precnik 40 cm',
     weight: '35 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/ostali-proizvodi/kugla-dekorativna-kd-40-1.jpg'],
+    images: [
+      '/images/products/ostali-proizvodi/betonski-cvet-1.svg',
+      '/images/products/ostali-proizvodi/betonski-cvet-2.svg',
+    ],
   },
   {
     name: 'Betonski kameni zid - imitacija',
@@ -649,7 +793,10 @@ export const products: Product[] = [
     dimensions: '60 x 30 x 3 cm (panel)',
     weight: '8 kg',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/ostali-proizvodi/betonski-kameni-zid-imitacija-1.jpg'],
+    images: [
+      '/images/products/ostali-proizvodi/dekorativna-ploca-1.svg',
+      '/images/products/ostali-proizvodi/dekorativna-ploca-2.svg',
+    ],
   },
   {
     name: 'Brojevi za kucu BK-set',
@@ -661,7 +808,10 @@ export const products: Product[] = [
     dimensions: '15 x 10 x 2 cm (po cifri)',
     weight: '0.5 kg (po cifri)',
     material: 'Vibro-presovani beton',
-    images: ['/images/products/ostali-proizvodi/brojevi-za-kucu-bk-set-1.jpg'],
+    images: [
+      '/images/products/ostali-proizvodi/ukrasni-kamen-1.svg',
+      '/images/products/ostali-proizvodi/ukrasni-kamen-2.svg',
+    ],
     isFeatured: true,
   },
 ];
