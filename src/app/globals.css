@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Stone palette */
+  --color-stone-50: #FAF9F7;
+  --color-stone-100: #F5F3EF;
+  --color-stone-200: #E8E4DD;
+  --color-stone-300: #D4CFC5;
+  --color-stone-400: #B0A999;
+  --color-stone-500: #8C8474;
+  --color-stone-600: #6B6355;
+  --color-stone-700: #4A4339;
+  --color-stone-800: #2D2820;
+  --color-stone-900: #1A1612;
+
+  /* Gold palette */
+  --color-gold-50: #FBF8F0;
+  --color-gold-100: #F5EDD8;
+  --color-gold-200: #EBDBB1;
+  --color-gold-300: #D4B96E;
+  --color-gold-400: #C4A44E;
+  --color-gold-500: #A8893A;
+  --color-gold-600: #8C6F2A;
+
+  /* Brand colors */
+  --color-cream: #F8F6F0;
+  --color-charcoal: #1A1612;
+
+  /* Fonts */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-stone-50);
+  color: var(--color-stone-800);
+  font-family: var(--font-body);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+  background-color: var(--color-gold-200);
+  color: var(--color-stone-900);
+}
