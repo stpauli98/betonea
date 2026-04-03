@@ -1,7 +1,19 @@
+import Hero from '@/components/home/Hero';
+import Services from '@/components/home/Services';
+import AboutPreview from '@/components/home/AboutPreview';
+import FeaturedCategories from '@/components/home/FeaturedCategories';
+import Testimonials from '@/components/home/Testimonials';
+import CTASection from '@/components/home/CTASection';
+
 export default function Home() {
   return (
-    <main className="flex-1 flex items-center justify-center">
-      <h1 className="font-heading text-4xl text-stone-800">Betonea</h1>
-    </main>
-  )
+    <>
+      <Hero />
+      <Services />
+      <AboutPreview />
+      <FeaturedCategories />
+      <Testimonials />
+      <CTASection />
+    </>
+  );
 }
