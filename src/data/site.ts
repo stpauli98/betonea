@@ -17,7 +17,7 @@ export const siteConfig = {
 
   mapsUrl: 'https://maps.app.goo.gl/Vr7dEdcqvvVuPRKPA',
   mapsEmbed:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2856.7!2d21.0961!3d44.1836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47572d0e7e5e5e5d%3A0x4e5e5e5e5e5e5e5e!2sBetonea!5e0!3m2!1ssr!2srs!4v1700000000000!5m2!1ssr!2srs',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2856.7!2d21.094144593254374!3d44.179747702558586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDEwJzQ3LjEiTiAyMcKwMDUnMzguOSJF!5e0!3m2!1ssr!2srs',
 
   workingHours: {
     weekdays: '09:00 - 17:00',

@@ -91,8 +91,8 @@ export default function KontaktPage() {
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {infoCards.map((card, index) => (
-              <ScrollReveal key={card.title} delay={index * 100}>
-                <div className="rounded-xl bg-white p-6 shadow-sm">
+              <ScrollReveal key={card.title} delay={index * 100} className="h-full">
+                <div className="flex h-full flex-col rounded-xl bg-white p-6 shadow-sm">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gold-50">
                     <card.icon className="h-5 w-5 text-gold-400" />
                   </div>
@@ -111,7 +111,20 @@ export default function KontaktPage() {
       <section className="pb-16 md:pb-24">
         <div className="mx-auto max-w-7xl px-6 md:px-8">
           <ScrollReveal>
+            <SectionHeading
+              subtitle="LOKACIJA"
+              title="Pronađite nas"
+              className="mb-8"
+            />
             <Map />
+            <div className="mt-6 flex justify-center">
+              <Button
+                href={siteConfig.mapsUrl}
+                variant="primary"
+              >
+                Otvorite u Google Maps
+              </Button>
+            </div>
           </ScrollReveal>
         </div>
       </section>
