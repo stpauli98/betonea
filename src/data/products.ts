@@ -289,8 +289,8 @@ export const products: Product[] = [
   {
     name: 'Šifra 592 S',
     slug: 'sifra-592-s',
-    categorySlug: 'betonske-zardinjere',
-    description: 'Betonska žardinjera. Dimenzije: osnova 15x15cm, h=40cm.',
+    categorySlug: 'betonske-skulpture-za-bastu',
+    description: 'Baštenska skulptura od betona. Dimenzije: osnova 15x15cm, h=40cm.',
     price: '€80',
     dimensions: 'osnova 15x15cm, h=40cm',
     material: 'Armiran beton',

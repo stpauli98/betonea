@@ -4,7 +4,7 @@ import { siteConfig } from '@/data/site'
 import { categories } from '@/data/categories'
 import { formatPhoneForTel } from '@/lib/utils'
 
-const footerCategories = categories.slice(0, 6)
+const footerCategories = categories
 
 const infoLinks = [
   { label: 'Galerija', href: '/galerija' },
