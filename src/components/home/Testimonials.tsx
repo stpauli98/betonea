@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
 import { Quote } from 'lucide-react';
 import { testimonials } from '@/data/testimonials';
 import SectionHeading from '@/components/ui/SectionHeading';
@@ -29,30 +28,25 @@ export default function Testimonials() {
         />
 
         <div className="relative mt-14 min-h-[260px]">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={current}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.4, ease: 'easeInOut' }}
-              className="text-center"
-            >
-              <Quote className="mx-auto mb-6 h-10 w-10 text-gold-300" />
-              <p className="text-lg italic leading-relaxed text-stone-700">
-                &ldquo;{testimonial.quote}&rdquo;
+          <div
+            key={current}
+            style={{ animation: 'fadeIn 0.4s ease-out' }}
+            className="text-center"
+          >
+            <Quote className="mx-auto mb-6 h-10 w-10 text-gold-300" />
+            <p className="text-lg italic leading-relaxed text-stone-700">
+              &ldquo;{testimonial.quote}&rdquo;
+            </p>
+            <div className="mt-8">
+              <p className="font-heading font-medium text-stone-800">
+                {testimonial.name}
               </p>
-              <div className="mt-8">
-                <p className="font-heading font-medium text-stone-800">
-                  {testimonial.name}
-                </p>
-                <p className="mt-1 text-sm text-stone-400">
-                  {testimonial.location}
-                  {testimonial.company && ` — ${testimonial.company}`}
-                </p>
-              </div>
-            </motion.div>
-          </AnimatePresence>
+              <p className="mt-1 text-sm text-stone-400">
+                {testimonial.location}
+                {testimonial.company && ` — ${testimonial.company}`}
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="mt-8 flex items-center justify-center gap-2">
