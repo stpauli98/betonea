@@ -1,6 +1,4 @@
-'use client';
-
-import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { ChevronDown, ArrowRight } from 'lucide-react';
 import Button from '@/components/ui/Button';
 
@@ -8,9 +6,13 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen -mt-16 lg:-mt-20 overflow-hidden">
       {/* Mobile: fullscreen background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center lg:hidden"
-        style={{ backgroundImage: "url('/images/hero.jpg')" }}
+      <Image
+        src="/images/hero.jpg"
+        alt=""
+        priority
+        fill
+        sizes="100vw"
+        className="object-cover lg:hidden"
       />
       <div className="absolute inset-0 bg-stone-900/80 lg:hidden" />
 
@@ -20,11 +22,7 @@ export default function Hero() {
       <div className="relative z-10 flex min-h-screen flex-col lg:flex-row">
         {/* Left — text content */}
         <div className="flex flex-1 flex-col justify-center px-6 pt-28 pb-20 md:px-12 lg:w-1/2 lg:px-16 xl:px-24 lg:pt-0 lg:pb-0">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-          >
+          <div style={{ animation: 'fadeInLeft 0.7s ease-out 0.2s both' }}>
             <p className="mb-6 text-xs tracking-[0.25em] text-gold-300 uppercase md:text-sm">
               Dekorativna betonska galanterija
             </p>
@@ -66,42 +64,35 @@ export default function Hero() {
                 <p className="mt-1 text-xs uppercase tracking-wider text-stone-500">Klijenata</p>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
 
         {/* Right — image (desktop only) */}
-        <motion.div
-          initial={{ opacity: 0, scale: 1.05 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.3 }}
+        <div
+          style={{ animation: 'fadeInScale 1s ease-out 0.3s both' }}
           className="relative hidden lg:block lg:w-1/2"
         >
           <div className="relative h-full">
-            <img
+            <Image
               src="/images/hero.jpg"
               alt="Betonea dekorativni betonski elementi"
+              priority
+              fill
+              sizes="50vw"
               className="h-full w-full object-cover"
             />
             {/* Left-edge gradient to blend with dark side */}
             <div className="absolute inset-0 bg-gradient-to-r from-stone-900 via-stone-900/20 to-transparent" />
           </div>
-        </motion.div>
+        </div>
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
-        >
+      <div className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
+        <div className="animate-bounce">
           <ChevronDown className="h-8 w-8 text-white/60" />
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </section>
   );
 }
