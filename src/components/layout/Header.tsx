@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Menu, Phone } from 'lucide-react'
-import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { siteConfig } from '@/data/site'
 import { formatPhoneForTel } from '@/lib/utils'
@@ -48,20 +47,13 @@ export default function Header() {
 
   return (
     <>
-      <motion.header
+      <header
         className={cn(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
           isTransparent
             ? 'bg-transparent'
             : 'bg-white/95 backdrop-blur-md shadow-sm'
         )}
-        initial={false}
-        animate={{
-          backgroundColor: isTransparent
-            ? 'rgba(255, 255, 255, 0)'
-            : 'rgba(255, 255, 255, 0.95)',
-        }}
-        transition={{ duration: 0.3 }}
       >
         <div className="mx-auto max-w-[1280px] px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between lg:h-20">
@@ -126,7 +118,7 @@ export default function Header() {
             </button>
           </div>
         </div>
-      </motion.header>
+      </header>
 
       <MobileMenu
         isOpen={mobileMenuOpen}
