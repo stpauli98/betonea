@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 type PageHeroProps = {
@@ -23,10 +24,7 @@ export default function PageHero({
       )}
     >
       {backgroundImage ? (
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${backgroundImage})` }}
-        />
+        <Image src={backgroundImage} alt="" fill priority sizes="100vw" className="object-cover" />
       ) : (
         <div className="absolute inset-0 bg-gradient-to-br from-stone-900 to-stone-700" />
       )}

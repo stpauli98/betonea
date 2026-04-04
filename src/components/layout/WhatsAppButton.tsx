@@ -1,5 +1,3 @@
-'use client'
-
 import { MessageCircle } from 'lucide-react'
 import { siteConfig } from '@/data/site'
 import { createWhatsAppUrl } from '@/lib/utils'
