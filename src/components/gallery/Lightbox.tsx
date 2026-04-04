@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useCallback, useState } from 'react';
+import NextImage from 'next/image';
 import { X, ChevronLeft, ChevronRight, Loader2 } from 'lucide-react';
 import type { GalleryImage } from '@/types';
 
@@ -108,13 +109,17 @@ export default function Lightbox({
           </div>
         )}
 
-        <img
-          key={image.src}
-          src={image.src}
-          alt={image.caption || ''}
-          className={`max-h-[85vh] max-w-full rounded-lg object-contain transition-opacity duration-300 lg:max-w-5xl ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
-          onLoad={() => setImageLoaded(true)}
-        />
+        <div className="relative h-[85vh] w-full max-w-5xl">
+          <NextImage
+            key={image.src}
+            src={image.src}
+            alt={image.caption || ''}
+            fill
+            sizes="100vw"
+            className={`object-contain transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+            onLoad={() => setImageLoaded(true)}
+          />
+        </div>
 
         {/* Caption + Counter */}
         <div className={`text-center transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
