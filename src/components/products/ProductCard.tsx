@@ -1,5 +1,4 @@
-'use client';
-
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Product } from '@/types';
 
@@ -14,30 +13,13 @@ export default function ProductCard({ product, categorySlug }: ProductCardProps)
       href={`/proizvodi/${categorySlug}/${product.slug}`}
       className="group block"
     >
-      <div
-        className="aspect-square overflow-hidden rounded-lg bg-stone-200"
-        style={{
-          backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
-          backgroundSize: '200% 100%',
-          animation: 'shimmer 1.5s infinite',
-        }}
-      >
-        <img
-          ref={(el) => {
-            if (el && el.complete && el.naturalWidth > 0) {
-              el.classList.remove('opacity-0');
-              if (el.parentElement) el.parentElement.style.animation = 'none';
-            }
-          }}
+      <div className="relative aspect-square overflow-hidden rounded-lg bg-stone-200">
+        <Image
           src={product.images?.[0] || `/images/products/${categorySlug}/${product.slug}-1.jpg`}
           alt={product.name}
-          className="h-full w-full object-cover opacity-0 transition-[opacity,transform] duration-500 group-hover:scale-105"
-          onLoad={(e) => {
-            const img = e.target as HTMLImageElement;
-            img.classList.remove('opacity-0');
-            const parent = img.parentElement;
-            if (parent) parent.style.animation = 'none';
-          }}
+          fill
+          sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </div>
       <div className="mt-3">

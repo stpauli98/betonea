@@ -1,5 +1,4 @@
-'use client';
-
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Category } from '@/types';
 
@@ -12,28 +11,13 @@ export default function CategoryCard({ category }: CategoryCardProps) {
     <Link
       href={`/proizvodi/${category.slug}`}
       className="group block relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-200"
-      style={{
-        backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
-        backgroundSize: '200% 100%',
-        animation: 'shimmer 1.5s infinite',
-      }}
     >
-      <img
-        ref={(el) => {
-          if (el && el.complete && el.naturalWidth > 0) {
-            el.classList.remove('opacity-0');
-            if (el.parentElement) el.parentElement.style.animation = 'none';
-          }
-        }}
+      <Image
         src={category.image}
         alt={category.name}
-        className="absolute inset-0 h-full w-full object-cover opacity-0 transition-[opacity,transform] duration-500 group-hover:scale-105"
-        onLoad={(e) => {
-          const img = e.target as HTMLImageElement;
-          img.classList.remove('opacity-0');
-          const parent = img.parentElement;
-          if (parent) parent.style.animation = 'none';
-        }}
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
       <div className="absolute inset-x-0 bottom-0 p-5">

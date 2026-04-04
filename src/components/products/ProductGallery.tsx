@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
 import { X } from 'lucide-react';
 
@@ -39,29 +40,14 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
         {/* Main image */}
         <div
           className="relative aspect-4/3 overflow-hidden rounded-lg bg-stone-200 cursor-zoom-in"
-          style={{
-            backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
-            backgroundSize: '200% 100%',
-            animation: 'shimmer 1.5s infinite',
-          }}
           onClick={() => setLightboxOpen(true)}
         >
-          <img
-            ref={(el) => {
-              if (el && el.complete && el.naturalWidth > 0) {
-                el.classList.remove('opacity-0');
-                if (el.parentElement) el.parentElement.style.animation = 'none';
-              }
-            }}
+          <Image
             src={images[selectedIndex]}
             alt={`${productName} - slika ${selectedIndex + 1}`}
-            className="h-full w-full object-cover opacity-0 transition-opacity duration-500"
-            onLoad={(e) => {
-              const img = e.target as HTMLImageElement;
-              img.classList.remove('opacity-0');
-              const parent = img.parentElement;
-              if (parent) parent.style.animation = 'none';
-            }}
+            fill
+            sizes="(max-width: 1024px) 100vw, 60vw"
+            className="object-cover"
           />
         </div>
 
@@ -79,28 +65,13 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
                     ? 'border-gold-400 ring-1 ring-gold-400/30'
                     : 'border-stone-200 hover:border-stone-400'
                 )}
-                style={{
-                  backgroundImage: 'linear-gradient(90deg, #E8E4DD 25%, #F5F3EF 50%, #E8E4DD 75%)',
-                  backgroundSize: '200% 100%',
-                  animation: 'shimmer 1.5s infinite',
-                }}
               >
-                <img
-                  ref={(el) => {
-                    if (el && el.complete && el.naturalWidth > 0) {
-                      el.classList.remove('opacity-0');
-                      if (el.parentElement) el.parentElement.style.animation = 'none';
-                    }
-                  }}
+                <Image
                   src={image}
                   alt={`${productName} - mala slika ${index + 1}`}
-                  className="h-full w-full object-cover opacity-0 transition-opacity duration-500"
-                  onLoad={(e) => {
-                    const img = e.target as HTMLImageElement;
-                    img.classList.remove('opacity-0');
-                    const parent = img.parentElement;
-                    if (parent) parent.style.animation = 'none';
-                  }}
+                  fill
+                  sizes="80px"
+                  className="object-cover"
                 />
               </button>
             ))}
@@ -123,12 +94,18 @@ export default function ProductGallery({ images, productName }: ProductGalleryPr
             <X className="h-6 w-6" />
           </button>
 
-          <img
-            src={images[selectedIndex]}
-            alt={`${productName} - uvećana slika`}
-            className="max-h-[90vh] max-w-[90vw] rounded-lg object-contain"
+          <div
+            className="relative h-[90vh] w-[90vw]"
             onClick={(e) => e.stopPropagation()}
-          />
+          >
+            <Image
+              src={images[selectedIndex]}
+              alt={`${productName} - uvećana slika`}
+              fill
+              sizes="100vw"
+              className="object-contain"
+            />
+          </div>
         </div>
       )}
     </>
